@@ -25,9 +25,14 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
+sass:
+  sass_dir: _sass
+  style: compressed
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-babel
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bower_components

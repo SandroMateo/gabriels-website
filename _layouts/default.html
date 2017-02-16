@@ -2,12 +2,20 @@
 <html>
   <head>
     <meta charset="utf-8">
-    
+    <link href="/css/main.css" rel="stylesheet">
+
     <title></title>
   </head>
   <body>
     {% include header.html %}
 
     {{ content }}
+
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+    <!-- <script type="text/javscript" src="../node_modules/jquery/dist/jquery.min.js" ></script> -->
+    <script src="{{base_path}}/js/script.js"></script>
   </body>
 </html>
