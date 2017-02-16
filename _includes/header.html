@@ -1,0 +1,29 @@
+<header class="centered-navigation" role="banner">
+    <div class="centered-navigation-wrapper">
+      <a href="javascript:void(0)" class="mobile-logo">
+        <img routerLink="/" routerLinkActive="active" src="../../assets/images/GabrielsBakeryLogo.png" alt="Logo image">
+      </a>
+      <a (click)="togglestates()"
+      href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+      <nav role="navigation">
+        <ul *ngIf="!isHidden" id="js-centered-navigation-menu" class="centered-navigation-menu show">
+          <li id="js-centered-more" class="nav-link more"><a routerLink="/products" routerLinkActive="active">Products</a>
+            <ul class="submenu">
+              <li><a routerLink="/products/bread" routerLinkActive="active">Bread</a></li>
+              <li><a routerLink="/products/bagels" routerLinkActive="active">Bagels</a></li>
+              <li class="more"><a routerLink="/products/pastries" routerLinkActive="active">Pastries</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-link"><a routerLink="/where-to-buy" routerLinkActive="active">Where To Buy</a></li>
+          <li class="nav-link logo">
+            <a href="javascript:void(0)" class="logo">
+              <img routerLink="/" routerLinkActive="active" src="../../assets/images/GabrielsBakeryLogo.png" alt="Logo image">
+            </a>
+          </li>
+          <li class="nav-link"><a routerLink="/about" routerLinkActive="active">About</a></li>
+          <li class="nav-link"><a routerLink="/contact" routerLinkActive="active">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    </header>
