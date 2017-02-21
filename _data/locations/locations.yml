@@ -1,0 +1,213 @@
+- title: Gabriels Bakery
+  url: http://gabrielsbakery.com
+  location:
+    latitude: 45.5308236
+    longitude: -122.6444298
+
+# Cafes
+
+- title: Anna Bannanas (St Johns)
+  url: http://annabannanasnw.com
+  location:
+    latitude: 45.590692
+    longitude: -122.755748
+
+- title: Anna Bannanas (NW)
+  url: http://annabannanasnw.com
+  location:
+    latitude: 45.5316266
+    longitude: -122.6943785
+
+- title: B Street Coffee House
+  url: https://www.zomato.com/portland/b-street-coffee-house-goose-hollow/menu?utm_source=Google&utm_medium=Local&utm_campaign=GoogleMenus
+  location:
+    latitude: 45.5232031
+    longitude: -122.6961786
+
+- title: Bare Bones Cafe & Bar
+  url: barebonespdx.com
+  location:
+    latitude: 45.5163214
+    longitude: -122.6359419
+
+- title: Upstream Coffee & Eatery
+  url: https://www.facebook.com/upstreamcoffeepdx/
+  location:
+    latitude: 45.5101886
+    longitude: -122.6738522
+
+- title: BridgePort Brewpub
+  url: bridgeportbrew.com
+  location:
+    latitude: 45.5308968
+    longitude: -122.6848368
+
+- title: City Coffee
+  url: https://www.facebook.com/City-Coffee-258597694204272/
+  location:
+    latitude: 45.5166387
+    longitude: -122.6773876
+
+- title: Cooper's Coffee
+  url: https://www.facebook.com/pages/Coopers-Coffee-next-to-OMSI/152886854732205
+  location:
+    latitude: 45.5116447
+    longitude: -122.6659741
+
+- title: Downtown Freddie Browns
+  url: https://www.yelp.com/biz/downtown-freddie-brown-portland
+  location:
+    latitude: 45.5221915
+    longitude: -122.6760872
+
+- title: The Energy Bar
+  url: https://www.facebook.com/TheEnergyBar/
+  location:
+    latitude: 45.5145409
+    longitude: -122.6841035
+
+- title: First Cup Coffee House
+  url: firstcupcoffeehouse.com
+  location:
+    latitude: 45.4795035
+    longitude: -122.6199799
+
+- title: Just Bob
+  url: justbobpdx.com
+  location:
+    latitude: 45.5591397
+    longitude: -122.6408574
+
+- title: King Harvest Drive Thru Coffee
+  url: kingharvesthummus.com
+  location:
+    latitude: 45.5169703
+    longitude: -122.6503166
+
+- title: Kornblatt's
+  url: kornblattsdelipdx.com
+  location:
+    latitude: 45.5274434
+    longitude: -122.6983238
+
+- title: Muu-Muu's
+  url: muumuus.net
+  location:
+    latitude: 45.5272202
+    longitude: -122.6942615
+
+- title: The Original Pancake House
+  url: originalpancakehouse.com
+  location:
+    latitude: 45.4626447
+    longitude: -122.702293
+
+- title: Painted Lady Coffee House
+  url: https://www.facebook.com/Painted-Lady-Coffee-House-389805277736518/
+  location:
+    latitude: 45.4427331
+    longitude: -122.6402731
+
+- title: Playdate PDX
+  url: playdatepdx.com
+  location:
+    latitude: 45.5333102
+    longitude: -122.6881221
+
+- title: Rogue Eastside Pub & Pilot
+  url: rogue.com
+  location:
+    latitude: 45.5160053
+    longitude: -122.6565143
+
+- title: Sandino Coffee Roaster
+  url: http://sandinocoffee.com/
+  location:
+    latitude: 45.4859431
+    longitude: -122.5882994
+
+- title: Sheridan Fruit Company
+  url: sheridanfruit.com
+  location:
+    latitude: 45.519764
+    longitude: -122.6619616
+
+- title: Space Monkey Coffee
+  url: spacemonkeycoffee.com
+  location:
+    latitude: 45.4828358
+    longitude: -122.5894411
+
+- title: Speedboat Coffee
+  url: speedboatcoffee.com
+  location:
+    latitude: 45.4962965
+    longitude: -122.6095818
+
+- title: Stark Street Station
+  url: https://www.facebook.com/StarkStreetStation/
+  location:
+    latitude: 45.5193969
+    longitude: -122.6013165
+
+- title: Taborspace
+  url: taborspace.org
+  location:
+    latitude: 45.5169
+    longitude: -122.6072394
+
+- title: Village Market
+  url: villagegardens.org
+  location:
+    latitude: 45.5884974
+    longitude: -122.7152822
+
+- title: Vintner's Cellar of Oregon
+  url: vintnerscellarpdx.com
+  location:
+    latitude: 45.5309911
+    longitude: -122.6877847
+
+- title: Vivace
+  url: https://www.facebook.com/Vivace-231234583594993/
+  location:
+    latitude: 45.5328068
+    longitude: -122.6985145
+
+- title: Wind Horse Coffee
+  url: https://www.facebook.com/windhorsecoffeeandtea/
+  location:
+    latitude: 45.4459433
+    longitude: -122.6419885
+
+
+
+# - title: Anna Bannanas (NW)
+#   url: http://annabannanasnw.com
+#   location:
+#     latitude: 45.5316266
+#     longitude: -122.6943785
+#
+# - title: Anna Bannanas (NW)
+#   url: http://annabannanasnw.com
+#   location:
+#     latitude: 45.5316266
+#     longitude: -122.6943785
+#
+# - title: Anna Bannanas (NW)
+#   url: http://annabannanasnw.com
+#   location:
+#     latitude: 45.5316266
+#     longitude: -122.6943785
+# 
+# - title: Anna Bannanas (NW)
+#   url: http://annabannanasnw.com
+#   location:
+#     latitude: 45.5316266
+#     longitude: -122.6943785
+#
+# - title: Anna Bannanas (NW)
+#   url: http://annabannanasnw.com
+#   location:
+#     latitude: 45.5316266
+#     longitude: -122.6943785
