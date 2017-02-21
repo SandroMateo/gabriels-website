@@ -32,6 +32,12 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-babel
+  - jekyll-maps
+maps:
+    google:
+      api_key: AIzaSyCO04gOPCK85qfPcGUNrfZL5ppxnNFoCRI
+        marker_cluster:
+          enabled: false
 exclude:
   - Gemfile
   - Gemfile.lock
