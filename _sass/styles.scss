@@ -285,3 +285,17 @@
   background: #000000;
   height: auto;
 }
+
+.flex {
+  display: flex;
+}
+
+.product-box {
+  flex-grow: 1;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.bread {
+  max-height: 7em;
+}
