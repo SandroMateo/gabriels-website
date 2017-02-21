@@ -2,3 +2,63 @@
 layout: default
 permalink: /contact/
 ---
+
+<div class="jumbotron">
+  <h1>"Contact Blurb"</h1>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-4">
+      <h4>Address:</h4>
+      <p>1100 NE 21st ave. #A</p>
+      <p>Portland, OR</p>
+      <p>97212</p>
+      <br>
+      <h4>Hours:</h4>
+      <p>8:00am-5:00pm Daily</p>
+      <br>
+      <h4>Phone: </h4>
+      <p>(503)-481-7133</p>
+      <p>(503)-975-1272</p>
+      <p>(971)-227-8374</p>
+      <br>
+      <h4>Email: </h4>
+      <p>email1</p>
+      <p>email2</p>
+    </div>
+    <div class="col-xs-8">
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input class="form-control" type="text" name="name" id="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input class="form-control" type="email" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone:</label>
+          <input class="form-control" type="tel" name="phone" id="phone">
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject:</label>
+          <select class="form-control" name="subject">
+            <option value="general">General Feedback</option>
+            <option value="question">Questions and Concerns</option>
+            <option value="wholesale">Wholesale Inquiry</option>
+            <option value="donation">Donation Request</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comment">Comment:</label>
+          <br>
+          <textarea name="comment" rows="8" cols="90"></textarea>
+        </div>
+        <button type="submit" name="button" class="btn btn-warning">Send!</button>
+      </form>
+    </div>
+
+  </div>
+
+</div>
