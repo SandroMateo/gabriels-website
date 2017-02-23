@@ -1,5 +1,7 @@
 - title: Gabriels Bakery
   url: http://gabrielsbakery.com
+  image: ../images/GabrielsBakeryLogo.png
+  address: 1100 NE 21st Ave Suite A, Portland, OR 97232
   location:
     latitude: 45.5308236
     longitude: -122.6444298
@@ -8,206 +10,292 @@
 
 - title: Anna Bannanas (St Johns)
   url: http://annabannanasnw.com
+  address: 8716 N Lombard St, Portland, OR 97203
   location:
     latitude: 45.590692
     longitude: -122.755748
 
 - title: Anna Bannanas (NW)
   url: http://annabannanasnw.com
+  address: 1214 NW 21st Ave, Portland, OR 97209
   location:
     latitude: 45.5316266
     longitude: -122.6943785
 
 - title: B Street Coffee House
   url: https://www.zomato.com/portland/b-street-coffee-house-goose-hollow/menu?utm_source=Google&utm_medium=Local&utm_campaign=GoogleMenus
+  address: 2190 W Burnside St, Portland, OR 97210
   location:
     latitude: 45.5232031
     longitude: -122.6961786
 
 - title: Bare Bones Cafe & Bar
   url: barebonespdx.com
+  address: 2900 SE Belmont St, Portland, OR 97214
   location:
     latitude: 45.5163214
     longitude: -122.6359419
 
 - title: Upstream Coffee & Eatery
   url: https://www.facebook.com/upstreamcoffeepdx/
+  address: 0315 SW Montgomery St '#'200, Portland, OR 97201
   location:
     latitude: 45.5101886
     longitude: -122.6738522
 
 - title: BridgePort Brewpub
   url: bridgeportbrew.com
+  address: 1313 NW Marshall St, Portland, OR 97209
   location:
     latitude: 45.5308968
     longitude: -122.6848368
 
-- title: City Coffee
+- title: City Coffee (Liberty)
   url: https://www.facebook.com/City-Coffee-258597694204272/
+  address: 650 NE Holladay St "#"110, Portland, OR 97232
+  location:
+    latitude: 45.5299232
+    longitude: -122.6591318
+
+- title: City Coffee (Loyd)
+  url: https://www.facebook.com/City-Coffee-258597694204272/
+  address: 825 NE Multnomah St "#" 130, Portland, OR 97232
+  location:
+    latitude: 45.5317977
+    longitude: -122.6571713
+
+- title: City Coffee (Salmon)
+  url: https://www.facebook.com/City-Coffee-258597694204272/
+  address: 932 SW 4th Ave, Portland, OR 97204
   location:
     latitude: 45.5166387
     longitude: -122.6773876
 
 - title: Cooper's Coffee
   url: https://www.facebook.com/pages/Coopers-Coffee-next-to-OMSI/152886854732205
+  address: 1515 SE Water Ave, Portland, OR 97214
   location:
     latitude: 45.5116447
     longitude: -122.6659741
 
 - title: Downtown Freddie Browns
   url: https://www.yelp.com/biz/downtown-freddie-brown-portland
+  address: 555 SW Oak St, Portland, OR 97204
   location:
     latitude: 45.5221915
     longitude: -122.6760872
 
+- title: Driftwood Coffee
+  url: https://www.facebook.com/DriftwoodCoffee/
+  address: 4604 SW Vermont St, Portland, OR 97219
+  location:
+    latitude: 45.4759844
+    longitude: -122.7245497
+
 - title: The Energy Bar
   url: https://www.facebook.com/TheEnergyBar/
+  address: 1431 SW Park Ave, Portland, OR 97201
   location:
     latitude: 45.5145409
     longitude: -122.6841035
 
 - title: First Cup Coffee House
   url: firstcupcoffeehouse.com
+  address: Woodstock Square, 4103 SE Woodstock Blvd, Portland, OR 97202
   location:
     latitude: 45.4795035
     longitude: -122.6199799
 
 - title: Just Bob
   url: justbobpdx.com
+  address: 2403 NE Alberta St, Portland, OR 97211
   location:
     latitude: 45.5591397
     longitude: -122.6408574
 
-- title: King Harvest Drive Thru Coffee
-  url: kingharvesthummus.com
-  location:
-    latitude: 45.5169703
-    longitude: -122.6503166
-
 - title: Kornblatt's
   url: kornblattsdelipdx.com
+  address: 628 NW 23rd Ave, Portland, OR 97210
   location:
     latitude: 45.5274434
     longitude: -122.6983238
 
+- title: Lair Hill Bistro
+  url: http://lairhillbistro.blogspot.com/
+  address: 2823 SW 1st Ave, Portland, OR 97201
+  location:
+    latitude: 45.5025693
+    longitude: -122.6789194
+
+- title: Lionheart Coffee Company
+  url: lionheartcoffee.com
+  address: 11421 SW Scholls Ferry Rd, Beaverton, OR 97008
+  location:
+    latitude: 45.4467247
+    longitude: -122.793669
+
 - title: Muu-Muu's
   url: muumuus.net
+  address: 612 NW 21st Ave, Portland, OR 97209
   location:
     latitude: 45.5272202
     longitude: -122.6942615
 
 - title: The Original Pancake House
   url: originalpancakehouse.com
+  address: 8601 SW 24th Ave, Portland, OR 97219
   location:
     latitude: 45.4626447
     longitude: -122.702293
 
 - title: Painted Lady Coffee House
   url: https://www.facebook.com/Painted-Lady-Coffee-House-389805277736518/
+  address: 2045 SE Washington St, Milwaukie, OR 97222
   location:
     latitude: 45.4427331
     longitude: -122.6402731
 
 - title: Playdate PDX
   url: playdatepdx.com
+  address: 1434 NW 17th Ave, Portland, OR 97209
   location:
     latitude: 45.5333102
     longitude: -122.6881221
 
+- title: Cafe Portlandia
+  url: wfcportland.com
+  address: 410 SW Main St, Portland, OR 97204
+  location:
+    latitude: 45.5158373
+    longitude: -122.6782544
+
 - title: Rogue Eastside Pub & Pilot
   url: rogue.com
+  address: 928 SE 9th Ave, Portland, OR 97214
   location:
     latitude: 45.5160053
     longitude: -122.6565143
 
-- title: Sandino Coffee Roaster
+- title: Sandino Coffee Roasters
   url: http://sandinocoffee.com/
+  address: 7238 SE Foster Rd, Portland, OR 97206
   location:
     latitude: 45.4859431
     longitude: -122.5882994
 
-- title: Sheridan Fruit Company
+- title: Sheridan Fruit (Deli)
   url: sheridanfruit.com
+  address: 408 S.E. 3rd Ave, Portland, OR 97214
   location:
-    latitude: 45.519764
-    longitude: -122.6619616
+    latitude: 45.5198793
+    longitude: -122.6625503
 
 - title: Space Monkey Coffee
   url: spacemonkeycoffee.com
+  address: 5511 SE 72nd Ave, Portland, OR 97206
   location:
     latitude: 45.4828358
     longitude: -122.5894411
 
 - title: Speedboat Coffee
   url: speedboatcoffee.com
+  address: 5115 SE Foster Rd, Portland, OR 97206
   location:
     latitude: 45.4962965
     longitude: -122.6095818
 
 - title: Stark Street Station
   url: https://www.facebook.com/StarkStreetStation/
+  address: 6049 SE Stark St, Portland, OR 97215
   location:
     latitude: 45.5193969
     longitude: -122.6013165
 
 - title: Taborspace
   url: taborspace.org
+  address: 5441 SE Belmont St, Portland, OR 97215
   location:
     latitude: 45.5169
     longitude: -122.6072394
 
 - title: Village Market
   url: villagegardens.org
+  address: 4632 N Trenton St, Portland, OR 97203
   location:
     latitude: 45.5884974
     longitude: -122.7152822
 
 - title: Vintner's Cellar of Oregon
   url: vintnerscellarpdx.com
+  address: 1111 NW 16th Ave, Portland, OR 97209
   location:
     latitude: 45.5309911
     longitude: -122.6877847
 
 - title: Vivace
   url: https://www.facebook.com/Vivace-231234583594993/
+  address: 1400 NW 23rd Ave, Portland, OR 97210
   location:
     latitude: 45.5328068
     longitude: -122.6985145
 
 - title: Wind Horse Coffee
   url: https://www.facebook.com/windhorsecoffeeandtea/
+  address: 10611 SE Main St, Milwaukie, OR 97222
   location:
     latitude: 45.4459433
     longitude: -122.6419885
 
 
+# Farmer's Markets
 
-# - title: Anna Bannanas (NW)
-#   url: http://annabannanasnw.com
-#   location:
-#     latitude: 45.5316266
-#     longitude: -122.6943785
-#
-# - title: Anna Bannanas (NW)
-#   url: http://annabannanasnw.com
-#   location:
-#     latitude: 45.5316266
-#     longitude: -122.6943785
-#
-# - title: Anna Bannanas (NW)
-#   url: http://annabannanasnw.com
-#   location:
-#     latitude: 45.5316266
-#     longitude: -122.6943785
-# 
-# - title: Anna Bannanas (NW)
-#   url: http://annabannanasnw.com
-#   location:
-#     latitude: 45.5316266
-#     longitude: -122.6943785
-#
-# - title: Anna Bannanas (NW)
-#   url: http://annabannanasnw.com
-#   location:
-#     latitude: 45.5316266
-#     longitude: -122.6943785
+- title: PSU Farmers Market
+  url: portlandfarmersmarket.org
+  address: 1831 SW Pedestrian Trail, Portland, OR 97201
+  location:
+    latitude: 45.5117315
+    longitude: -122.6853511
+
+- title: Hollywood Farmers Market
+  url: hollywoodfarmersmarket.org
+  address: 4420 NE Hancock St, Portland, OR 97213
+  location:
+    latitude: 45.5357326
+    longitude: -122.6175096
+
+- title: Beaverton Farmers Market
+  url: beavertonfarmersmarket.com
+  address: SW Hall Blvd between 3rd and 5th Streets
+  location:
+    latitude: 45.4844785
+    longitude: -122.8050184
+
+- title: Hillsboro Farmers Market
+  url: hillsboromarkets.org
+  address: 232 NE Lincoln St, Hillsboro, OR 97124
+  location:
+    latitude: 45.5234496
+    longitude: -122.9873077
+
+- title: Milwaukie Farmers Market
+  url: http://milwaukiefarmersmarket.com/new/
+  address: SE Main St.& Harrison St. Milwaukie, OR 97222
+  location:
+    latitude: 45.4455113
+    longitude: -122.6416397
+
+- title: St. Johns Farmers Market
+  url: stjohnsopportunity.org
+  address: 7340 N Philadelphia Ave, Portland, OR 97203
+  location:
+    latitude: 45.5897137
+    longitude: -122.7543337
+
+# Fred Meyers
+
+- title: Fred Meyer (Beaverton)
+  url: stjohnsopportunity.org
+  address: 7340 N Philadelphia Ave, Portland, OR 97203
+  location:
+    latitude: 45.5897137
+    longitude: -122.7543337
