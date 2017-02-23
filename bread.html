@@ -2,3 +2,13 @@
 layout: default
 permalink: /products/bread/
 ---
+
+<div class="flex">
+  {% for bread in site.data.products.bread %}
+    {% assign link = bread.title %}
+    <div class="product-box img-responsive">
+      <img class="bread" src={{ bread.image }} alt="">
+      <h2><a href={{ "/products/bread/" | append: link }}>{{ bread.title }}</a></h2>
+    </div>
+  {% endfor %}
+</div>

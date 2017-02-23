@@ -6,8 +6,6 @@
     latitude: 45.5308236
     longitude: -122.6444298
 
-# Cafes
-
 - title: Anna Bannanas (St Johns)
   url: http://annabannanasnw.com
   address: 8716 N Lombard St, Portland, OR 97203
@@ -245,57 +243,3 @@
   location:
     latitude: 45.4459433
     longitude: -122.6419885
-
-
-# Farmer's Markets
-
-- title: PSU Farmers Market
-  url: portlandfarmersmarket.org
-  address: 1831 SW Pedestrian Trail, Portland, OR 97201
-  location:
-    latitude: 45.5117315
-    longitude: -122.6853511
-
-- title: Hollywood Farmers Market
-  url: hollywoodfarmersmarket.org
-  address: 4420 NE Hancock St, Portland, OR 97213
-  location:
-    latitude: 45.5357326
-    longitude: -122.6175096
-
-- title: Beaverton Farmers Market
-  url: beavertonfarmersmarket.com
-  address: SW Hall Blvd between 3rd and 5th Streets
-  location:
-    latitude: 45.4844785
-    longitude: -122.8050184
-
-- title: Hillsboro Farmers Market
-  url: hillsboromarkets.org
-  address: 232 NE Lincoln St, Hillsboro, OR 97124
-  location:
-    latitude: 45.5234496
-    longitude: -122.9873077
-
-- title: Milwaukie Farmers Market
-  url: http://milwaukiefarmersmarket.com/new/
-  address: SE Main St.& Harrison St. Milwaukie, OR 97222
-  location:
-    latitude: 45.4455113
-    longitude: -122.6416397
-
-- title: St. Johns Farmers Market
-  url: stjohnsopportunity.org
-  address: 7340 N Philadelphia Ave, Portland, OR 97203
-  location:
-    latitude: 45.5897137
-    longitude: -122.7543337
-
-# Fred Meyers
-
-- title: Fred Meyer (Beaverton)
-  url: stjohnsopportunity.org
-  address: 7340 N Philadelphia Ave, Portland, OR 97203
-  location:
-    latitude: 45.5897137
-    longitude: -122.7543337
