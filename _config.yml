@@ -33,6 +33,7 @@ gems:
   - jekyll-feed
   - jekyll-babel
   - jekyll-maps
+  - jekyll-redirect-from
 maps:
     google:
       api_key: AIzaSyCO04gOPCK85qfPcGUNrfZL5ppxnNFoCRI

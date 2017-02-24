@@ -18,23 +18,23 @@ permalink: /contact/
       <p>8:00am-5:00pm Daily</p>
       <br>
       <h4>Phone: </h4>
-      <p>(503)-481-7133</p>
-      <p>(503)-975-1272</p>
-      <p>(971)-227-8374</p>
+      <p>Amilcar (Owner): (503)-481-7133</p>
+      <p>Gabriel (Manager): (503)-975-1272</p>
+      <p>Sandro (Assistant Manager): (971)-227-8374</p>
       <br>
       <h4>Email: </h4>
-      <p>email1</p>
-      <p>email2</p>
+      <p>info@gabrielsbakery.com</p>
     </div>
     <div class="col-xs-8">
-      <form>
+      <form action="https://formspree.io/droalvare22@gmail.com"
+      method="POST">
         <div class="form-group">
           <label for="name">Name:</label>
           <input class="form-control" type="text" name="name" id="name" required>
         </div>
         <div class="form-group">
           <label for="email">Email:</label>
-          <input class="form-control" type="email" name="email" id="email" required>
+          <input class="form-control" type="email" name="_replyto" id="email" required>
         </div>
         <div class="form-group">
           <label for="phone">Phone:</label>
@@ -42,7 +42,7 @@ permalink: /contact/
         </div>
         <div class="form-group">
           <label for="subject">Subject:</label>
-          <select class="form-control" name="subject">
+          <select class="form-control" name="_subject">
             <option value="general">General Feedback</option>
             <option value="question">Questions and Concerns</option>
             <option value="wholesale">Wholesale Inquiry</option>
@@ -53,9 +53,10 @@ permalink: /contact/
         <div class="form-group">
           <label for="comment">Comment:</label>
           <br>
-          <textarea name="comment" rows="8" cols="90"></textarea>
+          <textarea name="message" rows="8" cols="90"></textarea>
         </div>
-        <button type="submit" name="button" class="btn btn-warning">Send!</button>
+        <input type="text" name="_gotcha" style="display:none" />
+        <button type="submit" class="btn btn-warning">Send!</button>
       </form>
     </div>
 
