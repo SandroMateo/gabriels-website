@@ -34,13 +34,6 @@
     latitude: 45.5163214
     longitude: -122.6359419
 
-- title: Upstream Coffee & Eatery
-  url: https://www.facebook.com/upstreamcoffeepdx/
-  address: 0315 SW Montgomery St '#'200, Portland, OR 97201
-  location:
-    latitude: 45.5101886
-    longitude: -122.6738522
-
 - title: BridgePort Brewpub
   url: bridgeportbrew.com
   address: 1313 NW Marshall St, Portland, OR 97209
@@ -215,6 +208,13 @@
   location:
     latitude: 45.5169
     longitude: -122.6072394
+
+- title: Upstream Coffee & Eatery
+  url: https://www.facebook.com/upstreamcoffeepdx/
+  address: 0315 SW Montgomery St '#'200, Portland, OR 97201
+  location:
+    latitude: 45.5101886
+    longitude: -122.6738522
 
 - title: Village Market
   url: villagegardens.org
