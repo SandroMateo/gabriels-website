@@ -288,10 +288,12 @@
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-box {
   flex-grow: 1;
+  flex-basis: 25%;
   text-align: center;
   margin: 0 auto;
 }
