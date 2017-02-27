@@ -33,7 +33,13 @@ gems:
   - jekyll-feed
   - jekyll-babel
   - jekyll-maps
-  - jekyll-redirect-from
+collections:
+  bagels:
+    output: true
+    permalink: /products/bagels/:path/
+  bread:
+    output: true
+    permalink: /products/bread/:path/
 maps:
     google:
       api_key: AIzaSyCO04gOPCK85qfPcGUNrfZL5ppxnNFoCRI
