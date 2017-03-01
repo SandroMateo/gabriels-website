@@ -52,14 +52,14 @@ defaults:
       path: ""
       type: "bread"
     values:
-      layout: "default"
+      layout: "details"
       logo: "../../../images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bagels"
     values:
-      layout: "default"
+      layout: "details"
       logo: "../../../images/GabrielsBakeryLogo.png"
 maps:
     google:

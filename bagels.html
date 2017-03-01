@@ -7,7 +7,7 @@ permalink: /products/bagels/
     {% assign link = bagel.title %}
     <div class="product-box img-responsive">
       <img class="bagel" src={{ bagel.image }} alt="">
-      <h2><a href={{ "/products/bagels/" | append: link }}>{{ bagel.title }}</a></h2>
+      <h2><a href={{ "/products/bagels/" | append: link }}>{{ link }}</a></h2>
     </div>
   {% endfor %}
 </div>
