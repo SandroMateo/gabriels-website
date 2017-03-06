@@ -281,6 +281,18 @@
   background-attachment: fixed;
 }
 
+#gabriel {
+  max-height: 15em
+}
+
+#products {
+  background-image: url("../../images/bagelProducts.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
 .footer {
   background: #000000;
   height: auto;
