@@ -1,470 +1,682 @@
-[
-  {
-    "title": "Fred Meyer (Hawthorne)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "3805 SE Hawthorne Blvd, Portland, OR 97214",
-    "location": {
-      "latitude": 45.51254,
-      "longitude": -122.62386
+{
+  "type":"FeatureCollection",
+  "features":
+  [
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Hawthorne)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "3805 SE Hawthorne Blvd, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.62386, 45.51254]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Hollywood)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "3030 Northeast Weidler Street, Portland, OR 97232"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.63444, 45.53329]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Interstate)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "7404 N Interstate Ave, Portland, OR 97217"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68091, 45.57582]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Peninsula)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "6850 N Lombard St, Portland, OR 97203"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.73774, 45.58584]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Burlingame)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "7555 SW Barbur Blvd, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6904, 45.47055]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Milwaukie)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "13625 SE Mcloughlin Blvd, Portland, OR 97222"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.63446, 45.42489]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Oregon City)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "1839 Molalla Ave, Oregon City, OR 97045"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.58282, 45.33126]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Tigard)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "11565 SW Pacific Hwy, Portland, OR 97223"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75169, 45.44079]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Tualatin)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "19200 SW Martinazzi Ave, Tualatin, OR 97062"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75681, 45.38095]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Beaverton)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "11425 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.79401, 45.48762]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Imbrie Drive)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.9034, 45.55141]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Raleigh Hills)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "7700 Southwest Beaverton Hillsdale Hwy, Portland, OR 97225"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75605, 45.48531]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Stadium)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "100 NW 20th Pl, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.69281, 45.52415]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Walker Road)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "15995 SW Walker Rd, Beaverton, OR 97006"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.84194, 45.51859]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Foster)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "5253 SE 82nd Ave, Portland, OR 97266"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.5802, 45.48426]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Gateway)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "Gateway Center, 1111 NE 102nd Ave, Portland, OR 97220"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.55962, 45.53009]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Glisan)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "6615 NE Glisan St, Portland, OR 97213"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.59587, 45.52755]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Gresham)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "2497 SE Burnside Rd, Gresham, OR 97080"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.40518, 45.49588]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Johnson Creek)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "8955 SE 82nd Ave, Portland, OR 97086"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.57948, 45.45721]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (McGillivray)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "16600 SE McGillivray Blvd, Vancouver, WA 98683"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.50147, 45.60583]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Fred Meyer (Wood Village)",
+        "url": "https://www.fredmeyer.com/",
+        "address": "22855 Northeast Park Lane, Troutdale, OR 97060"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.42859, 45.53029]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Concordia)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "5320 NE 33rd Ave, Portland, OR 97211"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6304, 45.56119]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Hawthorne)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "4034 SE Hawthorne Blvd, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6207, 45.51182]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Hollywood)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "3210 NE Broadway, Portland, OR 97232"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.63153, 45.53435]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Interstate)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "6400 N Interstate Ave, Portland, OR 97217"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68187, 45.56896]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Seven Corners)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "1954 SE Division St, Portland, OR 97202"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.64622, 45.50437]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Williams)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "3445 N Williams Ave, Portland, OR 97212"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.66668, 45.54782]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Woodstock)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "4500 SE Woodstock Blvd, Portland, OR 97206"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.61619, 45.47903]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (University Park)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "6300 N Lombard St, Portland, OR 97203"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.73148, 45.585]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Horizon)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "14805 SW Barrows Rd, Beaverton, OR 97007"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.8292, 45.43049]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Mt. Park)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "3 Monroe Pkwy, Lake Oswego, OR 97035"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.70313, 45.43336]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Sellwood)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "1214 SE Tacoma St, Portland, OR 97202"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.65363, 45.46396]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Tualatin)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "7705 SW Nyberg St, Tualatin, OR 97062"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75722, 45.38405]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Cedar Hills)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "3495 SW Cedar Hills Blvd, Beaverton, OR 97005"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.8128, 45.49432]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Orenco)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.91921, 45.53428]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Raleigh Hills)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "7300 SW Beaverton Hillsdale Hwy, Portland, OR 97225"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75225, 45.48534]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Slabtown)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "2170 NW Raleigh St, Portland, OR 97210"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.69621, 45.53376]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Fishers Landing)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "2100b SE 164th Ave '#'101, Vancouver, WA 98683"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.50684, 45.60529]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "New Seasons (Happy Valley)",
+        "url": "https://www.newseasonsmarket.com/",
+        "address": "15861 SE Happy Valley Town Center Dr., Happy Valley, OR 97086"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.49968, 45.42842]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Burnside)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "2825 E Burnside St, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.63673, 45.52326]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Fremont)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "3535 Northeast 15th Avenue, Portland, OR 97212"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.65116, 45.54882]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Hollywood)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "4301 NE Sandy Blvd Portland, Portland, OR 97213"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.61862, 45.53689]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Bridgeport)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "7380 SW Bridgeport Rd, Tigard, OR 97224"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.75154, 45.39441]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Tigard)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.80279, 45.44245]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Portland)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "1210 NW Couch St, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68335, 45.52347]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Tanasbourne)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "19440 NW Cornell Rd, Hillsboro, OR 97124"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.87697, 45.53373]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Whole Foods (Vancouver)",
+        "url": "http://www.wholefoodsmarket.com/",
+        "address": "815 SE 160th Ave, Vancouver, WA 98683"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.50581, 45.61469]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Market of Choice (Burlingame)",
+        "url": "https://www.marketofchoice.com/",
+        "address": "8502 SW Terwilliger Blvd, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68382, 45.46345]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Market of Choice (West Linn)",
+        "url": "https://www.marketofchoice.com/",
+        "address": "8502 SW Terwilliger Blvd, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68382, 45.46345]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Market of Choice (Burlingame)",
+        "url": "https://www.marketofchoice.com/",
+        "address": "8502 SW Terwilliger Blvd, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.68382, 45.46345]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Sheridan Fruit Company",
+        "url": "http://www.sheridanfruit.com/",
+        "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.66237, 45.51986]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "La Bouffe International Gourmet",
+        "url": "https://www.facebook.com/pages/La-Bouffe-International-Gourmet/1206543139393024",
+        "address": "8015 SE Stark St, Portland, OR 97215"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.5810976, 45.5193245]
+      }
     }
-  },
-  {
-    "title": "Fred Meyer (Hollywood)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "3030 Northeast Weidler Street, Portland, OR 97232",
-    "location": {
-      "latitude": 45.53329,
-      "longitude": -122.63444
-    }
-  },
-  {
-    "title": "Fred Meyer (Interstate)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "7404 N Interstate Ave, Portland, OR 97217",
-    "location": {
-      "latitude": 45.57582,
-      "longitude": -122.68091
-    }
-  },
-  {
-    "title": "Fred Meyer (Peninsula)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "6850 N Lombard St, Portland, OR 97203",
-    "location": {
-      "latitude": 45.58584,
-      "longitude": -122.73774
-    }
-  },
-  {
-    "title": "Fred Meyer (Burlingame)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "7555 SW Barbur Blvd, Portland, OR 97219",
-    "location": {
-      "latitude": 45.47055,
-      "longitude": -122.6904
-    }
-  },
-  {
-    "title": "Fred Meyer (Milwaukie)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "13625 SE Mcloughlin Blvd, Portland, OR 97222",
-    "location": {
-      "latitude": 45.42489,
-      "longitude": -122.63446
-    }
-  },
-  {
-    "title": "Fred Meyer (Oregon City)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "1839 Molalla Ave, Oregon City, OR 97045",
-    "location": {
-      "latitude": 45.33126,
-      "longitude": -122.58282
-    }
-  },
-  {
-    "title": "Fred Meyer (Tigard)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "11565 SW Pacific Hwy, Portland, OR 97223",
-    "location": {
-      "latitude": 45.44079,
-      "longitude": -122.75169
-    }
-  },
-  {
-    "title": "Fred Meyer (Tualatin)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "19200 SW Martinazzi Ave, Tualatin, OR 97062",
-    "location": {
-      "latitude": 45.38095,
-      "longitude": -122.75681
-    }
-  },
-  {
-    "title": "Fred Meyer (Beaverton)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "11425 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005",
-    "location": {
-      "latitude": 45.48762,
-      "longitude": -122.79401
-    }
-  },
-  {
-    "title": "Fred Meyer (Imbrie Drive)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124",
-    "location": {
-      "latitude": 45.55141,
-      "longitude": -122.9034
-    }
-  },
-  {
-    "title": "Fred Meyer (Raleigh Hills)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "7700 Southwest Beaverton Hillsdale Hwy, Portland, OR 97225",
-    "location": {
-      "latitude": 45.48531,
-      "longitude": -122.75605
-    }
-  },
-  {
-    "title": "Fred Meyer (Stadium)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "100 NW 20th Pl, Portland, OR 97209",
-    "location": {
-      "latitude": 45.52415,
-      "longitude": -122.69281
-    }
-  },
-  {
-    "title": "Fred Meyer (Walker Road)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "15995 SW Walker Rd, Beaverton, OR 97006",
-    "location": {
-      "latitude": 45.51859,
-      "longitude": -122.84194
-    }
-  },
-  {
-    "title": "Fred Meyer (Foster)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "5253 SE 82nd Ave, Portland, OR 97266",
-    "location": {
-      "latitude": 45.48426,
-      "longitude": -122.5802
-    }
-  },
-  {
-    "title": "Fred Meyer (Gateway)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "Gateway Center, 1111 NE 102nd Ave, Portland, OR 97220",
-    "location": {
-      "latitude": 45.53009,
-      "longitude": -122.55962
-    }
-  },
-  {
-    "title": "Fred Meyer (Glisan)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "6615 NE Glisan St, Portland, OR 97213",
-    "location": {
-      "latitude": 45.52755,
-      "longitude": -122.59587
-    }
-  },
-  {
-    "title": "Fred Meyer (Gresham)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "2497 SE Burnside Rd, Gresham, OR 97080",
-    "location": {
-      "latitude": 45.49588,
-      "longitude": -122.40518
-    }
-  },
-  {
-    "title": "Fred Meyer (Johnson Creek)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "8955 SE 82nd Ave, Portland, OR 97086",
-    "location": {
-      "latitude": 45.45721,
-      "longitude": -122.57948
-    }
-  },
-  {
-    "title": "Fred Meyer (McGillivray)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "16600 SE McGillivray Blvd, Vancouver, WA 98683",
-    "location": {
-      "latitude": 45.60583,
-      "longitude": -122.50147
-    }
-  },
-  {
-    "title": "Fred Meyer (Wood Village)",
-    "url": "https://www.fredmeyer.com/",
-    "address": "22855 Northeast Park Lane, Troutdale, OR 97060",
-    "location": {
-      "latitude": 45.53029,
-      "longitude": -122.42859
-    }
-  },
-  {
-    "title": "New Seasons (Concordia)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "5320 NE 33rd Ave, Portland, OR 97211",
-    "location": {
-      "latitude": 45.56119,
-      "longitude": -122.6304
-    }
-  },
-  {
-    "title": "New Seasons (Hawthorne)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "4034 SE Hawthorne Blvd, Portland, OR 97214",
-    "location": {
-      "latitude": 45.51182,
-      "longitude": -122.6207
-    }
-  },
-  {
-    "title": "New Seasons (Hollywood)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "3210 NE Broadway, Portland, OR 97232",
-    "location": {
-      "latitude": 45.53435,
-      "longitude": -122.63153
-    }
-  },
-  {
-    "title": "New Seasons (Interstate)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "6400 N Interstate Ave, Portland, OR 97217",
-    "location": {
-      "latitude": 45.56896,
-      "longitude": -122.68187
-    }
-  },
-  {
-    "title": "New Seasons (Seven Corners)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "1954 SE Division St, Portland, OR 97202",
-    "location": {
-      "latitude": 45.50437,
-      "longitude": -122.64622
-    }
-  },
-  {
-    "title": "New Seasons (Williams)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "3445 N Williams Ave, Portland, OR 97212",
-    "location": {
-      "latitude": 45.54782,
-      "longitude": -122.66668
-    }
-  },
-  {
-    "title": "New Seasons (Woodstock)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "4500 SE Woodstock Blvd, Portland, OR 97206",
-    "location": {
-      "latitude": 45.47903,
-      "longitude": -122.61619
-    }
-  },
-  {
-    "title": "New Seasons (University Park)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "6300 N Lombard St, Portland, OR 97203",
-    "location": {
-      "latitude": 45.585,
-      "longitude": -122.73148
-    }
-  },
-  {
-    "title": "New Seasons (Horizon)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "14805 SW Barrows Rd, Beaverton, OR 97007",
-    "location": {
-      "latitude": 45.43049,
-      "longitude": -122.8292
-    }
-  },
-  {
-    "title": "New Seasons (Mt. Park)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "3 Monroe Pkwy, Lake Oswego, OR 97035",
-    "location": {
-      "latitude": 45.43336,
-      "longitude": -122.70313
-    }
-  },
-  {
-    "title": "New Seasons (Sellwood)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "1214 SE Tacoma St, Portland, OR 97202",
-    "location": {
-      "latitude": 45.46396,
-      "longitude": -122.65363
-    }
-  },
-  {
-    "title": "New Seasons (Tualatin)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "7705 SW Nyberg St, Tualatin, OR 97062",
-    "location": {
-      "latitude": 45.38405,
-      "longitude": -122.75722
-    }
-  },
-  {
-    "title": "New Seasons (Cedar Hills)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "3495 SW Cedar Hills Blvd, Beaverton, OR 97005",
-    "location": {
-      "latitude": 45.49432,
-      "longitude": -122.8128
-    }
-  },
-  {
-    "title": "New Seasons (Orenco)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124",
-    "location": {
-      "latitude": 45.53428,
-      "longitude": -122.91921
-    }
-  },
-  {
-    "title": "New Seasons (Raleigh Hills)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "7300 SW Beaverton Hillsdale Hwy, Portland, OR 97225",
-    "location": {
-      "latitude": 45.48534,
-      "longitude": -122.75225
-    }
-  },
-  {
-    "title": "New Seasons (Slabtown)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "2170 NW Raleigh St, Portland, OR 97210",
-    "location": {
-      "latitude": 45.53376,
-      "longitude": -122.69621
-    }
-  },
-  {
-    "title": "New Seasons (Fishers Landing)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "2100b SE 164th Ave '#'101, Vancouver, WA 98683",
-    "location": {
-      "latitude": 45.60529,
-      "longitude": -122.50684
-    }
-  },
-  {
-    "title": "New Seasons (Happy Valley)",
-    "url": "https://www.newseasonsmarket.com/",
-    "address": "15861 SE Happy Valley Town Center Dr., Happy Valley, OR 97086",
-    "location": {
-      "latitude": 45.42842,
-      "longitude": -122.49968
-    }
-  },
-  {
-    "title": "Whole Foods (Burnside)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "2825 E Burnside St, Portland, OR 97214",
-    "location": {
-      "latitude": 45.52326,
-      "longitude": -122.63673
-    }
-  },
-  {
-    "title": "Whole Foods (Fremont)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "3535 Northeast 15th Avenue, Portland, OR 97212",
-    "location": {
-      "latitude": 45.54882,
-      "longitude": -122.65116
-    }
-  },
-  {
-    "title": "Whole Foods (Hollywood)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "4301 NE Sandy Blvd Portland, Portland, OR 97213",
-    "location": {
-      "latitude": 45.53689,
-      "longitude": -122.61862
-    }
-  },
-  {
-    "title": "Whole Foods (Bridgeport)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "7380 SW Bridgeport Rd, Tigard, OR 97224",
-    "location": {
-      "latitude": 45.39441,
-      "longitude": -122.75154
-    }
-  },
-  {
-    "title": "Whole Foods (Tigard)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223",
-    "location": {
-      "latitude": 45.44245,
-      "longitude": -122.80279
-    }
-  },
-  {
-    "title": "Whole Foods (Portland)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "1210 NW Couch St, Portland, OR 97209",
-    "location": {
-      "latitude": 45.52347,
-      "longitude": -122.68335
-    }
-  },
-  {
-    "title": "Whole Foods (Tanasbourne)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "19440 NW Cornell Rd, Hillsboro, OR 97124",
-    "location": {
-      "latitude": 45.53373,
-      "longitude": -122.87697
-    }
-  },
-  {
-    "title": "Whole Foods (Vancouver)",
-    "url": "http://www.wholefoodsmarket.com/",
-    "address": "815 SE 160th Ave, Vancouver, WA 98683",
-    "location": {
-      "latitude": 45.61469,
-      "longitude": -122.50581
-    }
-  },
-  {
-    "title": "Market of Choice (Burlingame)",
-    "url": "https://www.marketofchoice.com/",
-    "address": "8502 SW Terwilliger Blvd, Portland, OR 97219",
-    "location": {
-      "latitude": 45.46345,
-      "longitude": -122.68382
-    }
-  },
-  {
-    "title": "Market of Choice (West Linn)",
-    "url": "https://www.marketofchoice.com/",
-    "address": "8502 SW Terwilliger Blvd, Portland, OR 97219",
-    "location": {
-      "latitude": 45.46345,
-      "longitude": -122.68382
-    }
-  },
-  {
-    "title": "Market of Choice (Burlingame)",
-    "url": "https://www.marketofchoice.com/",
-    "address": "8502 SW Terwilliger Blvd, Portland, OR 97219",
-    "location": {
-      "latitude": 45.46345,
-      "longitude": -122.68382
-    }
-  },
-  {
-    "title": "Sheridan Fruit Company",
-    "url": "http://www.sheridanfruit.com/",
-    "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214",
-    "location": {
-      "latitude": 45.51986,
-      "longitude": -122.66237
-    }
-  },
-  {
-    "title": "La Bouffe International Gourmet",
-    "url": "https://www.facebook.com/pages/La-Bouffe-International-Gourmet/1206543139393024",
-    "address": "8015 SE Stark St, Portland, OR 97215",
-    "location": {
-      "latitude": 45.5193245,
-      "longitude": -122.5810976
-    }
-  }
-]
+  ]
+}
