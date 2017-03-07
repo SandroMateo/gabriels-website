@@ -20,7 +20,9 @@
   $centered-navigation-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
-  background: $centered-navigation-background;
+  background-image: url("../../images/pdxMap.png");
+  background-position: center;
+  background-size: cover;
   min-height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;
@@ -286,11 +288,11 @@
 }
 
 #products {
-  background-image: url("../../images/bagelProducts.jpg");
+  background-image: url("../../images/gabriel-temp.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 50vh;
+  height: 100vh;
 }
 
 .footer {
