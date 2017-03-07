@@ -26,9 +26,28 @@ $(document).ready(function(){
     $('#findByType').click(function() {
       var locationType = $("input:radio[name=locationType]:checked").val();
       console.log(locationType);
-      groceryData.setMap(null);
-      marketData.setMap(null);
-      cafeData.setMap(null);
+      switch(locationType){
+        case 'grocery':
+          groceryData.setMap(map);
+          marketData.setMap(null);
+          cafeData.setMap(null);
+        break;
+        case 'market':
+          groceryData.setMap(null);
+          marketData.setMap(map);
+          cafeData.setMap(null);
+        break;
+        case 'cafe':
+          groceryData.setMap(null);
+          marketData.setMap(null);
+          cafeData.setMap(map);
+        break;
+        default:
+          groceryData.setMap(map);
+          marketData.setMap(map);
+          cafeData.setMap(map);
+      }
+
     });
 
   });
