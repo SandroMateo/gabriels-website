@@ -26,8 +26,6 @@ GEM
       babel-transpiler
     jekyll-feed (0.8.0)
       jekyll (~> 3.3)
-    jekyll-maps (2.0.0)
-      jekyll (~> 3.0)
     jekyll-redirect-from (0.12.1)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
@@ -57,12 +55,11 @@ DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-babel
   jekyll-feed (~> 0.6)
-  jekyll-maps
   jekyll-redirect-from
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.0.0p648
+   ruby 2.1.1p76
 
 BUNDLED WITH
    1.14.4

@@ -1,0 +1,427 @@
+{
+  "type":"FeatureCollection",
+  "features":
+  [
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Gabriels Bakery",
+        "url": "http://gabrielsbakery.com",
+        "image": "../images/GabrielsBakeryLogo.png",
+        "address": "1100 NE 21st Ave Suite A, Portland, OR 97232"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6444298, 45.5308236]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Anna Bannanas (St Johns)",
+        "url": "http://annabannanasnw.com",
+        "address": "8716 N Lombard St, Portland, OR 97203"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.755748, 45.590692]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Anna Bannanas (NW)",
+        "url": "http://annabannanasnw.com",
+        "address": "1214 NW 21st Ave, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6943785, 45.5316266]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "B Street Coffee House",
+        "url": "https://www.zomato.com/portland/b-street-coffee-house-goose-hollow/menu?utm_source=Google&utm_medium=Local&utm_campaign=GoogleMenus",
+        "address": "2190 W Burnside St, Portland, OR 97210"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6961786, 45.5232031]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Bare Bones Cafe & Bar",
+        "url": "barebonespdx.com",
+        "address": "2900 SE Belmont St, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6359419, 45.5163214]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "BridgePort Brewpub",
+        "url": "bridgeportbrew.com",
+        "address": "1313 NW Marshall St, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6848368, 45.5308968]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "City Coffee (Liberty)",
+        "url": "https://www.facebook.com/City-Coffee-258597694204272/",
+        "address": "650 NE Holladay St \"#\"110, Portland, OR 97232"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6591318, 45.5299232]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "City Coffee (Loyd)",
+        "url": "https://www.facebook.com/City-Coffee-258597694204272/",
+        "address": "825 NE Multnomah St \"#\" 130, Portland, OR 97232"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6571713, 45.5317977]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "City Coffee (Salmon)",
+        "url": "https://www.facebook.com/City-Coffee-258597694204272/",
+        "address": "932 SW 4th Ave, Portland, OR 97204"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6773876, 45.5166387]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Cooper's Coffee",
+        "url": "https://www.facebook.com/pages/Coopers-Coffee-next-to-OMSI/152886854732205",
+        "address": "1515 SE Water Ave, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6659741, 45.5116447]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Downtown Freddie Browns",
+        "url": "https://www.yelp.com/biz/downtown-freddie-brown-portland",
+        "address": "555 SW Oak St, Portland, OR 97204"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6760872, 45.5221915]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Driftwood Coffee",
+        "url": "https://www.facebook.com/DriftwoodCoffee/",
+        "address": "4604 SW Vermont St, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.7245497, 45.4759844]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "The Energy Bar",
+        "url": "https://www.facebook.com/TheEnergyBar/",
+        "address": "1431 SW Park Ave, Portland, OR 97201"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6841035, 45.5145409]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "First Cup Coffee House",
+        "url": "firstcupcoffeehouse.com",
+        "address": "Woodstock Square, 4103 SE Woodstock Blvd, Portland, OR 97202"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6199799, 45.4795035]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Just Bob",
+        "url": "justbobpdx.com",
+        "address": "2403 NE Alberta St, Portland, OR 97211"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6408574, 45.5591397]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Kornblatt's",
+        "url": "kornblattsdelipdx.com",
+        "address": "628 NW 23rd Ave, Portland, OR 97210"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6983238, 45.5274434]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Lair Hill Bistro",
+        "url": "http://lairhillbistro.blogspot.com/",
+        "address": "2823 SW 1st Ave, Portland, OR 97201"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6789194, 45.5025693]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Lionheart Coffee Company",
+        "url": "lionheartcoffee.com",
+        "address": "11421 SW Scholls Ferry Rd, Beaverton, OR 97008"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.793669, 45.4467247]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Muu-Muu's",
+        "url": "muumuus.net",
+        "address": "612 NW 21st Ave, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6942615, 45.5272202]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "The Original Pancake House",
+        "url": "originalpancakehouse.com",
+        "address": "8601 SW 24th Ave, Portland, OR 97219"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.702293, 45.4626447]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Painted Lady Coffee House",
+        "url": "https://www.facebook.com/Painted-Lady-Coffee-House-389805277736518/",
+        "address": "2045 SE Washington St, Milwaukie, OR 97222"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6402731, 45.4427331]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Playdate PDX",
+        "url": "playdatepdx.com",
+        "address": "1434 NW 17th Ave, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6881221, 45.5333102]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "title": "Cafe Portlandia",
+        "url": "wfcportland.com",
+        "address": "410 SW Main St, Portland, OR 97204"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6782544, 45.5158373]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Rogue Eastside Pub & Pilot",
+        "url": "rogue.com",
+        "address": "928 SE 9th Ave, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6565143, 45.5160053]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Sandino Coffee Roasters",
+        "url": "http://sandinocoffee.com/",
+        "address": "7238 SE Foster Rd, Portland, OR 97206"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.5882994, 45.4859431]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Sheridan Fruit (Deli)",
+        "url": "sheridanfruit.com",
+        "address": "408 S.E. 3rd Ave, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6625503, 45.5198793]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Space Monkey Coffee",
+        "url": "spacemonkeycoffee.com",
+        "address": "5511 SE 72nd Ave, Portland, OR 97206"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.5894411, 45.4828358]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Speedboat Coffee",
+        "url": "speedboatcoffee.com",
+        "address": "5115 SE Foster Rd, Portland, OR 97206"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6095818, 45.4962965]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Stark Street Station",
+        "url": "https://www.facebook.com/StarkStreetStation/",
+        "address": "6049 SE Stark St, Portland, OR 97215"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6013165, 45.5193969]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Taborspace",
+        "url": "taborspace.org",
+        "address": "5441 SE Belmont St, Portland, OR 97215"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6072394, 45.5169]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Upstream Coffee & Eatery",
+        "url": "https://www.facebook.com/upstreamcoffeepdx/",
+        "address": "0315 SW Montgomery St '#'200, Portland, OR 97201"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6738522, 45.5101886]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Village Market",
+        "url": "villagegardens.org",
+        "address": "4632 N Trenton St, Portland, OR 97203"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.7152822, 45.5884974]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Vintner's Cellar of Oregon",
+        "url": "vintnerscellarpdx.com",
+        "address": "1111 NW 16th Ave, Portland, OR 97209"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6877847, 45.5309911]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Vivace",
+        "url": "https://www.facebook.com/Vivace-231234583594993/",
+        "address": "1400 NW 23rd Ave, Portland, OR 97210"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6985145, 45.5328068]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "title": "Wind Horse Coffee",
+        "url": "https://www.facebook.com/windhorsecoffeeandtea/",
+        "address": "10611 SE Main St, Milwaukie, OR 97222"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6419885, 45.4459433]
+      }
+    }
+  ]
+}

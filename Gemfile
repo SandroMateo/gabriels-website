@@ -27,7 +27,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Google Maps
-gem 'jekyll-maps'
+# gem 'jekyll-maps'
 
-# Jekyll Redirect 
+# Jekyll Redirect
 gem 'jekyll-redirect-from'
