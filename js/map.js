@@ -8,7 +8,7 @@ $(document).ready(function(){
       zoom: 8
     });
 
-    map.data.loadGeoJson('../js/cafes.json');
+    map.data.loadGeoJson('../js/markets.json');
 
   }
   google.maps.event.addDomListener(window, 'load', initMap);

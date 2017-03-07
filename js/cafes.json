@@ -5,6 +5,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Gabriels Bakery",
         "url": "http://gabrielsbakery.com",
         "image": "../images/GabrielsBakeryLogo.png",
@@ -18,6 +19,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Anna Bannanas (St Johns)",
         "url": "http://annabannanasnw.com",
         "address": "8716 N Lombard St, Portland, OR 97203"
@@ -30,6 +32,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Anna Bannanas (NW)",
         "url": "http://annabannanasnw.com",
         "address": "1214 NW 21st Ave, Portland, OR 97209"
@@ -42,6 +45,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "B Street Coffee House",
         "url": "https://www.zomato.com/portland/b-street-coffee-house-goose-hollow/menu?utm_source=Google&utm_medium=Local&utm_campaign=GoogleMenus",
         "address": "2190 W Burnside St, Portland, OR 97210"
@@ -54,6 +58,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Bare Bones Cafe & Bar",
         "url": "barebonespdx.com",
         "address": "2900 SE Belmont St, Portland, OR 97214"
@@ -66,6 +71,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "BridgePort Brewpub",
         "url": "bridgeportbrew.com",
         "address": "1313 NW Marshall St, Portland, OR 97209"
@@ -78,6 +84,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "City Coffee (Liberty)",
         "url": "https://www.facebook.com/City-Coffee-258597694204272/",
         "address": "650 NE Holladay St \"#\"110, Portland, OR 97232"
@@ -90,6 +97,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "City Coffee (Loyd)",
         "url": "https://www.facebook.com/City-Coffee-258597694204272/",
         "address": "825 NE Multnomah St \"#\" 130, Portland, OR 97232"
@@ -102,6 +110,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "City Coffee (Salmon)",
         "url": "https://www.facebook.com/City-Coffee-258597694204272/",
         "address": "932 SW 4th Ave, Portland, OR 97204"
@@ -114,6 +123,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Cooper's Coffee",
         "url": "https://www.facebook.com/pages/Coopers-Coffee-next-to-OMSI/152886854732205",
         "address": "1515 SE Water Ave, Portland, OR 97214"
@@ -126,6 +136,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Downtown Freddie Browns",
         "url": "https://www.yelp.com/biz/downtown-freddie-brown-portland",
         "address": "555 SW Oak St, Portland, OR 97204"
@@ -138,6 +149,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Driftwood Coffee",
         "url": "https://www.facebook.com/DriftwoodCoffee/",
         "address": "4604 SW Vermont St, Portland, OR 97219"
@@ -150,6 +162,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "The Energy Bar",
         "url": "https://www.facebook.com/TheEnergyBar/",
         "address": "1431 SW Park Ave, Portland, OR 97201"
@@ -162,6 +175,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "First Cup Coffee House",
         "url": "firstcupcoffeehouse.com",
         "address": "Woodstock Square, 4103 SE Woodstock Blvd, Portland, OR 97202"
@@ -174,6 +188,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Just Bob",
         "url": "justbobpdx.com",
         "address": "2403 NE Alberta St, Portland, OR 97211"
@@ -186,6 +201,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Kornblatt's",
         "url": "kornblattsdelipdx.com",
         "address": "628 NW 23rd Ave, Portland, OR 97210"
@@ -198,6 +214,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Lair Hill Bistro",
         "url": "http://lairhillbistro.blogspot.com/",
         "address": "2823 SW 1st Ave, Portland, OR 97201"
@@ -210,6 +227,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Lionheart Coffee Company",
         "url": "lionheartcoffee.com",
         "address": "11421 SW Scholls Ferry Rd, Beaverton, OR 97008"
@@ -222,6 +240,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Muu-Muu's",
         "url": "muumuus.net",
         "address": "612 NW 21st Ave, Portland, OR 97209"
@@ -234,6 +253,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "The Original Pancake House",
         "url": "originalpancakehouse.com",
         "address": "8601 SW 24th Ave, Portland, OR 97219"
@@ -246,6 +266,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Painted Lady Coffee House",
         "url": "https://www.facebook.com/Painted-Lady-Coffee-House-389805277736518/",
         "address": "2045 SE Washington St, Milwaukie, OR 97222"
@@ -258,6 +279,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Playdate PDX",
         "url": "playdatepdx.com",
         "address": "1434 NW 17th Ave, Portland, OR 97209"
@@ -270,6 +292,7 @@
     {
       "type":"Feature",
       "properties": {
+        "locationType": "cafe",
         "title": "Cafe Portlandia",
         "url": "wfcportland.com",
         "address": "410 SW Main St, Portland, OR 97204"
@@ -282,6 +305,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Rogue Eastside Pub & Pilot",
         "url": "rogue.com",
         "address": "928 SE 9th Ave, Portland, OR 97214"
@@ -294,6 +318,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Sandino Coffee Roasters",
         "url": "http://sandinocoffee.com/",
         "address": "7238 SE Foster Rd, Portland, OR 97206"
@@ -306,6 +331,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Sheridan Fruit (Deli)",
         "url": "sheridanfruit.com",
         "address": "408 S.E. 3rd Ave, Portland, OR 97214"
@@ -318,6 +344,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Space Monkey Coffee",
         "url": "spacemonkeycoffee.com",
         "address": "5511 SE 72nd Ave, Portland, OR 97206"
@@ -330,6 +357,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Speedboat Coffee",
         "url": "speedboatcoffee.com",
         "address": "5115 SE Foster Rd, Portland, OR 97206"
@@ -342,6 +370,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Stark Street Station",
         "url": "https://www.facebook.com/StarkStreetStation/",
         "address": "6049 SE Stark St, Portland, OR 97215"
@@ -354,6 +383,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Taborspace",
         "url": "taborspace.org",
         "address": "5441 SE Belmont St, Portland, OR 97215"
@@ -366,6 +396,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Upstream Coffee & Eatery",
         "url": "https://www.facebook.com/upstreamcoffeepdx/",
         "address": "0315 SW Montgomery St '#'200, Portland, OR 97201"
@@ -378,6 +409,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Village Market",
         "url": "villagegardens.org",
         "address": "4632 N Trenton St, Portland, OR 97203"
@@ -390,6 +422,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Vintner's Cellar of Oregon",
         "url": "vintnerscellarpdx.com",
         "address": "1111 NW 16th Ave, Portland, OR 97209"
@@ -402,6 +435,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Vivace",
         "url": "https://www.facebook.com/Vivace-231234583594993/",
         "address": "1400 NW 23rd Ave, Portland, OR 97210"
@@ -414,6 +448,7 @@
     {
       "type":"Feature",
       "properties":{
+        "locationType": "cafe",
         "title": "Wind Horse Coffee",
         "url": "https://www.facebook.com/windhorsecoffeeandtea/",
         "address": "10611 SE Main St, Milwaukie, OR 97222"
