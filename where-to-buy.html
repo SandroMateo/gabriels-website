@@ -9,22 +9,26 @@ permalink: /where-to-buy/
 <div class="container">
   <div class="row">
     <div class="col-md-4">
-      <form>
+      <!-- Form section for zipcode -->
+      <form id="findByZip">
         <div class="form-group">
           <label for="zip">Zip:</label>
           <input class="form-control" type="text" name="zip" id="zip" required>
         </div>
         <button type="submit" name="button" class="btn btn-warning">Find</button>
+      </form>
+      <!-- Form section for radio buttons -->
+      <form id="findByType">
         <div class="form-group">
-          <input type="radio" name="grocery" id="grocery" value="grocery">
+          <input type="radio" name="locationType" id="grocery" value="grocery">
           <label for="grocery">Grocery Stores</label>
         </div>
         <div class="form-group">
-          <input type="radio" name="market" id="market" value="market">
+          <input type="radio" name="locationType" id="market" value="market">
           <label for="market">Farmer's Markets</label>
         </div>
         <div class="form-group">
-          <input type="radio" name="cafe" id="cafe" value="cafe">
+          <input type="radio" name="locationType" id="cafe" value="cafe">
           <label for="cafe">Cafes</label>
         </div>
       </form>
