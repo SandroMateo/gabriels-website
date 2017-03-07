@@ -34,6 +34,34 @@ gems:
   - jekyll-babel
   # - jekyll-maps
   - jekyll-redirect-from
+collections:
+  bagels:
+    output: true
+    permalink: /products/bagels/:path/
+  bread:
+    output: true
+    permalink: /products/bread/:path/
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+      logo: "../../images/GabrielsBakeryLogo.png"
+  -
+    scope:
+      path: ""
+      type: "bread"
+    values:
+      layout: "details"
+      logo: "../../../images/GabrielsBakeryLogo.png"
+  -
+    scope:
+      path: ""
+      type: "bagels"
+    values:
+      layout: "details"
+      logo: "../../../images/GabrielsBakeryLogo.png"
 maps:
     google:
       api_key: AIzaSyCO04gOPCK85qfPcGUNrfZL5ppxnNFoCRI

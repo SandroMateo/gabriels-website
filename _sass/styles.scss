@@ -20,7 +20,10 @@
   $centered-navigation-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
-  background: $centered-navigation-background;
+  // background-image: url("../../images/pdxMap.png");
+  // background-position: center;
+  // background-size: cover;
+  background-color: $centered-navigation-background;
   min-height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;
@@ -281,6 +284,18 @@
   background-attachment: fixed;
 }
 
+#gabriel {
+  max-height: 15em
+}
+
+#products {
+  background-image: url("../../images/gabriel-temp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
 .footer {
   background: #000000;
   height: auto;
@@ -288,14 +303,24 @@
 
 .flex {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .product-box {
   flex-grow: 1;
+  flex-basis: 25%;
   text-align: center;
   margin: 0 auto;
 }
 
+.products {
+  max-height: 15em;
+}
+
 .bread {
+  max-height: 7em;
+}
+
+.bagel {
   max-height: 7em;
 }
