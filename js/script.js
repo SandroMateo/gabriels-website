@@ -33,3 +33,7 @@ $(window).on("load resize",function(e) {
     });
   });
 });
+
+$(function() {
+  $("table").stupidtable();
+})
