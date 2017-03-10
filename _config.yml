@@ -33,7 +33,7 @@ gems:
   - jekyll-feed
   - jekyll-babel
   # - jekyll-maps
-  - jekyll-redirect-from
+  # - jekyll-redirect-from
 collections:
   bagels:
     output: true
@@ -69,3 +69,4 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - bower_components
+  - node_modules

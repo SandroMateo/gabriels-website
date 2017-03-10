@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+  $("table").stupidtable();
+
   var map;
   function initMap() {
     var gabes = new google.maps.LatLng(45.5308236, -122.6444298);
