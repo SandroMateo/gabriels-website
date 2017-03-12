@@ -27,7 +27,7 @@ permalink: /products/bagels/
   </thead>
   <tbody>
     {% for bagel in site.bagels %}
-      <tr>
+      <tr class={{ bagel.title }}>
         <td>{{ bagel.title }}</td>
         {% for fact in bagel.nutrition %}
           <td>{{ fact[1] }}</td>

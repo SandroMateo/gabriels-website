@@ -1,5 +1,6 @@
----
----
+$(document).ready(function(){
+  $("table").stupidtable();
+});
 
 $(window).on("load resize",function(e) {
   var more = document.getElementById("js-centered-more");

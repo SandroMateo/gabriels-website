@@ -29,7 +29,7 @@ permalink: /products/bread/
   </thead>
   <tbody>
     {% for bread in site.bread %}
-      <tr>
+      <tr class={{ bread.title }}>
         <td>{{ bread.title }}</td>
         {% for fact in bread.nutrition %}
           <td>{{ fact[1] }}</td>

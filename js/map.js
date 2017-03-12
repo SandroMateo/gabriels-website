@@ -1,14 +1,12 @@
 $(document).ready(function(){
 
-  $("table").stupidtable();
-
   var map;
   function initMap() {
     var gabes = new google.maps.LatLng(45.5308236, -122.6444298);
 
     map = new google.maps.Map(document.getElementById('map'), {
       center: gabes,
-      zoom: 8
+      zoom: 10
     });
   }
 

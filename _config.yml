@@ -32,8 +32,6 @@ markdown: kramdown
 gems:
   - jekyll-feed
   - jekyll-babel
-  # - jekyll-maps
-  # - jekyll-redirect-from
 collections:
   bagels:
     output: true
@@ -68,5 +66,4 @@ maps:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - bower_components
   - node_modules
