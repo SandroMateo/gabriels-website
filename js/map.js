@@ -21,6 +21,12 @@ function appendData(location) {
   }
 }
 
+function displayLocations(grocery, market, cafe) {
+  groceryData.setMap(grocery);
+  marketData.setMap(market);
+  cafeData.setMap(cafe);
+}
+
 
 function loadLocationData(callback){
   $.getJSON("../data/locations/cafes.json", function(cafeResult) {
@@ -38,18 +44,15 @@ function loadLocationData(callback){
     groceryData.loadGeoJson('../data/locations/grocery.json');
     marketData.loadGeoJson('../data/locations/markets.json');
     cafeData.loadGeoJson('../data/locations/cafes.json');
-    groceryData.setMap(map);
-    marketData.setMap(map);
-    cafeData.setMap(map);
 
     callback();
   });
 }
 
-// google.maps.event.addDomListener(window, 'load', function() {
 $(function() {
   initMap();
   loadLocationData(function(){
+    displayLocations(map, map, map);
     appendData(grocery);
     appendData(cafes);
     appendData(markets);
@@ -58,30 +61,22 @@ $(function() {
       var locationType = $("input:radio[name=locationType]:checked").val();
       switch(locationType){
         case 'grocery':
-          groceryData.setMap(map);
-          marketData.setMap(null);
-          cafeData.setMap(null);
+          displayLocations(map, null, null);
           $("#locationGrid").html("");
           appendData(grocery);
         break;
         case 'market':
-          groceryData.setMap(null);
-          marketData.setMap(map);
-          cafeData.setMap(null);
+          displayLocations(null, map, null);
           $("#locationGrid").html("");
           appendData(markets);
         break;
         case 'cafe':
-          groceryData.setMap(null);
-          marketData.setMap(null);
-          cafeData.setMap(map);
+          displayLocations(null, null, map);
           $("#locationGrid").html("");
           appendData(cafes);
         break;
         default:
-          groceryData.setMap(map);
-          marketData.setMap(map);
-          cafeData.setMap(map);
+          displayLocations(map, map, map);
       }
     });
   });
