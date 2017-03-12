@@ -60,9 +60,6 @@ defaults:
     values:
       layout: "details"
       logo: "../../../images/GabrielsBakeryLogo.png"
-maps:
-    google:
-      api_key: AIzaSyCO04gOPCK85qfPcGUNrfZL5ppxnNFoCRI
 exclude:
   - Gemfile
   - Gemfile.lock

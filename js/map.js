@@ -16,12 +16,14 @@ $(document).ready(function(){
     var groceryData = new google.maps.Data();
     var marketData = new google.maps.Data();
     var cafeData = new google.maps.Data();
-    groceryData.loadGeoJson('../js/grocery.json');
-    marketData.loadGeoJson('../js/markets.json');
-    cafeData.loadGeoJson('../js/cafes.json');
+    groceryData.loadGeoJson('../data/locations/grocery.json');
+    marketData.loadGeoJson('../data/locations/markets.json');
+    cafeData.loadGeoJson('../data/locations/cafes.json');
     groceryData.setMap(map);
     marketData.setMap(map);
     cafeData.setMap(map);
+
+
 
     $('#findByType').click(function() {
       var locationType = $("input:radio[name=locationType]:checked").val();
