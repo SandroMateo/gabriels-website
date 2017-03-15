@@ -1,7 +1,10 @@
-var infowindow;
+// var infowindow;
+// var markerArray;
 
 function MapMaker() {
   this.map;
+  this.infowindow = null;
+  this.markerArray = [];
 }
 
 MapMaker.prototype.initiateMap = function() {
@@ -13,7 +16,8 @@ MapMaker.prototype.initiateMap = function() {
   })
 }
 
-MapMaker.prototype.markLocations = function(location, _markerArray) {
+MapMaker.prototype.markLocations = function(location) {
+  var that = this;
   var latLng = new google.maps.LatLng(location.geometry.coordinates[1], location.geometry.coordinates[0]);
   var marker = new google.maps.Marker({
     position: latLng,
@@ -21,32 +25,36 @@ MapMaker.prototype.markLocations = function(location, _markerArray) {
     animation: google.maps.Animation.DROP,
     title: location.properties.title
   });
-  _markerArray.push(marker);
+  this.markerArray.push(marker);
   marker.addListener('click', function() {
-    if(infowindow) {
-      infowindow.close();
+    console.log(that.infowindow);
+    if(that.infowindow) {
+      that.infowindow.close();
     };
-    infowindow = new google.maps.InfoWindow({
+    that.infowindow = new google.maps.InfoWindow({
       content: marker.title
     })
-    infowindow.open(map, marker);
+    that.infowindow.open(map, marker);
   });
   marker.setMap(this.map);
 }
 
-function loadLocationData(_map, _markerArray, _locationType){
-  $.getJSON("../data/locations/" + _locationType + ".json", function(locationResult) {
+function loadLocationData(_map, _locationType){
+  $.getJSON("../data/locations/" + _locationType + ".json").then(function(locationResult) {
     for (var i = 0; i < locationResult.features.length; i++) {
-      _map.markLocations(locationResult.features[i], _markerArray);
+      _map.markLocations(locationResult.features[i]);
     };
     appendData(locationResult);
+  }).fail(function(error) {
+    console.log("FAILURE");
   });
 }
 
-function removeLocationData(_map, _markerArray) {
-  for (var i = 0; i < _markerArray.length; i++) {
-    _markerArray[i].setMap(null);
+function removeLocationData(_map) {
+  for (var i = 0; i < _map.markerArray.length; i++) {
+    _map.markerArray[i].setMap(null);
   }
+  _map.markerArray = [];
   $("#locationGrid").html("");
 }
 
@@ -58,32 +66,19 @@ function appendData(location) {
 
 $(document).ready(function() {
   var map = new MapMaker();
-  var markerArray = [];
-  infowindow = null;
+  var locationTypeArray = ["cafes", "grocery", "markets"];
   map.initiateMap();
-  loadLocationData(map, markerArray, "cafes");
-  loadLocationData(map, markerArray, "grocery");
-  loadLocationData(map, markerArray, "markets");
+  for (var i = 0; i < locationTypeArray.length; i++) {
+    loadLocationData(map, locationTypeArray[i]);
+  };
 
   $('#findByType').click(function() {
     var locationType = $("input:radio[name=locationType]:checked").val();
     switch(locationType){
-      case 'grocery':
-        removeLocationData(map, markerArray);
-        loadLocationData(map, markerArray,  locationType);
+      case locationType:
+        removeLocationData(map);
+        loadLocationData(map, locationType);
       break;
-      case 'markets':
-        removeLocationData(map, markerArray);
-        loadLocationData(map, markerArray,  locationType);
-      break;
-      case 'cafes':
-        removeLocationData(map, markerArray);
-        loadLocationData(map, markerArray,  locationType);
-      break;
-      // default:
-      // loadLocationData(map, markerArray, "cafes");
-      // loadLocationData(map, markerArray, "grocery");
-      // loadLocationData(map, markerArray, "markets");
     }
   });
 });
