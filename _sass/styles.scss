@@ -308,7 +308,7 @@
 
 .product-box {
   flex-grow: 1;
-  flex-basis: 25%;
+  flex-basis: 33%;
   text-align: center;
   margin: 0 auto;
 }
@@ -338,4 +338,8 @@ th {
 
 .Blue {
   background-color: #00FFFF
+}
+
+#bagelPage {
+  background-image: url("../../images/table.jpg");
 }

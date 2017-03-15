@@ -1,18 +1,53 @@
-var map;
-var cafes;
-var markets;
-var grocery;
-var groceryData;
-var marketData;
-var cafeData;
+var infowindow;
 
-function initMap() {
+function MapMaker() {
+  this.map;
+}
+
+MapMaker.prototype.initiateMap = function() {
   var gabes = new google.maps.LatLng(45.5308236, -122.6444298);
 
-  map = new google.maps.Map(document.getElementById('map'), {
-    center: gabes,
-    zoom: 10
+  this.map = new google.maps.Map(document.getElementById('map'), {
+        center: gabes,
+        zoom: 10
+  })
+}
+
+MapMaker.prototype.markLocations = function(location, _markerArray) {
+  var latLng = new google.maps.LatLng(location.geometry.coordinates[1], location.geometry.coordinates[0]);
+  var marker = new google.maps.Marker({
+    position: latLng,
+    map: this.map,
+    animation: google.maps.Animation.DROP,
+    title: location.properties.title
   });
+  _markerArray.push(marker);
+  marker.addListener('click', function() {
+    if(infowindow) {
+      infowindow.close();
+    };
+    infowindow = new google.maps.InfoWindow({
+      content: marker.title
+    })
+    infowindow.open(map, marker);
+  });
+  marker.setMap(this.map);
+}
+
+function loadLocationData(_map, _markerArray, _locationType){
+  $.getJSON("../data/locations/" + _locationType + ".json", function(locationResult) {
+    for (var i = 0; i < locationResult.features.length; i++) {
+      _map.markLocations(locationResult.features[i], _markerArray);
+    };
+    appendData(locationResult);
+  });
+}
+
+function removeLocationData(_map, _markerArray) {
+  for (var i = 0; i < _markerArray.length; i++) {
+    _markerArray[i].setMap(null);
+  }
+  $("#locationGrid").html("");
 }
 
 function appendData(location) {
@@ -21,63 +56,34 @@ function appendData(location) {
   }
 }
 
-function displayLocations(grocery, market, cafe) {
-  groceryData.setMap(grocery);
-  marketData.setMap(market);
-  cafeData.setMap(cafe);
-}
+$(document).ready(function() {
+  var map = new MapMaker();
+  var markerArray = [];
+  infowindow = null;
+  map.initiateMap();
+  loadLocationData(map, markerArray, "cafes");
+  loadLocationData(map, markerArray, "grocery");
+  loadLocationData(map, markerArray, "markets");
 
-
-function loadLocationData(callback){
-  $.getJSON("../data/locations/cafes.json", function(cafeResult) {
-    cafes = cafeResult;
-  });
-  $.getJSON("../data/locations/markets.json", function(marketResult){
-    markets = marketResult;
-  });
-  $.getJSON("../data/locations/grocery.json", function(groceryResult){
-    grocery = groceryResult;
-
-    groceryData = new google.maps.Data();
-    marketData = new google.maps.Data();
-    cafeData = new google.maps.Data();
-    groceryData.loadGeoJson('../data/locations/grocery.json');
-    marketData.loadGeoJson('../data/locations/markets.json');
-    cafeData.loadGeoJson('../data/locations/cafes.json');
-
-    callback();
-  });
-}
-
-$(function() {
-  initMap();
-  loadLocationData(function(){
-    displayLocations(map, map, map);
-    appendData(grocery);
-    appendData(cafes);
-    appendData(markets);
-
-    $('#findByType').click(function() {
-      var locationType = $("input:radio[name=locationType]:checked").val();
-      switch(locationType){
-        case 'grocery':
-          displayLocations(map, null, null);
-          $("#locationGrid").html("");
-          appendData(grocery);
-        break;
-        case 'market':
-          displayLocations(null, map, null);
-          $("#locationGrid").html("");
-          appendData(markets);
-        break;
-        case 'cafe':
-          displayLocations(null, null, map);
-          $("#locationGrid").html("");
-          appendData(cafes);
-        break;
-        default:
-          displayLocations(map, map, map);
-      }
-    });
+  $('#findByType').click(function() {
+    var locationType = $("input:radio[name=locationType]:checked").val();
+    switch(locationType){
+      case 'grocery':
+        removeLocationData(map, markerArray);
+        loadLocationData(map, markerArray,  locationType);
+      break;
+      case 'markets':
+        removeLocationData(map, markerArray);
+        loadLocationData(map, markerArray,  locationType);
+      break;
+      case 'cafes':
+        removeLocationData(map, markerArray);
+        loadLocationData(map, markerArray,  locationType);
+      break;
+      // default:
+      // loadLocationData(map, markerArray, "cafes");
+      // loadLocationData(map, markerArray, "grocery");
+      // loadLocationData(map, markerArray, "markets");
+    }
   });
 });
