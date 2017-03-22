@@ -12,6 +12,7 @@ body {
 		text-align: right;
 		top: 0;
 		width: 20em;
+    z-index: 999;
 
 		.bottom {
       position: relative;
@@ -108,7 +109,17 @@ body {
 }
 
 #gabriel {
-  max-height: 10em
+  max-height: 10em;
+  display: block;
+  margin: auto;
+}
+
+#mission {
+  color: #edc228;
+  background-color: #302e2e;
+  padding: 1em;
+  margin: 2em;
+  font-style: italic;
 }
 
 #products {
@@ -165,4 +176,15 @@ th {
 
 #bagelPage {
   background-image: url("../../images/table.jpg");
+}
+
+#aboutHeader {
+  background-image: url("../../images/aboutHeadImage.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 75vh;
+
+  h1 {
+    margin-top: 5em;
+  }
 }

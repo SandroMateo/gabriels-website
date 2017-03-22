@@ -1,6 +1,3 @@
-// var infowindow;
-// var markerArray;
-
 function MapMaker() {
   this.map;
   this.infowindow = null;
@@ -12,7 +9,7 @@ MapMaker.prototype.initiateMap = function() {
 
   this.map = new google.maps.Map(document.getElementById('map'), {
         center: gabes,
-        zoom: 10
+        zoom: 11
   })
 }
 
