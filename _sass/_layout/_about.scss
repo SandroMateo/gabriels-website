@@ -1,0 +1,18 @@
+#mission {
+  color: #edc228;
+  background-color: #302e2e;
+  padding: 1em;
+  margin: 2em;
+  font-style: italic;
+}
+
+#aboutHeader {
+  background-image: url("../../images/aboutHeadImage.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 75vh;
+
+  h1 {
+    margin-top: 5em;
+  }
+}
