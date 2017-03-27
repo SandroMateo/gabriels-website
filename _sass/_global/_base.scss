@@ -12,3 +12,11 @@
 a:hover {
   text-decoration: none;
 }
+
+body {
+  font-family: $bodyfont;
+  
+  & h1 {
+    font-family: $headerfont;
+  }
+}
