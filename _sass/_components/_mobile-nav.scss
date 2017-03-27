@@ -9,41 +9,41 @@
 }
 
 .mobile-nav__logo {
-  width: 100px;
-  // background-color: $darkgray;
   height: auto;
-  // max-width: rem-calc(50px);
+  max-width: 10rem;
 }
-.mobile-nav__menu-button {
-  // color: $darkgray;
-  cursor: pointer;
-  // font-size: rem-calc(40px);
-  position: absolute;
-  // right: rem-calc(20px);
-  // top: rem-calc(0px);
 
+.mobile-nav__menu-button {
+  color: $black;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .mobile-nav__menu-wrapper {
-  background-color: blue;
+  background-color: $white;
   display: none;
   position: absolute;
   width: 100vw;
   z-index: 99;
 }
 
-.mobile-nav__menu-list {
-  & li a {
-    // color: $darkgray;
-    // line-height: rem-calc(50px);
+.mobile-nav__menu-item {
+    list-style: none;
 
-    &:hover {
-      // color: $lightgray;
+  a {
+    color: $black;
+    line-height: 5rem;
+
+    &:hover, &:focus, &:active {
+      color: $gold;
     }
   }
 }
 
-//for showing and hiding the menu list. used in JS file
+// For showing and hiding the menu list. Used in scripts.js file
 .mobile-nav--display {
   display: block;
 }
