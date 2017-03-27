@@ -10,7 +10,19 @@
 
 .mobile-nav__logo {
   height: auto;
+  left: 1rem;
   max-width: 10rem;
+  position: absolute;
+  top: 1rem;
+}
+
+.mobile-nav__close-button {
+  color: $black;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
 }
 
 .mobile-nav__menu-button {
@@ -25,6 +37,7 @@
 .mobile-nav__menu-wrapper {
   background-color: rgba(255, 255, 255, 0.8);
   display: none;
+  height: 100vh;
   position: absolute;
   text-align: center;
   width: 100vw;
@@ -47,5 +60,7 @@
 
 // For showing and hiding the menu list. Used in scripts.js file
 .mobile-nav--display {
-  display: block;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

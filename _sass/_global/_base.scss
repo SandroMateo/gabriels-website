@@ -3,6 +3,7 @@
     margin-left: 0rem;
   }
   margin-left: 25rem;
+  margin-top: 0rem;
 }
 
 .jumbotron {
@@ -14,9 +15,11 @@ a:hover {
 }
 
 body {
+  color: $black;
   font-family: $bodyfont;
-  
-  & h1 {
-    font-family: $headerfont;
-  }
+}
+
+h1 {
+  font-family: $headerfont;
+  margin-top: 0rem;
 }
