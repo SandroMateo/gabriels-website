@@ -1,3 +1,5 @@
+// The bottom text needs to be fixed because currently if you make the browser heigh smaller but keep width wide it will overlap with nav
+
 .sidebar {
 	@include mobile {
 		display: none;

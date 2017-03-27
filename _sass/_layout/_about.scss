@@ -1,18 +1,78 @@
-#mission {
+// Issues with this page: looks horrible when the website is viewed on monitors bigger than our laptop. especially the text portion. the top image also looks a bit funny
+
+.about__mission-quote {
   background-color: #302e2e;
   color: #edc228;
+  font-size: 1.5rem;
   font-style: italic;
-  margin: 2em;
-  padding: 1em;
+  margin: 1rem;
+  padding: 1rem;
+
+  @include desktop {
+    font-size: 1.75rem;
+  }
+
+  @include tablet {
+    font-size: 1.75rem;
+  }
 }
 
-#aboutHeader {
+// this should probably be fixed so the image stays more consistent
+.about {
+  align-items: center;
   background-image: url("../../images/aboutHeadImage.jpg");
   background-position: top;
   background-size: cover;
-  height: 75vh;
+  display: flex;
+  justify-content: center;
+  height: 50vh;
+  margin: 0 auto;
+  margin-top: 7.5rem;
+  // width: 90vw;
 
-  h1 {
-    margin-top: 5em;
+  @include desktop {
+    font-size: 10rem;
+    margin-top: 0;
   }
+
+  @include tablet {
+    font-size: 10rem;
+    margin-top: 0;
+  }
+}
+
+.about__text {
+  font-size: 1.5rem;
+  text-align: justify;
+
+  @include desktop {
+    font-size: 2rem;
+  }
+
+  @include tablet {
+    font-size: 2rem;
+  }
+}
+
+.about__title {
+  color: $white;
+  font-size: 5rem;
+  text-align: center;
+
+  @include desktop {
+    font-size: 7.5rem;
+  }
+
+  @include tablet {
+    font-size: 7.5rem;
+  }
+}
+
+.about__column-wrapper {
+  // margin: 1rem;
+  padding: 2rem;
+}
+
+.about__wrapper {
+  padding: 1rem;
 }
