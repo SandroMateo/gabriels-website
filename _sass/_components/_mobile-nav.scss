@@ -1,0 +1,49 @@
+.mobile-nav {
+  @include tablet {
+    display: none;
+  }
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.mobile-nav__logo {
+  width: 100px;
+  // background-color: $darkgray;
+  height: auto;
+  // max-width: rem-calc(50px);
+}
+.mobile-nav__menu-button {
+  // color: $darkgray;
+  cursor: pointer;
+  // font-size: rem-calc(40px);
+  position: absolute;
+  // right: rem-calc(20px);
+  // top: rem-calc(0px);
+
+}
+
+.mobile-nav__menu-wrapper {
+  background-color: blue;
+  display: none;
+  position: absolute;
+  width: 100vw;
+  z-index: 99;
+}
+
+.mobile-nav__menu-list {
+  & li a {
+    // color: $darkgray;
+    // line-height: rem-calc(50px);
+
+    &:hover {
+      // color: $lightgray;
+    }
+  }
+}
+
+//for showing and hiding the menu list. used in JS file
+.mobile-nav--display {
+  display: block;
+}

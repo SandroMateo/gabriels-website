@@ -1,11 +1,15 @@
+// Global
+@import '_global/mixin';
+@import '_global/variables';
+@import '_global/base';
+
+
 // Components
 @import '_components/footer';
 @import '_components/map';
+@import '_components/mobile-nav';
 @import '_components/nutrition-table';
 @import '_components/sidebar';
-
-// Global
-@import '_global/base';
 
 // Layout
 @import '_layout/about';
