@@ -1,16 +1,17 @@
 // Components
-@import '_components/sidebar';
+@import '_components/footer';
 @import '_components/map';
 @import '_components/nutrition-table';
-@import '_components/footer';
+@import '_components/sidebar';
+
 // Global
 @import '_global/base';
 
 // Layout
 @import '_layout/about';
+@import '_layout/bread';
 @import '_layout/contact';
 @import '_layout/home';
 @import '_layout/products';
-@import '_layout/where-to-buy';
-@import '_layout/bread';
 @import '_layout/product-detail';
+@import '_layout/where-to-buy';

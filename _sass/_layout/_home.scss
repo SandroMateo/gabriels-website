@@ -4,9 +4,9 @@
 }
 
 #main-background {
-  height: 100vh;
-  background-image: url("../../images/gabriel-temp.jpg");
-  background-size: cover;
-  background-position: center;
   background-attachment: fixed;
+  background-image: url("../../images/gabriel-temp.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
