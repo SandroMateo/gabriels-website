@@ -3,17 +3,17 @@
 .about__mission-quote {
   background-color: #302e2e;
   color: #edc228;
-  font-size: 1.5rem;
+  // font-size: 5rem;
   font-style: italic;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 3rem;
+  padding: 2rem;
 
   @include desktop {
-    font-size: 1.75rem;
+    font-size: 3rem;
   }
 
   @include tablet {
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
 }
 
@@ -25,9 +25,10 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  height: 50vh;
-  margin: 0 auto;
-  margin-top: 7.5rem;
+  height: 75vh;
+  border-style: solid;
+  border-width: 2rem;
+  border-color: $gold;
   // width: 90vw;
 
   @include desktop {
@@ -73,6 +74,6 @@
   padding: 2rem;
 }
 
-.about__wrapper {
-  padding: 1rem;
-}
+// .about__wrapper {
+//   padding: 1rem;
+// }
