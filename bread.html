@@ -13,28 +13,3 @@ permalink: /products/bread/
     </div>
   {% endfor %}
 </div>
-
-<table>
-  <thead>
-    <tr>
-      <th data-sort="string">Name</th>
-      <th data-sort="int">Calories</th>
-      <th data-sort="float">Total Fat</th>
-      <th data-sort="int">Sodium</th>
-      <th data-sort="int">Carbs</th>
-      <th data-sort="int">Sugar</th>
-      <th data-sort="int">Fiber</th>
-      <th data-sort="int">Protein</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for bread in site.bread %}
-      <tr class={{ bread.title }}>
-        <td>{{ bread.title }}</td>
-        {% for fact in bread.nutrition %}
-          <td>{{ fact[1] }}</td>
-        {% endfor %}
-      </tr>
-    {% endfor %}
-  </tbody>
-</table>
