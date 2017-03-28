@@ -1,0 +1,74 @@
+// The bottom text needs to be fixed because currently if you make the browser heigh smaller but keep width wide it will overlap with nav
+
+.sidebar {
+	@include mobile {
+		display: none;
+	}
+
+	background: $gold;
+	box-shadow: inset 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1); //do you want this?
+	color: $gold;
+	height: 100%;
+	left: 0;
+	position: fixed;
+	text-align: right;
+	top: 0;
+	width: 25rem;
+  z-index: 999;
+}
+
+.sidebar__logo-wrapper {
+	cursor: default;
+	margin-top: 5rem;
+	min-height: 12rem;
+	position: relative;
+}
+
+.sidebar__logo {
+	display: block;
+	margin: auto;
+  max-height: 10rem;
+}
+
+.sidebar__nav-wrapper {
+	margin-bottom: 0;
+	margin-top: 2rem;
+}
+
+.sidebar__nav-link {
+	border: 0;
+	color: $black;
+	display: block;
+	outline: 0;
+	padding: 0rem 1.5rem 0rem 1.5rem;
+	text-decoration: none;
+
+	&:hover, &:active, &:focus {
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+.sidebar__nav-item {
+	display: block;
+	font-size: 2rem;
+	position: relative;
+}
+
+.sidebar__nav-hr {
+	color: $black;
+	padding: 0rem 2rem 0rem 2rem;
+}
+
+.sidebar__business-info-wrapper {
+	bottom: 0;
+	color: $black;
+	display: block;
+	font-size: 1.2rem;
+	padding: 2rem;
+	position: absolute;
+	right: 0;
+}
+
+.sidebar__business-info {
+	margin-bottom: 0;
+}

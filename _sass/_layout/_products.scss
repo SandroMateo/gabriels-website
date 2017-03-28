@@ -1,0 +1,23 @@
+#products {
+  background-image: url("../../images/gabriel-temp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-box {
+  flex-basis: 33%;
+  flex-grow: 1;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.products {
+  max-height: 15em;
+}

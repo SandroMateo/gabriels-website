@@ -1,40 +1,58 @@
-<div id="header">
-
+<div class="sidebar">
 	<div class="top">
 
 		<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><a href="/"><img id="gabriel" src="../../../images/GabrielsBakeryLogo.png" alt="" /></a></span>
+			<div class="sidebar__logo-wrapper">
+				<a href="/">
+					<img class="sidebar__logo" src="../../../images/GabrielsBakeryLogo.png" alt="Logo for Gabriel's Bakery" />
+				</a>
 			</div>
 
 		<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="/about" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">About</span></a></li>
-          <p>_______</p>
-					<li><a href="/products" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Products</span></a></li>
-          <p>_______</p>
-					<li><a href="/contact" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Contact</span></a></li>
-          <p>_______</p>
-					<li><a href="/where-to-buy" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Where To Buy</span></a></li>
-          <p>_______</p>
+			<nav>
+				<ul class="sidebar__nav-wrapper">
+					<li>
+						<a href="/about" class="sidebar__nav-link">
+							<span class="sidebar__nav-item">About</span>
+						</a>
+					</li>
+					<!-- These should probably be swapped out for actual hr..? -->
+          <p class="sidebar__nav-hr">_______</p>
+					<li>
+						<a href="/products" class="sidebar__nav-link">
+							<span class="sidebar__nav-item">Products</span>
+						</a>
+					</li>
+          <p class="sidebar__nav-hr">_______</p>
+					<li>
+						<a href="/contact" class="sidebar__nav-link">
+							<span class="sidebar__nav-item">Contact</span>
+						</a>
+					</li>
+          <p class="sidebar__nav-hr">_______</p>
+					<li>
+						<a href="/where-to-buy" class="sidebar__nav-link">
+							<span class="sidebar__nav-item">Where To Buy</span>
+						</a>
+					</li>
 				</ul>
 			</nav>
 
 	</div>
 
-	<div class="bottom">
-    <h6>Address:</h6>
-    <p>1100 NE 21st Ave. #A</p>
-    <p>Portland, OR</p>
-    <p>97212</p>
-    <h6>Hours:</h6>
-    <p>8:00am-5:00pm Daily</p>
-    <h6>Phone: </h6>
-    <p>Amilcar (Owner): (503)-481-7133</p>
-    <p>Gabriel (Manager): (503)-975-1272</p>
-    <p>Sandro (Assistant Manager): (971)-227-8374</p>
-    <h6>Email: </h6>
-    <p>info@gabrielsbakery.com</p>
+	<div class="sidebar__business-info-wrapper">
+    <h6><strong>Address:</strong></h6>
+    <p class="sidebar__business-info">1100 NE 21st Ave. #A</p>
+    <p class="sidebar__business-info">Portland, OR</p>
+    <p class="sidebar__business-info">97212</p>
+    <h6><strong>Hours:</strong></h6>
+    <p class="sidebar__business-info">8:00am-5:00pm Daily</p>
+    <h6><strong>Phone:</strong></h6>
+    <p class="sidebar__business-info">Amilcar (Owner): (503)-481-7133</p>
+    <p class="sidebar__business-info">Gabriel (Manager): (503)-975-1272</p>
+    <p class="sidebar__business-info">Sandro (Assistant Manager): (971)-227-8374</p>
+    <h6><strong>Email:</strong></h6>
+    <p class="sidebar__business-info">info@gabrielsbakery.com</p>
   </div>
+
 </div>

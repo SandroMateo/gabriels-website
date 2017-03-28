@@ -1,0 +1,66 @@
+.mobile-nav {
+  @include tablet {
+    display: none;
+  }
+
+  @include desktop {
+    display: none;
+  }
+}
+
+.mobile-nav__logo {
+  height: auto;
+  left: 1rem;
+  max-width: 10rem;
+  position: absolute;
+  top: 1rem;
+}
+
+.mobile-nav__close-button {
+  color: $black;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.mobile-nav__menu-button {
+  color: $black;
+  cursor: pointer;
+  font-size: 3rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+}
+
+.mobile-nav__menu-wrapper {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  height: 100vh;
+  position: absolute;
+  text-align: center;
+  width: 100vw;
+  z-index: 99;
+}
+
+.mobile-nav__menu-item {
+  list-style: none;
+
+  a {
+    color: $black;
+    font-size: 2.5rem;
+    line-height: 7rem;
+
+    &:hover, &:focus, &:active {
+      color: $gold;
+    }
+  }
+}
+
+// For showing and hiding the menu list. Used in scripts.js file
+.mobile-nav--display {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
