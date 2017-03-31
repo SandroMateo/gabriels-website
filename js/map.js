@@ -57,7 +57,7 @@ function removeLocationData(_map) {
 
 function appendData(location) {
   for (var i = 0; i < location.features.length; i++) {
-    $('#locationGrid').append("<div class='product-box img-responsive'><img class='bread' src=" + location.features[i].properties.image + " alt=" + location.features[i].properties.title + "><h2>" + location.features[i].properties.title + "</h2> <p>" + location.features[i].properties.address + "</p></div>");
+    $('#locationGrid').append("<div class='location-box img-responsive'><img class='bread' src=" + location.features[i].properties.image + " alt=" + location.features[i].properties.title + "><h3>" + location.features[i].properties.title + "</h3> <p>" + location.features[i].properties.address + "</p></div>");
   }
 }
 
