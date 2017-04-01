@@ -24,9 +24,6 @@
     max-height: 28rem;
   }
 
-  // @include tablet {
-  //   max-h
-  // }
 }
 
 .about__image-caption {
@@ -34,7 +31,7 @@
 }
 
 // this should probably be fixed so the image stays more consistent
-.about {
+.about__wrapper {
   align-items: center;
   background-image: url("../../images/aboutHeadImage.jpg");
   background-position: top;

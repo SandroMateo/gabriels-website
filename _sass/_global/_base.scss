@@ -10,9 +10,15 @@
   text-align: center;
 }
 
-a:hover {
-  text-decoration: none;
+a {
+  color: $black;
+
+  &:hover {
+    text-decoration: none;
+    color: $gold;
+  }
 }
+
 
 body {
   color: $black;

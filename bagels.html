@@ -2,12 +2,14 @@
 permalink: /products/bagels/
 ---
 
-<div class="flex" id="bagelPage">
+<div class="bagels flex" id="bagelPage">
   {% for bagel in site.bagels %}
     {% assign link = bagel.title %}
-    <div class="product-box img-responsive">
-      <img class="bagel" src={{ bagel.image }} alt="">
-      <h2><a href={{ "/products/bagels/" | append: link }}>{{ link }}</a></h2>
+    <div class="bagels__wrapper product-box img-responsive">
+      <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
+        <img class="bagel bagels__image" src={{ bagel.image }} alt="">
+        <h2 class="bagels__name">{{ link }}</h2>
+      </a>
     </div>
   {% endfor %}
 </div>
