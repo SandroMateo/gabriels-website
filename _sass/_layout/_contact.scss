@@ -1,3 +1,84 @@
+.contact__form-wrapper {
+  display: table;
+  margin: 40px auto;
+}
+
+.contact__select {
+  border: 1px solid $black;
+  border-radius: 0;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  height: 5rem;
+  font-size: 2rem;
+}
+
+.contact__select-label {
+  // font-weight: normal;
+}
+
+.contact__item-label {
+    position: relative;
+    display: block;
+
+    .contact__item {
+      font-weight: lighter;
+      box-sizing: border-box;
+      display: block;
+      border-radius: 0;
+      border: 1px solid $black;
+      padding: 2.5rem;
+      // max-width: 50vw;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+
+      &::placeholder {
+        transition: all 0.2s ease-in-out;
+        color: $gray;
+        font-size: 2rem;
+      }
+
+      &:focus, &.populated {
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+
+        &::placeholder {
+          color: $white;
+        }
+
+        &::-webkit-input-placeholder {
+          color: $white;
+        }
+
+        &::-moz-placeholder {
+          color: $white;
+        }
+
+        &::-ms-input-placeholder {
+          color: $white;
+        }
+
+        & + span {
+          opacity: 1;
+          top: 0.4rem;
+        }
+      }
+    }
+
+    span {
+      color: $gold;
+      font-size: 1.25rem;
+      position: absolute;
+      top: 0rem;
+      left: 2rem;
+      opacity: 0;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+
+// Non form styling
 .contact__info-wrapper {
   text-align: right;
 }
@@ -5,13 +86,45 @@
 .contact__button, .btn {
   background-color: $gold;
   color: $white;
-  border-radius: 4px;
-  transition: all 0.5s ease-in-out;
-
+  border-radius: 1px;
+  transition: all 0.25s ease-in-out;
 
   &:hover, &:focus, &:active {
     color: $gold;
     background-color: $white;
     border: 1px solid $darkgold;
+  }
+}
+
+.contact__hero {
+  background-image: url("../../images/gabriel-temp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+
+  @include desktop {
+    font-size: 10rem;
+    margin-top: 0;
+  }
+
+  @include tablet {
+    font-size: 10rem;
+    margin-top: 0;
+  }
+}
+
+.contact__hero-title {
+  color: $white;
+  font-size: 5rem;
+  text-align: center;
+
+
+  @include desktop {
+    font-size: 7.5rem;
+  }
+
+  @include tablet {
+    font-size: 7.5rem;
   }
 }
