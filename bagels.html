@@ -3,7 +3,12 @@ layout: default
 permalink: /products/bagels/
 ---
 
-{% include mobile-nav.html %}
+<div class="bagels__hero">
+  {% include mobile-nav.html %}
+
+  <h1 class="bagels__hero-title">Bagels</h1>
+  <h4 class="bagels__hero-subtext">"Nom Nom Nom"</h4>
+</div>
 
 <div class="bagels" id="bagelPage">
   {% for bagel in site.bagels %}
