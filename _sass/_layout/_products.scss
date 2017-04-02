@@ -1,28 +1,27 @@
-// #products {
-//   background-image: url("../../images/gabriel-temp.jpg");
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   height: 90vh;
-// }
 
 .products__grid {
+  margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
 }
 
 .products__grid-item-wrapper {
-  flex-basis: 30%;
+  flex-basis: 33%;
+  padding: 4rem;
   flex-grow: 1;
   margin: 0 auto;
   text-align: center;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
 }
 
 .products__image {
-  max-height: 15em;
+  max-height: 10em;
 }
 
-// here
 .products__hero {
   background-image: url("../../images/gabriel-temp.jpg");
   background-position: center;
