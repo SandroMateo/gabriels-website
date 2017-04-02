@@ -1,13 +1,21 @@
 .breads__image, .bagels__image {
-  max-height: 7em;
-}
-
-
-.bagels {
-  background-image: url("../../images/table.jpg");
+  max-height: 10em;
 }
 
 .bagels, .breads {
   display: flex;
   flex-wrap: wrap;
+}
+
+.bagels__wrapper, .breads__wrapper {
+  flex-basis: 33%;
+  padding: 4rem;
+  flex-grow: 1;
+  margin: 0 auto;
+  text-align: center;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
 }

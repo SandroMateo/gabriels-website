@@ -6,9 +6,9 @@ permalink: /products/bagels/
 <div class="bagels" id="bagelPage">
   {% for bagel in site.bagels %}
     {% assign link = bagel.title %}
-    <div class="bagels__wrapper product-box img-responsive">
+    <div class="bagels__wrapper">
       <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
-        <img class="bagel bagels__image" src={{ bagel.image }} alt="">
+        <img class="bagel bagels__image img_responsive" src={{ bagel.image }} alt="">
         <h2 class="bagels__name">{{ link }}</h2>
       </a>
     </div>

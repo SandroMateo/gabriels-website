@@ -7,7 +7,7 @@ permalink: /products/bread/
 <div class="breads" id="breadPage">
   {% for bread in site.bread %}
     {% assign link = bread.title %}
-    <div class="breads__wrapper product-box img-responsive">
+    <div class="breads__wrapper">
       <a class="breads__link" href={{ "/products/bread/" | append: link }}>
         <img class="breads__image bread" src={{ bread.image }} alt="">
         <h2 class="breads__name">{{ link }}</h2>
