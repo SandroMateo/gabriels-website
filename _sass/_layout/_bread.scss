@@ -1,11 +1,13 @@
-.bread {
+.breads__image, .bagels__image {
   max-height: 7em;
 }
 
-.bagel {
-  max-height: 7em;
-}
 
-#bagelPage {
+.bagels {
   background-image: url("../../images/table.jpg");
+}
+
+.bagels, .breads {
+  display: flex;
+  flex-wrap: wrap;
 }
