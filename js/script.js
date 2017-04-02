@@ -13,5 +13,14 @@ $(document).ready(function(){
     $(".mobile-nav__menu-wrapper").removeClass("mobile-nav--display");
   });
 
+  $('.contact__item').on('change', function() {
+    var input = $(this);
+    if (input.val().length) {
+      input.addClass('populated');
+    } else {
+      input.removeClass('populated');
+    }
+  });
+
 
 });

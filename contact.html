@@ -3,29 +3,32 @@ layout: default
 permalink: /contact/
 ---
 
-<div class="jumbotron">
-  <h1>"Contact Blurb"</h1>
+<div class="contact__hero jumbotron">
+  {% include mobile-nav.html %}
+
+  <h1 class="contact__hero-title">"Contact Blurb"</h1>
 </div>
-<div class="container">
+<div class="contact container">
   <div class="row">
     <div class="col-xs-8">
-      <form action="https://formspree.io/droalvare22@gmail.com"
+
+      <form class="contact__form-wrapper" action="https://formspree.io/droalvare22@gmail.com"
       method="POST">
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input class="form-control" type="text" name="name" id="name" required>
+        <div class="contact__item-wrapper form-group">
+          <label class="contact__item-label" for="name">Name:</label>
+          <input class="form-control contact__item" type="text" name="name" id="name" placeholder="Name" required>
         </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input class="form-control" type="email" name="_replyto" id="email" required>
+        <div class="contact__item-wrapper form-group">
+          <label class="contact__item-label" for="email">Email:</label>
+          <input class="form-control contact__item" type="email" name="_replyto" id="email" placeholder="Email" required>
         </div>
-        <div class="form-group">
-          <label for="phone">Phone:</label>
-          <input class="form-control" type="tel" name="phone" id="phone">
+        <div class="contact__item-wrapper form-group">
+          <label class="contact__item-label" for="phone">Phone:</label>
+          <input class="form-control contact__item" type="tel" name="phone" placeholder="Phone" id="phone">
         </div>
-        <div class="form-group">
-          <label for="subject">Subject:</label>
-          <select class="form-control" name="_subject">
+        <div class="contact__select-wrapper form-group">
+          <label class="contact__select-label" for="subject">Subject:</label>
+          <select class="form-control contact__select" name="_subject">
             <option value="general">General Feedback</option>
             <option value="question">Questions and Concerns</option>
             <option value="wholesale">Wholesale Inquiry</option>
@@ -33,24 +36,26 @@ permalink: /contact/
             <option value="other">Other</option>
           </select>
         </div>
-        <div class="form-group">
-          <label for="comment">Comment:</label>
-          <br>
-          <textarea name="message" rows="8" cols="90"></textarea>
+        <div class="contact__item-wrapper form-group">
+          <label class="contact__item-label" for="comment">Comment:</label>
+          <textarea class="form-control contact__item" name="message" rows="8" cols="90" placeholder="Comment"></textarea>
         </div>
+
         <input type="text" name="_gotcha" style="display:none" />
-        <button type="submit" class="btn btn-warning">Send!</button>
+
+        <button type="submit" class="contact__button btn">Send <i class="fa fa fa-paper-plane" aria-hidden="true"></i></button>
       </form>
+
     </div>
-    <div id="contact-blurb"class="col-xs-4">
-      <h2>Get In Touch</h2>
-      <p>_______</p>
-      <p>Mozzarella chalk and cheese feta. Camembert de normandie hard cheese cheddar port-salut stinking bishop monterey jack cut the cheese cheese and biscuits. Croque monsieur cheese and wine cottage cheese croque monsieur croque monsieur st. agur blue cheese cream cheese parmesan. Roquefort melted cheese roquefort red leicester port-salut bavarian bergkase.</p>
+    <div class="contact__info-wrapper col-xs-4">
+      <h2 class="contact__info-title">Get In Touch</h2>
+      <p class="contact__hr">_______</p>
+      <p class="contact__info">Mozzarella chalk and cheese feta. Camembert de normandie hard cheese cheddar port-salut stinking bishop monterey jack cut the cheese cheese and biscuits.</p>
       <br>
-      <h2>Follow Us</h2>
-      <p>_______</p>
-      <p>@gabrielsbakery</p>
-      <p>facebook.com/gabriels-bakery</p>
+      <h2 class="contact__info-title">Follow Us</h2>
+      <p class="contact__hr">_______</p>
+      <p class="contact__info">@gabrielsbakery</p>
+      <p class="contact__info">facebook.com/gabriels-bakery</p>
     </div>
   </div>
 </div>

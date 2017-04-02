@@ -1,27 +1,29 @@
 ---
 permalink: /where-to-buy/
 ---
+<div class="locations">
+  <div class="locations__hero jumbotron">
+    {% include mobile-nav.html %}
 
-<div class="jumbotron">
-  <h1>Find Gabriel's Products Near You</h1>
-</div>
-<div class="container">
-      <!-- Form section for radio buttons -->
-      <h4>Filter By:</h4>
-      <form id="findByType">
-        <div class="form-group">
-          <input type="radio" name="locationType" id="grocery" value="grocery">
-          <label for="grocery">Grocery Stores</label>
-          <input type="radio" name="locationType" id="market" value="markets">
-          <label for="markets">Farmer's Markets</label>
-          <input type="radio" name="locationType" id="cafe" value="cafes">
-          <label for="cafes">Cafes</label>
-        </div>
-      </form>
-      <div id="map">
-
+    <h1 class="locations__hero-title">Find Gabriel's Products Near You</h1>
+  </div>
+  <div class="locations__map-wrapper container">
+        <!-- Form section for radio buttons -->
+    <h4 class="locations__filter-label">Filter By:</h4>
+    <form class="locations__filter" id="findByType">
+      <div class="form-group locations__filter-wrapper">
+        <input class="locations__filter-option" type="radio" name="locationType" id="grocery" value="grocery">
+        <label class="locations__filter-text" for="grocery">Grocery Stores</label>
+        <input class="locations__filter-option" type="radio" name="locationType" id="market" value="markets">
+        <label class="locations__filter-text" for="markets">Farmer's Markets</label>
+        <input class="locations__filter-option" type="radio" name="locationType" id="cafe" value="cafes">
+        <label class="locations__filter-text" for="cafes">Cafes</label>
       </div>
-    <div id="locationGrid" class="flex-location col-md-12">
+    </form>
+    <div class="locations__map" id="map">
+
+    </div>
+    <div id="locationGrid" class="locations__grid flex col-md-12">
 
     </div>
   </div>

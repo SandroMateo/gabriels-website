@@ -3,13 +3,17 @@ layout: default
 permalink: /products/bread/
 ---
 
+{% include mobile-nav.html %}
 
-<div class="flex">
+
+<div class="breads" id="breadPage">
   {% for bread in site.bread %}
     {% assign link = bread.title %}
-    <div class="product-box img-responsive">
-      <img class="bread" src={{ bread.image }} alt="">
-      <h2><a href={{ "/products/bread/" | append: link }}>{{ link }}</a></h2>
-    </div>
+    <a class="breads__link" href={{ "/products/bread/" | append: link }}>
+      <div class="breads__wrapper">
+        <img class="breads__image bread" src={{ bread.image }} alt="">
+        <h2 class="breads__name">{{ link }}</h2>
+      </div>
+    </a>
   {% endfor %}
 </div>

@@ -3,27 +3,39 @@ layout: default
 permalink: /products/
 ---
 
-<div id="products" class="jumbotron">
-  <h1>Our Products</h1>
-  <h4>"Sustainability, Creativity, Community, Commitment, Choosing Local"</h4>
+<div class="products__hero">
+  {% include mobile-nav.html %}
+
+  <h1 class="products__hero-title">Our Products</h1>
+  <h4 class="products__hero-subtext">"Sustainability, Creativity, Community, Commitment, Choosing Local"</h4>
 </div>
-<div class="flex">
-  <div id="flex-products" class="product-box img-responsive">
-    <a href="/products/bread"><h2>Bread</h2><img class="products" src="../../images/breads.png" alt="">
-    </a>
-  </div>
-  <div class="product-box img-responsive">
-    <a href="/products/bagels"><h2>Bagels</h2><img href="/products/bagels" class="products" src="../../images/bagels.png" alt="">
-    </a>
-  </div>
-  <div class="product-box img-responsive">
-    <a href="/products/pastries"><h2>Pastries</h2><img href="/products/pastries" class="products" src="../../images/pastries.png" alt="">
-    </a>
-  </div>
+<div class="products__grid">
+  <a class="products__product-link" href="/products/bread">
+    <div class="products__grid-item-wrapper">
+      <img class="products__image img_responsive" src="../../images/breads.png" alt="">
+      <h2 class="products__grid-text">Bread</h2>
+    </div>
+  </a>
+  <a class="products__product-link" href="/products/bagels">
+    <div class="products__grid-item-wrapper">
+      <img href="/products/bagels" class=" products__image img_responsive" src="../../images/bagels.png" alt="">
+      <h2 class="products__grid-text">Bagels</h2>
+    </div>
+  </a>
+  <a class="products__product-link" href="/products/pastries">
+    <div class="products__grid-item-wrapper">
+      <img href="/products/pastries" class=" products__image img_responsive" src="../../images/pastries.png" alt="">
+      <h2 class="products__grid-text">Pastries</h2>
+    </div>
+  </a>
 </div>
-<div class="row">
-  <div class="col-md-6">
-    <table>
+
+<!-- This needs to be cleaned up and on a separate page?? -->
+<!-- Nutritional Facts Tables -->
+<!-- <div class="row">
+  <div class="col-md-6"> -->
+    <!-- Table for Bagels Nutritional Info -->
+    <!-- <table>
       <thead>
         <tr>
           <th data-sort="string">Name</th>
@@ -49,8 +61,9 @@ permalink: /products/
     </table>
   </div>
   <div class="col-md-6">
-    <table>
-      <thead>
+    <table> -->
+      <!-- Table for Bread Nutritional Info -->
+      <!-- <thead>
         <tr>
           <th data-sort="string">Name</th>
           <th data-sort="int">Calories</th>
@@ -74,4 +87,4 @@ permalink: /products/
       </tbody>
     </table>
   </div>
-</div>
+</div> -->
