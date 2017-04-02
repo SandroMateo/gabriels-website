@@ -4,28 +4,31 @@ permalink: /products/
 ---
 
 <div class="products__hero">
+  {% include mobile-nav.html %}
+
   <h1 class="products__hero-title">Our Products</h1>
   <h4 class="products__hero-subtext">"Sustainability, Creativity, Community, Commitment, Choosing Local"</h4>
 </div>
 <div class="products__grid">
-  <div class="products__grid-item-wrapper">
-    <a class="products__product-link" href="/products/bread">
+  <a class="products__product-link" href="/products/bread">
+    <div class="products__grid-item-wrapper">
       <img class="products__image img_responsive" src="../../images/breads.png" alt="">
       <h2 class="products__grid-text">Bread</h2>
-    </a>
-  </div>
-  <div class="products__grid-item-wrapper">
-    <a class="products__product-link" href="/products/bagels">
+    </div>
+  </a>
+  <a class="products__product-link" href="/products/bagels">
+    <div class="products__grid-item-wrapper">
       <img href="/products/bagels" class=" products__image img_responsive" src="../../images/bagels.png" alt="">
       <h2 class="products__grid-text">Bagels</h2>
-    </a>
-  </div>
-  <div class="products__grid-item-wrapper">
-    <a class="products__product-link" href="/products/pastries">
+    </div>
+  </a>
+  <a class="products__product-link" href="/products/pastries">
+    <div class="products__grid-item-wrapper">
       <img href="/products/pastries" class=" products__image img_responsive" src="../../images/pastries.png" alt="">
       <h2 class="products__grid-text">Pastries</h2>
-    </a>
-  </div>
+    </div>
+  </a>
+  
 </div>
 
 <!-- This needs to be cleaned up and on a separate page?? -->

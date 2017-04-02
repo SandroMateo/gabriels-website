@@ -3,14 +3,17 @@ layout: default
 permalink: /products/bagels/
 ---
 
+{% include mobile-nav.html %}
+
 <div class="bagels" id="bagelPage">
   {% for bagel in site.bagels %}
     {% assign link = bagel.title %}
-    <div class="bagels__wrapper">
-      <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
+    <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
+      <div class="bagels__wrapper">
         <img class="bagel bagels__image img_responsive" src={{ bagel.image }} alt="">
         <h2 class="bagels__name">{{ link }}</h2>
-      </a>
-    </div>
+      </div>
+    </a>
+
   {% endfor %}
 </div>

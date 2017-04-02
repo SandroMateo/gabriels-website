@@ -1,23 +1,29 @@
+.products__grid-text {
+  text-transform: uppercase;
+}
 
 .products__grid {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin: 3rem 1rem 3rem 1rem;
   display: flex;
   flex-wrap: wrap;
 }
 
-.products__grid-item-wrapper {
+.products__product-link{
   flex-basis: 33%;
-  padding: 4rem;
   flex-grow: 1;
   margin: 0 auto;
   text-align: center;
+}
+
+.products__grid-item-wrapper {
+  padding: 4rem;
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0.25rem 0.25rem 1rem $gray;
   }
 }
+
 
 .products__image {
   max-height: 10em;
