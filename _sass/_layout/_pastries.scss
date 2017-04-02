@@ -1,0 +1,55 @@
+.pastries {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.pastries__wrapper {
+  flex-basis: 33%;
+  flex-grow: 1;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 30rem;
+  box-shadow: 0.25rem 0.25rem 1rem $gray;
+
+}
+.pastries__list {
+
+}
+
+.pastries__image-wrapper {
+  flex-basis: 33%;
+  box-shadow: 0.25rem 0.25rem 1rem $gray;
+  flex-grow: 1;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 30rem;
+}
+
+.pastries__title {
+  text-transform: uppercase;
+}
+
+.pastries__image {
+  max-height: 15em;
+}
+
+.pastries__list-wrapper {
+  line-height: 0.75;
+}
+
+// Style modifications for wrappers
+
+.style1 {
+  background-color: $darkgray;
+  color: $white;
+}
+
+.style2 {
+  background-color: $gold;
+  color: $darkgray;
+}
