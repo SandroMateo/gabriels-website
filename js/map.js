@@ -71,6 +71,7 @@ $(document).ready(function() {
 
   $('#findByType').click(function() {
     var locationType = $("input:radio[name=locationType]:checked").val();
+    console.log(locationType);
     switch(locationType){
       case locationType:
         removeLocationData(map);

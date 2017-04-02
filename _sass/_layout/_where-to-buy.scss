@@ -24,3 +24,49 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.locations__hero {
+  background-image: url("../../images/gabriel-temp.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 75vh;
+
+  @include desktop {
+    font-size: 10rem;
+    margin-top: 0;
+  }
+
+  @include tablet {
+    font-size: 10rem;
+    margin-top: 0;
+  }
+}
+
+.locations__hero-title {
+  color: $white;
+  font-size: 5rem;
+  text-align: center;
+
+
+  @include desktop {
+    font-size: 7.5rem;
+  }
+
+  @include tablet {
+    font-size: 7.5rem;
+  }
+}
+
+.locations__filter-option {
+  visibility: hidden;
+}
+
+input[type="radio"] + .locations__filter-text {
+  padding: 1rem;
+}
+
+input[type="radio"]:checked + .locations__filter-text {
+  background-color: $darkgray;
+  color: $gold;
+}
