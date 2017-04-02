@@ -1,4 +1,17 @@
-
-#contact-blurb {
+.contact__info-wrapper {
   text-align: right;
+}
+
+.contact__button, .btn {
+  background-color: $gold;
+  color: $white;
+  border-radius: 4px;
+  transition: all 0.5s ease-in-out;
+
+
+  &:hover, &:focus, &:active {
+    color: $gold;
+    background-color: $white;
+    border: 1px solid $darkgold;
+  }
 }

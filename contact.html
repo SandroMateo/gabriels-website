@@ -5,25 +5,26 @@ permalink: /contact/
 
 <div class="contact__hero jumbotron">
   {% include mobile-nav.html %}
-  
+
   <h1 class="contact__hero-title">"Contact Blurb"</h1>
 </div>
 <div class="contact container">
   <div class="row">
     <div class="col-xs-8">
+
       <form class="contact__form-wrapper" action="https://formspree.io/droalvare22@gmail.com"
       method="POST">
         <div class="contact__item-wrapper form-group">
           <label class="contact__item-label" for="name">Name:</label>
-          <input class="form-control contact__item" type="text" name="name" id="name" required>
+          <input class="form-control contact__item" type="text" name="name" id="name" placeholder="Name" required>
         </div>
         <div class="contact__item-wrapper form-group">
           <label class="contact__item-label" for="email">Email:</label>
-          <input class="form-control contact__item" type="email" name="_replyto" id="email" required>
+          <input class="form-control contact__item" type="email" name="_replyto" id="email" placeholder="Email" required>
         </div>
         <div class="contact__item-wrapper form-group">
           <label class="contact__item-label" for="phone">Phone:</label>
-          <input class="form-control contact__item" type="tel" name="phone" id="phone">
+          <input class="form-control contact__item" type="tel" name="phone" placeholder="Phone" id="phone">
         </div>
         <div class="contact__select-wrapper form-group">
           <label class="contact__select-label" for="subject">Subject:</label>
@@ -35,18 +36,21 @@ permalink: /contact/
             <option value="other">Other</option>
           </select>
         </div>
-        <div class="contact__select-wrapper form-group">
+        <div class="contact__item-wrapper form-group">
           <label class="contact__item-label" for="comment">Comment:</label>
-          <textarea class="contact__item" name="message" rows="8" cols="90"></textarea>
+          <textarea class="form-control contact__item" name="message" rows="8" cols="90" placeholder="Comment"></textarea>
         </div>
+
         <input type="text" name="_gotcha" style="display:none" />
-        <button type="submit" class="contact__button btn">Send!</button>
+
+        <button type="submit" class="contact__button btn">Send <i class="fa fa fa-paper-plane" aria-hidden="true"></i></button>
       </form>
+
     </div>
-    <div id="contact-blurb" class="contact__info-wrapper col-xs-4">
+    <div class="contact__info-wrapper col-xs-4">
       <h2 class="contact__info-title">Get In Touch</h2>
       <p class="contact__hr">_______</p>
-      <p class="contact__info">Mozzarella chalk and cheese feta. Camembert de normandie hard cheese cheddar port-salut stinking bishop monterey jack cut the cheese cheese and biscuits. Croque monsieur cheese and wine cottage cheese croque monsieur croque monsieur st. agur blue cheese cream cheese parmesan. Roquefort melted cheese roquefort red leicester port-salut bavarian bergkase.</p>
+      <p class="contact__info">Mozzarella chalk and cheese feta. Camembert de normandie hard cheese cheddar port-salut stinking bishop monterey jack cut the cheese cheese and biscuits.</p>
       <br>
       <h2 class="contact__info-title">Follow Us</h2>
       <p class="contact__hr">_______</p>
