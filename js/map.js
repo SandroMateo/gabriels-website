@@ -61,6 +61,16 @@ function appendData(location) {
   }
 }
 
+function switchLocation(_map, _locationType) {
+  console.log(_locationType);
+  switch(_locationType){
+    case _locationType:
+      removeLocationData(_map);
+      loadLocationData(_map, _locationType);
+    break;
+  }
+}
+
 $(document).ready(function() {
   var map = new MapMaker();
   var locationTypeArray = ["cafes", "grocery", "markets"];
@@ -69,14 +79,18 @@ $(document).ready(function() {
     loadLocationData(map, locationTypeArray[i]);
   };
 
-  $('#findByType').click(function() {
-    var locationType = $("input:radio[name=locationType]:checked").val();
-    console.log(locationType);
-    switch(locationType){
-      case locationType:
-        removeLocationData(map);
-        loadLocationData(map, locationType);
-      break;
-    }
+  $('#grocery').click(function() {
+    var locationType = $(this).val();
+    switchLocation(map, locationType);
+  });
+
+  $('#markets').click(function() {
+    var locationType = $(this).val();
+    switchLocation(map, locationType);
+  });
+
+  $('#cafes').click(function() {
+    var locationType = $(this).val();
+    switchLocation(map, locationType);
   });
 });
