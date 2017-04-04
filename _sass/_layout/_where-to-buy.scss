@@ -58,8 +58,9 @@
   }
 }
 
-button[type="button"] + .locations__filter-text {
+.locations__filter-text {
   padding: 1rem;
   background-color: $darkgray;
   color: $gold;
+  margin-bottom: 1rem;
 }

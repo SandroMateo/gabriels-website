@@ -20,16 +20,17 @@ MapMaker.prototype.markLocations = function(location) {
     position: latLng,
     map: this.map,
     animation: google.maps.Animation.DROP,
-    title: location.properties.title
+    title: location.properties.title,
+    address: location.properties.address,
+    url: location.properties.url
   });
   this.markerArray.push(marker);
   marker.addListener('click', function() {
-    console.log(that.infowindow);
     if(that.infowindow) {
       that.infowindow.close();
     };
     that.infowindow = new google.maps.InfoWindow({
-      content: marker.title
+      content: "<a href=" + marker.url + " target='_blank'><h4>" + marker.title + "</h4></a><p>" + marker.address + "</p>"
     })
     that.infowindow.open(map, marker);
   });
@@ -57,12 +58,11 @@ function removeLocationData(_map) {
 
 function appendData(location) {
   for (var i = 0; i < location.features.length; i++) {
-    $('#locationGrid').append("<div class='location-box'><h3>" + location.features[i].properties.title + "</h3> <p>" + location.features[i].properties.address + "</p></div>");
+    $('#locationGrid').append("<div class='location-box'><a href=" + location.features[i].properties.url + " target='_blank'><h3>" + location.features[i].properties.title + "</h3></a><p>" + location.features[i].properties.address + "</p></div>");
   }
 }
 
 function switchLocation(_map, _locationType) {
-  console.log(_locationType);
   switch(_locationType){
     case _locationType:
       removeLocationData(_map);
