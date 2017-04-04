@@ -58,15 +58,8 @@
   }
 }
 
-.locations__filter-option {
-  visibility: hidden;
-}
-
-input[type="radio"] + .locations__filter-text {
+button[type="button"] + .locations__filter-text {
   padding: 1rem;
-}
-
-input[type="radio"]:checked + .locations__filter-text {
   background-color: $darkgray;
   color: $gold;
 }
