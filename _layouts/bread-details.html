@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="details__hero">
+  {% include mobile-nav.html %}
+
+  <h1 class="details__hero-title">{{ page.title }}</h1>
+  <!-- <h4 class="details__hero-subtext">{{ page.subtext }}</h4> -->
+  <img class="details__hero-image" src={{ page.image }} alt="product image">
+
+</div>
+
+<!-- {{ content }} -->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <img class="img-responsive"src={{ page.labelImage }} alt="Second slide">
+      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+
+        <div class="carousel-inner">
+          <div class="item active">
+            <img class="d-block img-fluid" src={{ page.image }} alt="First slide">
+          </div>
+          <div class="item">
+
+          </div>
+        </div>
+
+
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+          <span aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div> -->
+    </div>
+    <div class="col-sm-4">
+      <h4>Ingredients: {{ page.ingredients }}</h4>
+    </div>
+    <div class="col-sm-4">
+      <br>
+      <img class="img-responsive"src={{ page.nutritionImage }} alt="product label">
+    </div>
+  </div>
+</div>

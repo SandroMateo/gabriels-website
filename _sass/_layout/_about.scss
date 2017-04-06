@@ -13,6 +13,7 @@
 
   @include tablet {
     font-size: 2rem;
+    margin-top: 3rem;
   }
 }
 
@@ -72,9 +73,11 @@
 
   @include desktop {
     font-size: 7.5rem;
+    margin-top: 10rem;
   }
 
   @include tablet {
+    margin-top: 10rem;
     font-size: 7.5rem;
   }
 }

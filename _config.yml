@@ -50,14 +50,14 @@ defaults:
       path: ""
       type: "bread"
     values:
-      layout: "details"
+      layout: "bread-details"
       logo: "../../../images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bagels"
     values:
-      layout: "details"
+      layout: "bagel-details"
       logo: "../../../images/GabrielsBakeryLogo.png"
 exclude:
   - Gemfile
