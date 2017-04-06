@@ -1,8 +1,9 @@
 .details__hero {
-  background-image: url("../../images/gabriel-temp.jpg");
+  // background-image: url("../../images/BlueberryLone.png");
+  background-color: whitesmoke;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   height: 75vh;
 
   @include desktop {
@@ -17,7 +18,7 @@
 }
 
 .details__hero-title {
-  color: $white;
+  color: black;
   font-size: 5rem;
   text-align: center;
 
@@ -43,4 +44,10 @@
   @include tablet {
     font-size: 1.5rem;
   }
+}
+
+.details__hero-image {
+  display: block;
+  margin: auto;
+  max-height: 60vh;
 }
