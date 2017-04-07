@@ -1,5 +1,7 @@
 .products__grid-text {
   text-transform: uppercase;
+  font-family: $headerfont;
+  padding-top: 2rem;
 }
 
 .products__grid {
@@ -20,7 +22,7 @@
 }
 
 .products__grid-item-wrapper {
-  padding: 4rem;
+  padding: 2rem;
 
   &:hover {
     transform: scale(1.05);

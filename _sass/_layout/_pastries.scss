@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 
 .pastries__wrapper {
@@ -11,9 +10,17 @@
   margin: 0 auto;
   text-align: center;
   min-height: 30rem;
-  // box-shadow: 0.25rem 0.25rem 1rem $gray;
-
 }
+
+.pastries__wrapper--margin {
+  flex-basis: 33%;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding-top: 5rem;
+  text-align: center;
+  min-height: 30rem;
+}
+
 .pastries__list {
   padding: 2rem;
 }
@@ -40,7 +47,7 @@
 }
 
 .pastries__list-wrapper {
-  line-height: 0.75;
+  line-height: 0.8;
 }
 
 // Style modifications for wrappers
@@ -52,6 +59,11 @@
 
 .style2 {
   background-color: $gold;
+  color: $darkgray;
+}
+
+.style3 {
+  background-color: $gray;
   color: $darkgray;
 }
 
