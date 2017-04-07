@@ -11,11 +11,11 @@
   margin: 0 auto;
   text-align: center;
   min-height: 30rem;
-  box-shadow: 0.25rem 0.25rem 1rem $gray;
+  // box-shadow: 0.25rem 0.25rem 1rem $gray;
 
 }
 .pastries__list {
-
+  padding: 2rem;
 }
 
 .pastries__image-wrapper {
@@ -32,6 +32,7 @@
 
 .pastries__title {
   text-transform: uppercase;
+  font-family: $headerfont;
 }
 
 .pastries__image {
