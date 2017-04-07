@@ -1,22 +1,40 @@
 ---
 layout: default
 ---
-
 <div class="details__hero">
   {% include mobile-nav.html %}
-
   <h1 class="details__hero-title">{{ page.title }}</h1>
-  <!-- <h4 class="details__hero-subtext">{{ page.subtext }}</h4> -->
-  <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">
+  <div class="row">
+    <div class="col-md-5 col-md-push-4">
+      <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">
+      <div class="details__bagel-ingredients-wrapper">
+        <h4 class="details__bagel-ingredients">Ingredients: {{ page.ingredients }}</h4>
+      </div>
+    </div>
+    <div class="col-md-4 col-md-pull-5">
+      <img class="details__label-image img-responsive"src={{ page.labelImage }} alt="Second slide">
+    </div>
 
+    <div class="col-md-3">
+      <img class="details__nutrition-image img-responsive"src={{ page.nutritionImage }} alt="product label">
+    </div>
+  </div>
 </div>
+
+
+
+
+  <!-- <h4 class="details__hero-subtext">{{ page.subtext }}</h4> -->
+  <!-- <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">
+
+</div> -->
 
 <!-- {{ content }} -->
 
-<div class="container">
+<!-- <div class="container">
   <div class="row">
     <div class="col-sm-4">
-      <img class="details__label-image img-responsive"src={{ page.labelImage }} alt="Second slide">
+      <img class="details__label-image img-responsive"src={{ page.labelImage }} alt="Second slide"> -->
       <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
 
@@ -39,7 +57,7 @@ layout: default
           <span class="sr-only">Next</span>
         </a>
       </div> -->
-    </div>
+    <!-- </div>
     <div class="col-sm-4">
       <h4 class="details__bagel-ingredients">Ingredients: {{ page.ingredients }}</h4>
     </div>
@@ -48,4 +66,4 @@ layout: default
       <img class="details__nutrition-image img-responsive"src={{ page.nutritionImage }} alt="product label">
     </div>
   </div>
-</div>
+</div> -->
