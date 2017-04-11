@@ -60,7 +60,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Bare Bones Cafe & Bar",
-        "url": "barebonespdx.com",
+        "url": "http://www.barebonespdx.com",
         "address": "2900 SE Belmont St, Portland, OR 97214"
       },
       "geometry": {
@@ -73,7 +73,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "BridgePort Brewpub",
-        "url": "bridgeportbrew.com",
+        "url": "http://bridgeportbrew.com",
         "address": "1313 NW Marshall St, Portland, OR 97209"
       },
       "geometry": {
@@ -177,7 +177,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "First Cup Coffee House",
-        "url": "firstcupcoffeehouse.com",
+        "url": "http://firstcupcoffeehouse.com",
         "address": "Woodstock Square, 4103 SE Woodstock Blvd, Portland, OR 97202"
       },
       "geometry": {
@@ -190,7 +190,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Just Bob",
-        "url": "justbobpdx.com",
+        "url": "http://justbobpdx.com",
         "address": "2403 NE Alberta St, Portland, OR 97211"
       },
       "geometry": {
@@ -203,7 +203,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Kornblatt's",
-        "url": "kornblattsdelipdx.com",
+        "url": "http://kornblattsdelipdx.com",
         "address": "628 NW 23rd Ave, Portland, OR 97210"
       },
       "geometry": {
@@ -229,7 +229,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Lionheart Coffee Company",
-        "url": "lionheartcoffee.com",
+        "url": "http://lionheartcoffee.com",
         "address": "11421 SW Scholls Ferry Rd, Beaverton, OR 97008"
       },
       "geometry": {
@@ -242,7 +242,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Muu-Muu's",
-        "url": "muumuus.net",
+        "url": "http://muumuus.net",
         "address": "612 NW 21st Ave, Portland, OR 97209"
       },
       "geometry": {
@@ -255,7 +255,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "The Original Pancake House",
-        "url": "originalpancakehouse.com",
+        "url": "http://originalpancakehouse.com",
         "address": "8601 SW 24th Ave, Portland, OR 97219"
       },
       "geometry": {
@@ -281,7 +281,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Playdate PDX",
-        "url": "playdatepdx.com",
+        "url": "http://playdatepdx.com",
         "address": "1434 NW 17th Ave, Portland, OR 97209"
       },
       "geometry": {
@@ -294,7 +294,7 @@
       "properties": {
         "locationType": "cafe",
         "title": "Cafe Portlandia",
-        "url": "wfcportland.com",
+        "url": "http://wfcportland.com",
         "address": "410 SW Main St, Portland, OR 97204"
       },
       "geometry": {
@@ -307,7 +307,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Rogue Eastside Pub & Pilot",
-        "url": "rogue.com",
+        "url": "http://rogue.com",
         "address": "928 SE 9th Ave, Portland, OR 97214"
       },
       "geometry": {
@@ -333,7 +333,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Sheridan Fruit (Deli)",
-        "url": "sheridanfruit.com",
+        "url": "http://sheridanfruit.com",
         "address": "408 S.E. 3rd Ave, Portland, OR 97214"
       },
       "geometry": {
@@ -346,7 +346,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Space Monkey Coffee",
-        "url": "spacemonkeycoffee.com",
+        "url": "http://spacemonkeycoffee.com",
         "address": "5511 SE 72nd Ave, Portland, OR 97206"
       },
       "geometry": {
@@ -359,7 +359,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Speedboat Coffee",
-        "url": "speedboatcoffee.com",
+        "url": "http://speedboatcoffee.com",
         "address": "5115 SE Foster Rd, Portland, OR 97206"
       },
       "geometry": {
@@ -385,7 +385,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Taborspace",
-        "url": "taborspace.org",
+        "url": "http://taborspace.org",
         "address": "5441 SE Belmont St, Portland, OR 97215"
       },
       "geometry": {
@@ -411,7 +411,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Village Market",
-        "url": "villagegardens.org",
+        "url": "http://villagegardens.org",
         "address": "4632 N Trenton St, Portland, OR 97203"
       },
       "geometry": {
@@ -424,7 +424,7 @@
       "properties":{
         "locationType": "cafe",
         "title": "Vintner's Cellar of Oregon",
-        "url": "vintnerscellarpdx.com",
+        "url": "http://vintnerscellarpdx.com",
         "address": "1111 NW 16th Ave, Portland, OR 97209"
       },
       "geometry": {
