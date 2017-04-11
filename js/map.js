@@ -44,7 +44,6 @@ function loadLocationData(_map, _locationType){
     for (var i = 0; i < locationResult.features.length; i++) {
       _map.markLocations(locationResult.features[i]);
     };
-    // appendData(locationResult);
   }).fail(function(error) {
     console.log("FAILURE");
   });
@@ -59,7 +58,7 @@ function removeLocationData(_map) {
 }
 
 function appendData(_marker) {
-    $('#locationGrid').append("<li value=" + _marker.id + "><h4>" + _marker.title + "</h4></li>");
+    $('#locationGrid').append("<li value=" + _marker.id + ">" + _marker.title + "</li>");
 }
 
 function switchLocation(_map, _locationType) {
@@ -96,7 +95,6 @@ $(document).ready(function() {
 
   $('#locationGrid').on("click", "li", function() {
     var markerId = $(this).val();
-    console.log(markerId);
     for (var i = 0; i < map.markerArray.length; i++) {
       if (map.markerArray[i].id === markerId) {
         if(map.infowindow) {
