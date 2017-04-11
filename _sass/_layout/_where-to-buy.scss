@@ -34,6 +34,11 @@
   list-style-type: none;
 }
 
+.locations__grid ul li:hover {
+  cursor: pointer;
+  color: $gold;
+}
+
 .locations__hero {
   background-image: url("../../images/gabriel-temp.jpg");
   background-position: center;
