@@ -1,35 +1,37 @@
-// .flex-location {
-//   display: flex;
-//   flex-wrap: wrap;
-//   justify-content: space-between;
-// }
-
-// .location-box {
-//   flex-basis: 100%;
-//   flex-grow: 1;
-//   margin: 0 auto;
-//   padding: 2rem;
-//   text-align: center;
-//
-//   @include tablet {
-//     flex-basis: 50%;
-//   }
-//
-//   @include desktop {
-//     flex-basis: 30%;
-//   }
-// }
-
 .locations__map {
-  margin-left: 5rem;
-  max-height: 50rem;
+  display: block;
+  margin: auto;
+  max-height: 25rem;
+
+  @include tablet {
+    max-height: 40rem;
+  }
+
+  @include desktop {
+    margin-left: 5rem;
+    max-height: 50rem;
+  }
 }
 
 .locations__grid {
-  margin-top: 10rem;
-  float: right;
   overflow-y: auto;
-  max-height: 50rem;
+  max-height: 25rem;
+  max-width: 25rem;
+  margin-top: 2rem;
+
+  @include tablet {
+    margin-top: 10rem;
+    max-height: 40rem;
+  };
+
+  @include desktop {
+    margin-top: 10rem;
+    max-height: 50rem;
+  }
+}
+
+.locations__grid ul {
+  list-style-type: none;
 }
 
 .locations__hero {
