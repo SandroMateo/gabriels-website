@@ -1,28 +1,35 @@
-.flex-location {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+// .flex-location {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: space-between;
+// }
 
-.location-box {
-  flex-basis: 100%;
-  flex-grow: 1;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+// .location-box {
+//   flex-basis: 100%;
+//   flex-grow: 1;
+//   margin: 0 auto;
+//   padding: 2rem;
+//   text-align: center;
+//
+//   @include tablet {
+//     flex-basis: 50%;
+//   }
+//
+//   @include desktop {
+//     flex-basis: 30%;
+//   }
+// }
 
-  @include tablet {
-    flex-basis: 50%;
-  }
-
-  @include desktop {
-    flex-basis: 30%;
-  }
+.locations__map {
+  margin-left: 5rem;
+  max-height: 50rem;
 }
 
 .locations__grid {
-  display: flex;
-  flex-wrap: wrap;
+  margin-top: 10rem;
+  float: right;
+  overflow-y: auto;
+  max-height: 50rem;
 }
 
 .locations__hero {
