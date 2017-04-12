@@ -1,10 +1,10 @@
 .details__hero {
   // background-image: url("../../images/BlueberryLone.png");
   background-color: whitesmoke;
-  // background-position: center;
-  // background-repeat: no-repeat;
-  // background-size: contain;
-  height: 100rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 75vh;
   margin-top: 10vh;
 
   @include desktop {
@@ -23,8 +23,6 @@
   font-size: 5rem;
   text-align: center;
   font-size: 7rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
 
 
   @include desktop {
@@ -36,19 +34,19 @@
   }
 }
 
-// .details__hero-subtext {
-//   color: $white;
-//   font-size: 2.5rem;
-//   text-align: center;
-//
-//   @include desktop {
-//     font-size: 1.5rem;
-//   }
-//
-//   @include tablet {
-//     font-size: 1.5rem;
-//   }
-// }
+.details__hero-subtext {
+  color: $white;
+  font-size: 2.5rem;
+  text-align: center;
+
+  @include desktop {
+    font-size: 1.5rem;
+  }
+
+  @include tablet {
+    font-size: 1.5rem;
+  }
+}
 
 .details__hero-image {
   display: block;

@@ -16,50 +16,41 @@ layout: default
 <!-- <div class="container"> -->
   <div class="row">
     <div class="col-sm-4">
-      <img class="img-responsive"src={{ page.labelImage }} alt="Second slide" data-toggle="modal" data-target="#myModal">
+      <img class="img-responsive"src={{ page.labelImage }} alt="product label" data-toggle="modal" data-target="#breadLabelModal">
 
-      <div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+      <div class="modal fade" tabindex="-1" role="dialog" id="breadLabelModal">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <img class="img-responsive"src={{ page.labelImage }} alt="Second slide">
+              <img class="img-responsive"src={{ page.labelImage }} alt="product label">
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
-
-      <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel">
-
-
-        <div class="carousel-inner">
-          <div class="item active">
-            <img class="d-block img-fluid" src={{ page.image }} alt="First slide">
-          </div>
-          <div class="item">
-
-          </div>
-        </div>
-
-
-        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-          <span aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-          <span aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div> -->
     </div>
     <div class="col-sm-4">
       <h4>Ingredients: {{ page.ingredients }}</h4>
     </div>
     <div class="col-sm-4">
       <br>
-      <img class="img-responsive"src={{ page.nutritionImage }} alt="product label">
+      <img class="img-responsive"src={{ page.nutritionImage }} alt="product label" data-toggle="modal" data-target="#breadNutritionModal">
+
+      <div class="modal fade" tabindex="-1" role="dialog" id="breadNutritionModal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <div class="modal-body">
+              <img class="img-responsive"src={{ page.nutritionImage }} alt="product label">
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div>
+      <!-- <img class="img-responsive"src={{ page.nutritionImage }} alt="product nutrition label"> -->
     </div>
   </div>
 <!-- </div> -->
