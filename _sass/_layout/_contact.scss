@@ -98,7 +98,7 @@
 }
 
 .contact__hero {
-  background-image: url("../../images/gabriel-temp.jpg");
+  background-image: url("../../images/contact-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,13 +119,16 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
+  padding-top: 20rem;
 
 
   @include desktop {
     font-size: 7.5rem;
+    padding-top: 20rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
+    padding-top: 20rem;
   }
 }
