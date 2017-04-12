@@ -9,41 +9,28 @@ permalink: /where-to-buy/
   </div>
 
   <div class="locations__map-wrapper container">
-    <h4 class="locations__filter-label">Filter By:</h4>
+    <div class="row">
+      <div class="col-sm-8">
+        <h4 class="locations__filter-label">Filter By:</h4>
 
-    <button class="locations__filter-text" id="grocery" type="button" name="button" value="grocery">Grocery</button>
+        <button class="locations__filter-text" id="grocery" type="button" name="button" value="grocery">Grocery</button>
 
-    <button class="locations__filter-text" id="markets" type="button" name="button" value="markets">Farmers' Markets</button>
+        <button class="locations__filter-text" id="markets" type="button" name="button" value="markets">Farmers' Markets</button>
 
-    <button class="locations__filter-text" id="cafes" type="button" name="button" value="cafes">Cafes</button>
-    <!-- <form class="locations__filter" id="findByType">
+        <button class="locations__filter-text" id="cafes" type="button" name="button" value="cafes">Cafes</button>
+        <div class="locations__map" id="map">
 
-      <div class="form-group locations__filter-wrapper">
-
-        <input class="locations__filter-option" type="radio" name="locationType" id="grocery" value="grocery">
-
-        <label class="locations__filter-text" for="grocery">
-          Grocery Stores
-        </label>
-
-
-        <input class="locations__filter-option" type="radio" name="locationType" id="markets" value="markets">
-        <label class="locations__filter-text" for="markets">
-          Farmer's Markets
-        </label>
-
-        <input class="locations__filter-option" type="radio" name="locationType" id="cafes" value="cafes">
-        <label class="locations__filter-text" for="cafes">
-          Cafes
-        </label>
-
+        </div>
       </div>
-    </form> -->
-    <div class="locations__map" id="map">
+      <div class="col-sm-4">
+        <div class="locations__grid">
+          <ul id="locationGrid">
 
+          </ul>
+        </div>
+      </div>
     </div>
-    <div id="locationGrid" class="locations__grid">
+    <br>
 
-    </div>
   </div>
 </div>

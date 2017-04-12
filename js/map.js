@@ -9,7 +9,7 @@ MapMaker.prototype.initiateMap = function() {
 
   this.map = new google.maps.Map(document.getElementById('map'), {
         center: gabes,
-        zoom: 11
+        zoom: 10
   })
 }
 
@@ -17,6 +17,7 @@ MapMaker.prototype.markLocations = function(location) {
   var that = this;
   var latLng = new google.maps.LatLng(location.geometry.coordinates[1], location.geometry.coordinates[0]);
   var marker = new google.maps.Marker({
+    id: this.markerArray.length,
     position: latLng,
     map: this.map,
     animation: google.maps.Animation.DROP,
@@ -34,6 +35,7 @@ MapMaker.prototype.markLocations = function(location) {
     })
     that.infowindow.open(map, marker);
   });
+  appendData(marker);
   marker.setMap(this.map);
 }
 
@@ -42,7 +44,6 @@ function loadLocationData(_map, _locationType){
     for (var i = 0; i < locationResult.features.length; i++) {
       _map.markLocations(locationResult.features[i]);
     };
-    appendData(locationResult);
   }).fail(function(error) {
     console.log("FAILURE");
   });
@@ -56,10 +57,8 @@ function removeLocationData(_map) {
   $("#locationGrid").html("");
 }
 
-function appendData(location) {
-  for (var i = 0; i < location.features.length; i++) {
-    $('#locationGrid').append("<div class='location-box'><a href=" + location.features[i].properties.url + " target='_blank'><h3>" + location.features[i].properties.title + "</h3></a><p>" + location.features[i].properties.address + "</p></div>");
-  }
+function appendData(_marker) {
+    $('#locationGrid').append("<li value=" + _marker.id + ">" + _marker.title + "</li>");
 }
 
 function switchLocation(_map, _locationType) {
@@ -93,4 +92,19 @@ $(document).ready(function() {
     var locationType = $(this).val();
     switchLocation(map, locationType);
   });
+
+  $('#locationGrid').on("click", "li", function() {
+    var markerId = $(this).val();
+    for (var i = 0; i < map.markerArray.length; i++) {
+      if (map.markerArray[i].id === markerId) {
+        if(map.infowindow) {
+          map.infowindow.close();
+        };
+        map.infowindow = new google.maps.InfoWindow({
+          content: "<a href=" + map.markerArray[i].url + " target='_blank'><h4>" + map.markerArray[i].title + "</h4></a><p>" + map.markerArray[i].address + "</p>"
+        })
+        map.infowindow.open(map, map.markerArray[i]);
+      }
+    }
+  })
 });
