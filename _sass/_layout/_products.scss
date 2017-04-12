@@ -34,8 +34,8 @@
 }
 
 .products__hero {
-  background-image: url("../../images/gabriel-temp.jpg");
-  background-position: center;
+  background-image: url("../../images/products-background.jpg");
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
@@ -52,17 +52,20 @@
 }
 
 .products__hero-title {
-  color: $white;
+  color: $gold;
   font-size: 5rem;
   text-align: center;
-
+  padding-top: 12rem;
 
   @include desktop {
     font-size: 7.5rem;
+    padding-top: 20rem;
+    padding-right: 50rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
+    padding-top: 17rem;
   }
 }
 
