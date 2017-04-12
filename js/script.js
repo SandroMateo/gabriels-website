@@ -28,5 +28,13 @@ $(document).ready(function(){
     }
   });
 
+  $('.sidebar__dropdown-button').mouseover(function(){
+    $('.sidebar__dropdown').show();
+  });
+
+  $('.sidebar__dropdown-button').mouseout(function(){
+    $('.sidebar__dropdown').hide();
+  });
+
 
 });

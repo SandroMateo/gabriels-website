@@ -72,3 +72,30 @@
 .sidebar__business-info {
 	line-height: 0.75;
 }
+
+.sidebar__dropdown {
+	display: none;
+	margin-left: 20rem;
+	margin-top: -4rem;
+	background-color: $gold;
+	padding: 2rem 4rem 2rem 2rem;
+	position: absolute;
+	box-shadow: 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.sidebar__dropdown-wrapper {
+	list-style-type: none;
+	text-align: left;
+}
+
+.sidebar__dropdown-hr {
+	color: $black;
+}
+
+.sidebar__dropdown-link {
+	font-size: 1.5rem;
+
+	&:hover, &:active, &:focus {
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
