@@ -27,8 +27,11 @@
   text-align: center;
 }
 
+
+
 .bagels__name, .breads__name {
-  text-transform: uppercase;
+  // text-transform: uppercase;
+  font-family: $headerfont;
 }
 
 .breads__hero {
