@@ -62,33 +62,9 @@
   // }
 }
 
-.details__label-image, .details__nutrition-image {
-  display: block;
-  margin: 0 auto;
-}
-
-.details__nutrition-image {
-  margin-top: 5rem;
-}
-
 .details__label-image {
-  max-height: 45rem;
-  padding: 1rem;
-  margin-top: 4rem;
-}
-
-.details__bagel-ingredients-wrapper {
-  margin-top: 5rem;
-  padding: 1rem;
-}
-
-.details__bagel-ingredients {
-  font-size: 1.5rem;
-}
-
-// .details__label-image {
-//   display: block;
-//   margin: auto;
+  display: block;
+  margin: auto;
 //
 //   @include desktop {
 //     margin-top: -40rem;
@@ -101,9 +77,10 @@
 //   }
 // }
 //
-// .details__nutrition-image {
-//   display: block;
-//   margin: auto;
+}
+.details__nutrition-image {
+  display: block;
+  margin: auto;
 //
 //   @include desktop {
 //     margin-top: -40rem;
@@ -112,7 +89,7 @@
 //   @include tablet {
 //     margin-top: -40rem;
 //   }
-// }
+}
 //
 // .details__bagel-ingredients {
 //
