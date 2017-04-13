@@ -6,6 +6,7 @@ layout: default
   <h1 class="details__hero-title">{{ page.title }}</h1>
   <div class="row">
     <div class="col-md-5 col-md-push-4">
+
       <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">
       <div class="details__bagel-ingredients-wrapper">
         <h4 class="details__bagel-ingredients">Ingredients: {{ page.ingredients }}</h4>
@@ -15,13 +16,13 @@ layout: default
       <img class="details__label-image img-responsive"src={{ page.labelImage }} alt="product label" data-toggle="modal" data-target="#bagelLabelModal">
 
       <div class="modal fade" tabindex="-1" role="dialog" id="bagelLabelModal">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <img class="img-responsive"src={{ page.labelImage }} alt="product label">
+              <img class="modal-image img-responsive" src={{ page.labelImage }} alt="product label">
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
@@ -50,7 +51,7 @@ layout: default
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <img class="img-responsive"src={{ page.nutritionImage }} alt="product nutrition label">
+              <img class="modal-image img-responsive"src={{ page.nutritionImage }} alt="product nutrition label">
             </div>
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
