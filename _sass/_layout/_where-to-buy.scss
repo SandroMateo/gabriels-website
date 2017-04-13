@@ -40,7 +40,7 @@
 }
 
 .locations__hero {
-  background-image: url("../../images/where-to-buy-background.jpg");
+  background-image: url("{{ site.BASE_PATH }}/images/where-to-buy-background.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
