@@ -23,8 +23,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  sandromateo
-production_url: http://sandromateo.github.io/gabriels-website
-BASE_PATH: http://sandromateo.github.io/gabriels-website
+production_url: https://sandromateo.github.io/gabriels-website
+BASE_PATH: https://sandromateo.github.io/gabriels-website
 
 # Build settings
 sass:
