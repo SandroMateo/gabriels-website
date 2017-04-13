@@ -46,21 +46,21 @@ defaults:
       path: ""
     values:
       layout: "default"
-      logo: "{{ site.BASE_PATH }}/images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bread"
     values:
       layout: "bread-details"
-      logo: "{{ site.BASE_PATH }}/images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bagels"
     values:
       layout: "bagel-details"
-      logo: "{{ site.BASE_PATH }}/images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
 exclude:
   - Gemfile
   - Gemfile.lock
