@@ -200,7 +200,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages
+  github-pages (= 134)
   jekyll-babel
   jekyll-feed (~> 0.6)
 
