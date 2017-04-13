@@ -36,10 +36,10 @@ gems:
 collections:
   bagels:
     output: true
-    permalink: /products/bagels/:path/
+    permalink: gabriels-website/products/bagels/:path/
   bread:
     output: true
-    permalink: /products/bread/:path/
+    permalink: gabriels-website/products/bread/:path/
 defaults:
   -
     scope:
