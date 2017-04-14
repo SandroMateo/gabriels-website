@@ -54,15 +54,14 @@
 }
 
 .products__hero-title {
-  color: $gold;
+  color: $white;
   font-size: 5rem;
   text-align: center;
   padding-top: 12rem;
 
   @include desktop {
     font-size: 7.5rem;
-    padding-top: 20rem;
-    padding-right: 50rem;
+    padding-top: 5rem;
   }
 
   @include tablet {
