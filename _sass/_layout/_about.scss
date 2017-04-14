@@ -5,6 +5,7 @@
   color: $gold;
   font-style: italic;
   margin: 3rem;
+  text-align: justify;
   padding: 2rem;
 
   @include desktop {
@@ -33,7 +34,7 @@
 
 // this should probably be fixed so the image stays more consistent
 .about__wrapper {
-  align-items: center;
+  // align-items: center;
   background-image: url("../../images/aboutHeadImage.jpg");
   background-position: top;
   background-size: cover;
@@ -70,15 +71,17 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
+  padding-top: 15rem;
+
 
   @include desktop {
     font-size: 7.5rem;
-    margin-top: 10rem;
+    padding-top: 20rem;
   }
 
   @include tablet {
-    margin-top: 10rem;
     font-size: 7.5rem;
+    padding-top: 20rem;
   }
 }
 
