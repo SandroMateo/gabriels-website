@@ -1,6 +1,6 @@
 .locations__map {
   display: block;
-  margin: auto;
+  // margin: auto;
   max-height: 25rem;
 
   @include tablet {
@@ -15,18 +15,23 @@
 
 .locations__grid {
   overflow-y: auto;
+  // border-left: 1px solid black;
   max-height: 25rem;
-  max-width: 25rem;
+  font-size: 2.2rem;
   margin-top: 2rem;
 
   @include tablet {
-    margin-top: 10rem;
+    margin-top: 9.5rem;
     max-height: 40rem;
+    font-size: 1.25rem;
+    max-width: 25rem;
   };
 
   @include desktop {
-    margin-top: 10rem;
+    margin-top: 9.5rem;
     max-height: 50rem;
+    font-size: 1.25rem;
+    max-width: 25rem;
   }
 }
 
@@ -61,14 +66,17 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
+  padding-top: 15rem;
 
 
   @include desktop {
     font-size: 7.5rem;
+    padding-top: 20rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
+    padding-top: 20rem;
   }
 }
 
@@ -77,4 +85,18 @@
   background-color: $darkgray;
   color: $gold;
   margin-bottom: 1rem;
+}
+
+
+.locations__filter-label {
+  @include desktop {
+    margin-left: 5rem;
+  }
+}
+
+.col-sm-8 > .locations__filter-text:first-of-type {
+
+  @include desktop {
+    margin-left: 5rem;
+  }
 }
