@@ -1,16 +1,18 @@
 .contact__form-wrapper {
   display: table;
   margin: 40px auto;
+  margin-left: 1rem;
+
+  @include mobile {
+    margin: 2rem;
+  }
 }
 
 .contact__select {
   border: 1px solid $black;
   border-radius: 0;
-  box-sizing: border-box;
-  -webkit-appearance: none;
-  -moz-appearance: none;
   height: 5rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .contact__select-label {
@@ -25,19 +27,19 @@
       font-weight: lighter;
       box-sizing: border-box;
       display: block;
-      border-radius: 0;
+      border-radius: 5px;
       border: 1px solid $black;
       padding: 2.5rem;
       // max-width: 50vw;
       margin-bottom: 2rem;
-      font-size: 2rem;
+      font-size: 1.5rem;
       outline: none;
       transition: all 0.2s ease-in-out;
 
       &::placeholder {
         transition: all 0.2s ease-in-out;
         color: $gray;
-        font-size: 2rem;
+        font-size: 1.5rem;
       }
 
       &:focus, &.populated {
@@ -81,13 +83,31 @@
 // Non form styling
 .contact__info-wrapper {
   text-align: right;
-  padding-left: 15rem;
+  max-width: 25rem;
+  margin: 0 auto;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+.contact__info-wrapper--mobile {
+  margin: 2rem 2.5rem;
+  max-width: 60rem;
+
+  @include tablet {
+    display: none;
+  }
+  @include desktop {
+    display: none;
+  }
 }
 
 .contact__button, .btn {
+  font-size: 1.5rem;
   background-color: $gold;
   color: $white;
-  border-radius: 1px;
+  border-radius: 5px;
   transition: all 0.25s ease-in-out;
 
   &:hover, &:focus, &:active {
@@ -103,23 +123,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 75vh;
-
-  @include desktop {
-    font-size: 10rem;
-    margin-top: 0;
-  }
-
-  @include tablet {
-    font-size: 10rem;
-    margin-top: 0;
-  }
 }
 
 .contact__hero-title {
   color: $white;
   font-size: 5rem;
   text-align: center;
-  padding-top: 20rem;
+  padding-top: 15rem;
 
 
   @include desktop {
