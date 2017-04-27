@@ -1,6 +1,5 @@
 .details__hero {
-  // background-image: url("../../images/BlueberryLone.png");
-  background-color: whitesmoke;
+  // background-color: whitesmoke;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -48,7 +47,7 @@
   }
 }
 
-.details__hero-image {
+.bagel-details__hero-image {
   display: block;
   margin: auto;
   // max-height: 60vh;
@@ -62,33 +61,32 @@
   // }
 }
 
-.details__label-image {
+.bagel-details__label-image {
   display: block;
   margin: auto;
-//
-//   @include desktop {
-//     margin-top: -40rem;
-//     max-width: 30rem;
-//   }
-//
-//   @include tablet {
-//     margin-top: -40rem;
-//     max-width: 25rem;
-//   }
-// }
-//
+
+  @include desktop {
+    max-height: 45rem;
+  }
+
+  @include tablet {
+    max-height: 45rem;
+  }
+
 }
-.details__nutrition-image {
+
+.bagel-details__nutrition-image {
   display: block;
   margin: auto;
-//
-//   @include desktop {
-//     margin-top: -40rem;
-//   }
-//
-//   @include tablet {
-//     margin-top: -40rem;
-//   }
+
+  @include desktop {
+    max-height: 45rem;
+  }
+
+  @include tablet {
+    max-height: 40rem;
+    margin-top: 2rem;
+  }
 }
 //
 // .details__bagel-ingredients {

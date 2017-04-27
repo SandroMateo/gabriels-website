@@ -40,11 +40,12 @@
 .pastries__title {
   text-transform: uppercase;
   font-family: $headerfont;
+  text-align: center;
 }
 
-.pastries__image {
-  max-height: 15em;
-}
+// .pastries__image {
+//   max-height: 15em;
+// }
 
 .pastries__list-wrapper {
   line-height: 0.8;
