@@ -23,8 +23,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  sandromateo
-production_url: http://sandromateo.github.io/gabriels-website
-BASE_PATH: http://sandromateo.github.io/gabriels-website
+# production_url: https://sandromateo.github.io/gabriels-website
+BASE_PATH: https://sandromateo.github.io/gabriels-website
 
 # Build settings
 sass:
@@ -36,31 +36,38 @@ gems:
 collections:
   bagels:
     output: true
+<<<<<<< HEAD
     permalink: /products/:collection/:path/
   bread:
     output: true
     permalink: /products/:collection/:path/
+=======
+    permalink: gabriels-website/products/bagels/:path/
+  bread:
+    output: true
+    permalink: gabriels-website/products/bread/:path/
+>>>>>>> 3696d5805502484fad975eed7ab148a008853838
 defaults:
   -
     scope:
       path: ""
     values:
       layout: "default"
-      logo: "../../images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bread"
     values:
       layout: "bread-details"
-      logo: "../../../images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
   -
     scope:
       path: ""
       type: "bagels"
     values:
       layout: "bagel-details"
-      logo: "../../../images/GabrielsBakeryLogo.png"
+      logo: "https://sandromateo.github.io/gabriels-website/images/GabrielsBakeryLogo.png"
 exclude:
   - Gemfile
   - Gemfile.lock

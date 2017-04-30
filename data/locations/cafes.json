@@ -8,7 +8,7 @@
         "locationType": "cafe",
         "title": "Gabriels Bakery",
         "url": "http://gabrielsbakery.com",
-        "image": "../images/GabrielsBakeryLogo.png",
+        "image": "{{ site.BASE_PATH }}/images/GabrielsBakeryLogo.png",
         "address": "1100 NE 21st Ave Suite A, Portland, OR 97232"
       },
       "geometry": {

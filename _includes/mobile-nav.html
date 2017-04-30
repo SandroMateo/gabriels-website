@@ -1,7 +1,7 @@
 <div class="mobile-nav">
   <!-- Logo for mobile view -->
-  <a href="/">
-    <img class="mobile-nav__logo" src="../../../images/GabrielsBakeryLogo.png" alt="Logo for Gabriel's Bakery">
+  <a href="{{ site.BASE_PATH }}/">
+    <img class="mobile-nav__logo" src="{{ site.BASE_PATH }}/images/GabrielsBakeryLogo.png" alt="Logo for Gabriel's Bakery">
   </a>
   <!-- Hamburger menu -->
   <i class="fa fa-bars mobile-nav__menu-button" aria-hidden="true"></i>
@@ -10,25 +10,25 @@
     <i class="fa fa-times mobile-nav__close-button" aria-hidden="true"></i>
     <ul>
       <li class="mobile-nav__menu-item">
-        <a href="/about">
+        <a href="{{ site.BASE_PATH }}/about">
           About
         </a>
       </li>
       <p class="mobile-nav__nav-hr">_______</p>
       <li class="mobile-nav__menu-item">
-        <a href="/products">
+        <a href="{{ site.BASE_PATH }}/products">
           Products
         </a>
       </li>
       <p class="mobile-nav__nav-hr">_______</p>
       <li class="mobile-nav__menu-item">
-        <a href="/contact">
+        <a href="{{ site.BASE_PATH }}/contact">
           Contact
         </a>
       </li>
       <p class="mobile-nav__nav-hr">_______</p>
       <li class="mobile-nav__menu-item">
-        <a href="/where-to-buy">
+        <a href="{{ site.BASE_PATH }}/where-to-buy">
           Where To Buy
         </a>
       </li>
