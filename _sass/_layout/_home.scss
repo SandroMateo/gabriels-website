@@ -8,7 +8,6 @@
   height: 80vh;
 }
 
-// This may need to be updated based on positioning of the text
 .main-page__content-wrapper {
   margin: 0 auto;
   margin-top: 10rem;
@@ -17,7 +16,6 @@
 
 }
 
-// May need to mess around with the font size more
 .main-page__title {
   color: $darkgold;
   font-size: 6rem;
@@ -40,16 +38,35 @@
 .main-page__subtext {
   color: $white;
   font-size: 2rem;
+  line-height: 1.25;
   margin: 0 auto;
-  text-shadow: 0.1rem 0.1rem 0.1rem $darkgray;
-
+  margin-top: 2rem;
+  // text-shadow: 0.1rem 0.1rem 0.1rem $darkgray;
 
   @include tablet {
-    max-width: 50vw;
+    max-width: 40vw;
   }
 
   @include desktop {
-    max-width: 50vw;
+    max-width: 40vw;
+  }
+}
+
+.main-page__feature-title {
+  font-family: $headerfont;
+  color: $gray;
+  font-size: 2.5rem;
+}
+
+.main-page__explore-more {
+  margin-top: 5rem;
+
+  & a {
+    color: $white;
+
+    &:hover, &:focus, &:active {
+      color: $gold;
+    }
   }
 }
 
@@ -69,18 +86,28 @@
 
 .new-item__wrapper, .gluten-free__wrapper {
   padding: 4rem;
-  height: 50vh;
+  min-height: 45vh;
+
+  // &:hover, &:active, &:focus {
+  //   transform: scale(1.05);
+  //   box-shadow: 0.25rem 0.25rem 1rem $gray;
+  // }
 }
 
 .new-item__wrapper {
-  background-image: url("../../images/featured-granola.jpg");
+  // background-image: url("../../images/featured-granola.jpg");
+  background-image: url("../../images/featured-glutenfree.jpg");
   background-position: center;
-  border-left: 0.5rem solid $white;
 }
 
 .gluten-free__wrapper {
   color: $black;
-  background-color: $gray;
+  background-color: $darkgray;
   // background-image: url("../../images/featured-glutenfree.jpg");
   // background-position: center;
+
+  & hr {
+    width: 5rem;
+    border: 1px solid $gold;
+  }
 }
