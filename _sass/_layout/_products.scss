@@ -19,10 +19,15 @@
 
 .products__grid-item-wrapper {
   padding: 2rem;
+  min-height: 25rem;
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
+
+  & .img-responsive {
+    margin: 0 auto;
   }
 }
 
