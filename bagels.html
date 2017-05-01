@@ -13,7 +13,7 @@ permalink: /products/bagels/
 <div class="bagels" id="bagelPage">
   {% for bagel in site.bagels %}
     {% assign link = bagel.title %}
-    <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
+    <a class="bagels__link" href={{ "https://sandromateo.github.io/gabriels-website/products/bagels/" | append: link }}>
       <div class="bagels__wrapper">
         <img class="bagels__image img_responsive" src={{ bagel.image }} alt="">
         <h2 class="bagels__name">{{ link }}</h2>
