@@ -1,9 +1,11 @@
 ---
 permalink: /products/bagels/bagel-matrix/
 ---
-<table>
-  <thead>
-    <tr>
+
+{% include mobile-nav.html %}
+<table class="product-matrix">
+  <thead class="product-matrix__header-wrapper">
+    <tr class="product-matrix__header">
       <th data-sort="string">Name (Serving Size 1 Bagel)</th>
       <th data-sort="int">Calories</th>
       <th data-sort="float">Total Fat (g)</th>
@@ -14,10 +16,11 @@ permalink: /products/bagels/bagel-matrix/
       <th data-sort="int">Protein (g)</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="product-matrix__data-wrapper">
     {% for bagel in site.bagels %}
       <tr class={{ bagel.title }}>
-        <td>{{ bagel.title }}</td>
+      <!-- <tr> -->
+        <td class="product-matrix__product-name">{{ bagel.title }}</td>
         {% for fact in bagel.nutrition %}
           <td>{{ fact[1] }}</td>
         {% endfor %}

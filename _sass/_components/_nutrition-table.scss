@@ -1,99 +1,116 @@
-table {
-  border-collapse: collapse;
-  margin-left: 5rem;
-}
-th, td {
-  border: 1px solid #999;
-  padding: 5px 10px;
-}
-th {
-  background-color: #eee;
-}
-
 .Blue {
-  background-color: #175C93
+  background-color: #175C93;
 }
 
 .Challah {
-  background-color: #3F55AB
+  background-color: #3F55AB;
 }
 
 .Cinnamon {
-  background-color: #F20000
+  background-color: #F20000;
 }
 
 .Cracked {
-  background-color: #94681D
+  background-color: #94681D;
 }
 
 .Eight {
-  background-color: #6E0E94
+  background-color: #6E0E94;
 }
 
 .Molasses {
-  background-color: #B60E2F
+  background-color: #B60E2F;
 }
 
 .Oatmeal {
-  background-color: #00A850
+  background-color: #00A850;
 }
 
 .Pumpkin {
-  background-color: #F53800
+  background-color: #F53800;
 }
 
 .Quinoa {
-  background-color: #EC7501
+  background-color: #EC7501;
 }
 
 .Sunflower {
-  background-color: #FFB400
+  background-color: #FFB400;
 }
 
 .Three {
-  background-color: #930096
+  background-color: #930096;
 }
 
 .Walnut {
-  background-color: #A4260F
+  background-color: #A4260F;
 }
 
 .Whole {
-  background-color: #AD4721
+  background-color: #AD4721;
 }
 
 .Blueberry {
-  background-color: #5B80D9
+  background-color: #5B80D9;
 }
 
 .Cheddar {
-  background-color: #FFBD07
+  background-color: #FFBD07;
 }
 
 .Everything {
-  background-color: #6D9688
+  background-color: #6D9688;
 }
 
 .Herb {
-  background-color: #56985B
+  background-color: #56985B;
 }
 
 .Jalapeño {
-  background-color: #07A37D
+  background-color: #07A37D;
 }
 
 .Pesto {
-  background-color: #0CB124
+  background-color: #0CB124;
 }
 
 .Plain {
-  background-color: #20A3CA
+  background-color: #20A3CA;
 }
 
 .Poppy {
-  background-color: #7D5CA2
+  background-color: #7D5CA2;
 }
 
 .Sesame {
-  background-color: #FF9700
+  background-color: #FF9700;
+}
+
+.product-matrix {
+  margin: 0 auto;
+  margin-top: 10rem;
+  border: none;
+
+  & th {
+    border-radius: 10px 10px 0px 0px;
+    border: none;
+    background-color: $darkgray;
+    color: $white;
+    padding: 10px;
+    cursor:pointer;
+
+    &:first-child {
+      cursor: default;
+    }
+  }
+
+  & td {
+    border: 1px solid $black;
+    padding: 5px 10px;
+    text-align: center;
+  }
+
+  & .product-matrix__product-name {
+    text-align: left;
+  }
 }
