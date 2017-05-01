@@ -103,8 +103,17 @@
 .gluten-free__wrapper {
   color: $black;
   background-color: $darkgray;
+  margin-bottom: 0.5rem;
   // background-image: url("../../images/featured-glutenfree.jpg");
   // background-position: center;
+
+  @include tablet {
+    margin-bottom: 0;
+  }
+
+  @include desktop {
+    margin-bottom: 0;
+  }
 
   & hr {
     width: 5rem;
