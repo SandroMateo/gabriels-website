@@ -14,7 +14,7 @@ permalink: /products/bread/
 <div class="breads" id="breadPage">
   {% for bread in site.bread %}
     {% assign link = bread.title %}
-    <a class="breads__link" href={{ "/products/bread/" | append: link }}>
+    <a class="breads__link" href={{ "https://sandromateo.github.io/gabriels-website/products/bread/" | append: link }}>
       <div class="breads__wrapper">
         <img class="breads__image" src={{ bread.image }} alt="">
         <h2 class="breads__name">{{ link }}</h2>
