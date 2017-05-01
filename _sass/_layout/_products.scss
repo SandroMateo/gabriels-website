@@ -6,13 +6,9 @@
 
 .products__grid {
   margin: 3rem 1rem 3rem 1rem;
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .products__product-link{
-  flex-basis: 33%;
-  flex-grow: 1;
   margin: 0 auto;
   text-align: center;
 
