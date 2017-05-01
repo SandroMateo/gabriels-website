@@ -113,6 +113,10 @@
   & .product-matrix__product-name {
     text-align: left;
   }
+
+  a:hover, a:active, a:focus {
+		color: $transparentwhite;
+	}
 }
 
 .product-matrix__title {
