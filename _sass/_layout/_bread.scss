@@ -28,7 +28,6 @@
 }
 
 .bagels__link, .breads__link {
-  flex-basis: 33%;
   flex-grow: 1;
   -webkit-flex-grow: 1;
   -webkit-flex-basis: 33%;
@@ -36,6 +35,15 @@
   flex: 1 100%;
   margin: 0 auto;
   text-align: center;
+
+  @include tablet {
+    -webkit-flex: 1 1 50%;
+    flex: 1 1 50%;
+  };
+
+  @include desktop {
+    flex-basis: 33%;
+  }
 }
 
 
