@@ -5,14 +5,6 @@ $(document).ready(function(){
 
   $(".mobile-nav__menu-button").on('click touchstart', handlePopdown);
   function handlePopdown(e){
-    if(e.type == 'touchstart') {
-        $('.mobile-nav__menu-button').off('click', handlePopdown).click(function(e){
-            // do nothing
-            e.stopPropagation();
-            e.preventDefault();
-            return false;
-        });
-    }
     $(this).hide();
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
     e.stopPropagation();
