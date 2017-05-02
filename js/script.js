@@ -3,7 +3,8 @@ $(document).ready(function(){
   $("table").stupidtable();
 
 
-  $(".mobile-nav__menu-button").on('touchstart click', function(){
+  $(".mobile-nav__menu-button").on('touchstart click', function(e){
+    e.preventDefault();
     $(this).hide();
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
   });
