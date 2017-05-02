@@ -32,6 +32,8 @@
   flex-grow: 1;
   -webkit-flex-grow: 1;
   -webkit-flex-basis: 33%;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
   margin: 0 auto;
   text-align: center;
 }

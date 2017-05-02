@@ -13,6 +13,8 @@
   margin: 0 auto;
   text-align: center;
   min-height: 30rem;
+  -webkit-flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .pastries__wrapper--margin {
@@ -22,6 +24,8 @@
   padding-top: 5rem;
   text-align: center;
   min-height: 30rem;
+  -webkit-flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .pastries__list {
@@ -41,6 +45,8 @@
   justify-content: center;
   text-align: center;
   min-height: 30rem;
+  -webkit-flex: 1 1 50%;
+  flex: 1 1 50%;
 }
 
 .pastries__image--one {
