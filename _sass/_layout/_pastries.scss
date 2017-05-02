@@ -8,17 +8,19 @@
 }
 
 .pastries__wrapper {
-  flex-basis: 33%;
   flex-grow: 1;
   margin: 0 auto;
   text-align: center;
   min-height: 30rem;
   -webkit-flex: 1 1 50%;
   flex: 1 1 50%;
+
+  @include desktop {
+    flex-basis: 33%;
+  }
 }
 
 .pastries__wrapper--margin {
-  flex-basis: 33%;
   flex-grow: 1;
   margin: 0 auto;
   padding-top: 5rem;
@@ -26,6 +28,10 @@
   min-height: 30rem;
   -webkit-flex: 1 1 50%;
   flex: 1 1 50%;
+
+  @include desktop {
+    flex-basis: 33%;
+  }
 }
 
 .pastries__list {
@@ -33,7 +39,6 @@
 }
 
 .pastries__image-wrapper {
-  flex-basis: 33%;
   box-shadow: 0.25rem 0.25rem 1rem $gray;
   flex-grow: 1;
   margin: 0 auto;
@@ -47,6 +52,10 @@
   min-height: 30rem;
   -webkit-flex: 1 1 50%;
   flex: 1 1 50%;
+
+  @include desktop {
+    flex-basis: 33%;
+  }
 }
 
 .pastries__image--one {
