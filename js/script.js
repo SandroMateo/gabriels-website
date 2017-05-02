@@ -5,7 +5,7 @@ $(document).ready(function(){
 
   $(".mobile-nav__menu-button").on('touchstart click', function(){
     $(this).hide();
-    $(".mobile-nav__menu-wrapper").slideDown("mobile-nav--display");
+    $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
   });
 
   $(".mobile-nav__close-button").on('touchstart click', function(){
