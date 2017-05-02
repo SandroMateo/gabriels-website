@@ -47,9 +47,9 @@
 
 .featured__wrapper {
   text-align: center;
-  color: $white;
+  color: $darkgray;
   font-family: $headerfont;
-  background-color: $darkgray;
+  // background-color: $darkgray;
   margin-left: auto;
   padding: 1rem;
 }
@@ -74,9 +74,11 @@
 .new-item__wrapper {
   background-image: url("../../images/featured-granola.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .gluten-free__wrapper {
   background-image: url("../../images/featured-glutenfree.jpg");
   background-position: center;
+  background-repeat: no-repeat;
 }
