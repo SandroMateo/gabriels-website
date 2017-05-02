@@ -50,8 +50,8 @@
   justify-content: center;
   text-align: center;
   min-height: 30rem;
-  -webkit-flex: 1 1 50%;
-  flex: 1 1 50%;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
 
   @include desktop {
     flex-basis: 33%;
