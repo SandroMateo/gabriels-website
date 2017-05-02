@@ -4,13 +4,14 @@ $(document).ready(function(){
 
 
   $(".mobile-nav__menu-button").on('touchstart click', function(e){
-    e.stopPropogation();
+    if(e.type == 'touchstart') {
+      $(".mobile-nav__menu-button").off('click');
+    }
     $(this).hide();
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
   });
 
   $(".mobile-nav__close-button").on('touchstart click', function(e){
-    e.stopPropogation();
     $(".mobile-nav__menu-button").show();
     $(".mobile-nav__menu-wrapper").removeClass("mobile-nav--display");
   });
