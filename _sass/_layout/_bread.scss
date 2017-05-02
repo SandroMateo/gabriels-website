@@ -14,12 +14,12 @@
   -ms-flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  -webkit-flex: 1 1 50%;
-  flex: 1 1 50%;
 }
 
 .bagels__wrapper, .breads__wrapper {
   padding: 4rem;
+  -webkit-flex: 1 1 50%;
+  flex: 1 1 50%;
 
 
   &:hover {
