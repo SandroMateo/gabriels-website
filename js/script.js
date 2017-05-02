@@ -4,11 +4,12 @@ $(document).ready(function(){
 
 
   $(".mobile-nav__menu-button").on('touchstart click', function(){
-    $(".mobile-nav__menu-button").hide();
+    $(this).hide();
     $(".mobile-nav__menu-wrapper").slideDown("mobile-nav--display");
   });
 
   $(".mobile-nav__close-button").on('touchstart click', function(){
+    $(".mobile-nav__menu-button").show();
     $(".mobile-nav__menu-wrapper").removeClass("mobile-nav--display");
   });
 
