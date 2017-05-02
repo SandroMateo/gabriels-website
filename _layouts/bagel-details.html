@@ -11,7 +11,7 @@ layout: default
         {% if previousId == bagelsId %}
           {% assign previousBagel = bagel.title %}
           <a href={{ "/products/bagels/" | append: previousBagel }}>
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
           </a>
         {% endif %}
       {% endfor %}
@@ -24,13 +24,13 @@ layout: default
         {% if nextId == bagelsId %}
           {% assign nextBagel = bagel.title %}
           <a href={{ "/products/bagels/" | append: nextBagel }}>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </a>
         {% endif %}
       {% endfor %}
     {% endunless %}
   </h1>
-  <div class="row">
+  <div class="row bagels-details__detail-wrapper">
     <div class="col-md-5 col-md-push-4">
 
       <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">

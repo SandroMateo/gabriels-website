@@ -1,9 +1,15 @@
 ---
 permalink: /products/bagels/bagel-matrix/
 ---
-<table>
-  <thead>
-    <tr>
+
+{% include mobile-nav.html %}
+<div class="product-matrix__title-wrapper">
+  <h1 class="product-matrix__title">Bagel Nutritional Comparison</h1>
+  <h6 class="product-matrix__subtext">Our bagel is locally sourced and blah blah blah. Something letting users they can click on the columns to sort by the different nutritional stuff</h6>
+</div>
+<table class="product-matrix">
+  <thead class="product-matrix__header-wrapper">
+    <tr class="product-matrix__header">
       <th data-sort="string">Name (Serving Size 1 Bagel)</th>
       <th data-sort="int">Calories</th>
       <th data-sort="float">Total Fat (g)</th>
@@ -14,10 +20,11 @@ permalink: /products/bagels/bagel-matrix/
       <th data-sort="int">Protein (g)</th>
     </tr>
   </thead>
-  <tbody>
+  <tbody class="product-matrix__data-wrapper">
     {% for bagel in site.bagels %}
-      <tr class={{ bagel.title }}>
-        <td>{{ bagel.title }}</td>
+      <!-- <tr class={{ bagel.title }}> -->
+      <tr>
+        <td class="{{bagel.title}} product-matrix__product-name"><a href="/products/bagels/{{bagel.href}}">{{ bagel.title }}</a></td>
         {% for fact in bagel.nutrition %}
           <td>{{ fact[1] }}</td>
         {% endfor %}

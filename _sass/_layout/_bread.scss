@@ -3,8 +3,15 @@
 }
 
 .bagels, .breads {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
   margin-top: 3rem;
   margin-bottom: 3rem;
 
@@ -23,6 +30,8 @@
 .bagels__link, .breads__link {
   flex-basis: 33%;
   flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -webkit-flex-basis: 33%;
   margin: 0 auto;
   text-align: center;
 }
