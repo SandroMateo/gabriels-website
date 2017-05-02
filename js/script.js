@@ -3,12 +3,21 @@ $(document).ready(function(){
   $("table").stupidtable();
 
 
-  $(".mobile-nav__menu-button").on('touchstart click', function(e){
+  $(".mobile-nav__menu-button").on('touchstart click', handlePopdown);
+  function handlePopdown(e){
     if(e.type == 'touchstart') {
-      $(".mobile-nav__menu-button").off('click');
+        $('.mobile-nav__menu-button').off('click', handlePopdown).click(function(e){
+            // do nothing
+            e.stopPropagation();
+            e.preventDefault();
+            return false;
+        });
     }
     $(this).hide();
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
+    e.stopPropagation();
+    e.preventDefault();
+    return false;
   });
 
   $(".mobile-nav__close-button").on('touchstart click', function(e){
