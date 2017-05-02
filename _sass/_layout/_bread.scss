@@ -18,9 +18,6 @@
 
 .bagels__wrapper, .breads__wrapper {
   padding: 4rem;
-  -webkit-flex: 1 1 50%;
-  flex: 1 1 50%;
-
 
   &:hover {
     transform: scale(1.05);
@@ -33,6 +30,8 @@
   flex-grow: 1;
   -webkit-flex-grow: 1;
   -webkit-flex-basis: 33%;
+  -webkit-flex: 1 1 50%;
+  flex: 1 1 50%;
   margin: 0 auto;
   text-align: center;
 }
