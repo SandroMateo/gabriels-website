@@ -3,7 +3,7 @@ $(document).ready(function(){
   $("table").stupidtable();
 
 
-  $(".mobile-nav__menu-button").on('touchstart click', handlePopdown);
+  $(".mobile-nav__menu-button").on('click touchstart', handlePopdown);
   function handlePopdown(e){
     if(e.type == 'touchstart') {
         $('.mobile-nav__menu-button').off('click', handlePopdown).click(function(e){
