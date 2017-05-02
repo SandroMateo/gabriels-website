@@ -3,13 +3,9 @@ $(document).ready(function(){
   $("table").stupidtable();
 
 
-  $(".mobile-nav__menu-button").on('click touchstart', handlePopdown);
-  function handlePopdown(e){
+  $(".mobile-nav__menu-button").on('click', function(e){
     $(this).hide();
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
-    e.stopPropagation();
-    e.preventDefault();
-    return false;
   });
 
   $(".mobile-nav__close-button").on('touchstart click', function(e){
