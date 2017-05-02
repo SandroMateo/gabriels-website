@@ -5,12 +5,26 @@
 }
 
 .products__grid {
-  margin: 3rem 1rem 3rem 1rem;
+  margin-top: 1rem;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
 }
 
 .products__product-link{
+  flex-grow: 1;
   margin: 0 auto;
+  padding-top: 5rem;
   text-align: center;
+  min-height: 30rem;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+
+  @include desktop {
+    flex-basis: 33%;
+  }
 
   h2 {
     margin-top: 0;
