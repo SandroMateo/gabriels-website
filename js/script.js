@@ -9,7 +9,8 @@ $(document).ready(function(){
     $(".mobile-nav__menu-wrapper").addClass("mobile-nav--display");
   });
 
-  $(".mobile-nav__close-button").on('touchstart click', function(){
+  $(".mobile-nav__close-button").on('touchstart click', function(e){
+    e.preventDefault();
     $(".mobile-nav__menu-button").show();
     $(".mobile-nav__menu-wrapper").removeClass("mobile-nav--display");
   });
