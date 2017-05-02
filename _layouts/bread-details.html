@@ -6,18 +6,24 @@ layout: default
   {% include mobile-nav.html %}
 
   <h1 class="breads-details__hero-title">
+
     {% unless page.breadId == 0 %}
+
       {% capture previousId %}{{ page.breadId | minus:1 }}{% endcapture %}
+
       {% for bread in site.bread %}
         {% capture breadId %}{{ bread.breadId }}{% endcapture %}
+
         {% if previousId == breadId %}
           {% assign previousBagel = bread.title %}
           <a href={{ "/products/bread/" | append: previousBagel }}>
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
+            <i class="fa fa-arrow-left" aria-hidden="true"></i>
           </a>
         {% endif %}
       {% endfor %}
+
     {% endunless %}
+
     {{ page.title }}
     {% unless page.breadId == 12 %}
       {% capture previousId %}{{ page.breadId | plus:1 }}{% endcapture %}
@@ -26,23 +32,21 @@ layout: default
         {% if previousId == breadId %}
           {% assign previousBagel = bread.title %}
           <a href={{ "/products/bread/" | append: previousBagel }}>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>
           </a>
         {% endif %}
       {% endfor %}
     {% endunless %}
   </h1>
-  <!-- <h4 class="details__hero-subtext">{{ page.subtext }}</h4> -->
+
   <img class="breads-details__hero-image img-responsive" src={{ page.image }} alt="product image">
 
 </div>
 
-<!-- {{ content }} -->
 
-<!-- <div class="container"> -->
-  <div class="row">
-    <div class="col-sm-4">
-      <img class="img-responsive"src={{ page.labelImage }} alt="product label" data-toggle="modal" data-target="#breadLabelModal">
+  <div class="row breads-details__detail-wrapper">
+    <div class="col-md-4">
+      <img class="img-responsive breads-details__label-img"src={{ page.labelImage }} alt="product label" data-toggle="modal" data-target="#breadLabelModal">
 
       <div class="modal fade" tabindex="-1" role="dialog" id="breadLabelModal">
         <div class="modal-dialog" role="document">
@@ -57,12 +61,9 @@ layout: default
         </div><!-- /.modal-dialog -->
       </div><!-- /.modal -->
     </div>
-    <div class="col-sm-4">
-      <h4>Ingredients: {{ page.ingredients }}</h4>
-    </div>
-    <div class="col-sm-4">
+    <div class="col-md-4 col-md-push-4">
       <br>
-      <img class="img-responsive"src={{ page.nutritionImage }} alt="product label" data-toggle="modal" data-target="#breadNutritionModal">
+      <img class="img-responsive breads-details__nutrition-img" src={{ page.nutritionImage }} alt="product label" data-toggle="modal" data-target="#breadNutritionModal">
 
       <div class="modal fade" tabindex="-1" role="dialog" id="breadNutritionModal">
         <div class="modal-dialog" role="document">
@@ -76,7 +77,10 @@ layout: default
           </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
       </div>
-      <!-- <img class="img-responsive"src={{ page.nutritionImage }} alt="product nutrition label"> -->
+
+    </div>
+    <div class="col-md-4 col-md-pull-4">
+      <h4 class="breads-details__ingredients">Ingredients: {{ page.ingredients }}</h4>
     </div>
   </div>
 <!-- </div> -->

@@ -1,63 +1,64 @@
 .breads-details__hero {
-  // background-image: url("/gabriels-website/images/BlueberryLone.png");
   background-color: whitesmoke;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+  // background-position: center;
+  // background-repeat: no-repeat;
+  // background-size: contain;
   height: 75vh;
   margin-top: 10vh;
 
   @include desktop {
-    font-size: 10rem;
     margin-top: 0;
   }
 
   @include tablet {
-    font-size: 10rem;
     margin-top: 0;
+  }
+
+  & .fa-arrow-left, & .fa-arrow-right {
+    font-size: 4rem;
+    vertical-align: middle;
   }
 }
 
 .breads-details__hero-title {
-  color: black;
-  font-size: 5rem;
+  color: $black;
   text-align: center;
+  padding-top: 2rem;
   font-size: 7rem;
-
-
   @include desktop {
     font-size: 7.5rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
-  }
-}
-
-.breads-details__hero-subtext {
-  color: $white;
-  font-size: 2.5rem;
-  text-align: center;
-
-  @include desktop {
-    font-size: 1.5rem;
-  }
-
-  @include tablet {
-    font-size: 1.5rem;
   }
 }
 
 .breads-details__hero-image {
   display: block;
   margin: auto;
-  max-height: 60vh;
+  max-height: 50vh;
+}
 
-  // @include desktop {
-  //   margin-top: -40rem;
-  // }
+.breads-details__ingredients {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
 
-  // @include tablet {
-  //   max-width: 30rem;
-  // }
+.breads-details__label-img {
+  margin-top: 2rem;
+}
+.breads-details__detail-wrapper {
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+  @include tablet {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
+
+  @include desktop {
+    margin-left: 0rem;
+    margin-right: 0rem;
+  }
 }

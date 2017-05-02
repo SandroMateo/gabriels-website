@@ -1,6 +1,11 @@
+.locations__map-wrapper {
+  @include mobile {
+    margin: 1rem;
+  }
+}
+
 .locations__map {
   display: block;
-  // margin: auto;
   max-height: 25rem;
 
   @include tablet {
@@ -80,22 +85,40 @@
   }
 }
 
+// .locations__filter-text {
+//   padding: 1rem;
+//   background-color: $darkgray;
+//   color: $gold;
+//   margin-bottom: 1rem;
+// }
+
 .locations__filter-text {
-  padding: 1rem;
-  background-color: $darkgray;
-  color: $gold;
+  font-size: 1.5rem;
+  background-color: $gold;
+  color: $white;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
   margin-bottom: 1rem;
+
+  &:hover, &:focus, &:active {
+    color: $gold;
+    background-color: $white;
+    border: 1px solid $darkgold;
+  }
 }
 
 
 .locations__filter-label {
+  margin-top: 2rem;
+  margin-left: 1rem;
+
   @include desktop {
     margin-left: 5rem;
   }
 }
 
 .col-sm-8 > .locations__filter-text:first-of-type {
-
+  margin-left: 1rem;
   @include desktop {
     margin-left: 5rem;
   }
