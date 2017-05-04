@@ -7,7 +7,6 @@ permalink: /products/bagels/
   {% include mobile-nav.html %}
 
   <h1 class="bagels__hero-title">Bagels</h1>
-  <a class="bagels__hero-subtext" href="/products/bagels/bagel-matrix/"><h6>Compare Nutrition Facts</h6></a>
 </div>
 
 <div class="bagels" id="bagelPage">
@@ -23,8 +22,12 @@ permalink: /products/bagels/
   {% endfor %}
 
 <!-- Temporary solution for the flexbox issue. this messes up the last bagel when bagels stack -->
-  <div class="bagels__link">
+<a class="bagels__link" href="/products/bagels/bagel-matrix/">
+  <div class="bagels__wrapper">
+    <h2 class="bagels__name">Compare Nutrition Facts</h2>
+    <br><br><br><br><br>
   </div>
+</a>
   <div class="bagels__link">
   </div>
 
