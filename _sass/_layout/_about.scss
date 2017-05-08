@@ -35,7 +35,9 @@
 // this should probably be fixed so the image stays more consistent
 .about__wrapper {
   // align-items: center;
-  background-image: url("../../images/aboutHeadImage.jpg");
+  // background: $black;
+  // background-image: url("../../images/aboutHeadImage.jpg");
+  background-image: url("../../images/aboutHeadImage.jpg"), linear-gradient($white, $black);
   background-position: top;
   background-size: cover;
   display: flex;
@@ -74,17 +76,15 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
-  padding-top: 15rem;
+  padding-top: 65vh;
 
 
   @include desktop {
     font-size: 7.5rem;
-    padding-top: 20rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
-    padding-top: 20rem;
   }
 }
 
