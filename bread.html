@@ -14,9 +14,9 @@ permalink: /products/bread/
   {% for bread in site.bread %}
     {% assign link = bread.title %}
     <a class="breads__link" href={{ "/products/bread/" | append: link }}>
-      <div class="breads__wrapper">
+      <div class="breads__wrapper {{ bread.href }}">
         <img class="breads__image" src={{ bread.image }} alt="">
-        <h2 class="breads__name">{{ link }}</h2>
+        <img class="breads__name img-responsive" src={{ bread.labelImage }}>
       </div>
     </a>
   {% endfor %}

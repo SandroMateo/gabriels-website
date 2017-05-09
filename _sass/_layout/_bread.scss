@@ -1,4 +1,4 @@
-.breads__image, .bagels__image {
+.breads__image {
   max-height: 10em;
 }
 
@@ -19,7 +19,6 @@
 
 .bagels__wrapper, .breads__wrapper {
   padding: 4rem;
-
 
   &:hover {
     transform: scale(1.05);
@@ -48,9 +47,11 @@
 
 
 
-.bagels__name, .breads__name {
-  // text-transform: uppercase;
-  font-family: $headerfont;
+.breads__name {
+  max-width: 25rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .breads__hero {
