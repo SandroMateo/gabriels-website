@@ -28,13 +28,18 @@
     font-size: 7rem;
     max-width: 50vw;
     text-align: right;
-    padding-left: 45rem;
-    margin-right: -35rem;
+    padding-left: 35rem;
+    margin-right: -30rem;
   }
 
   @include tablet {
-    font-size: 8rem;
-    max-width: 75vw;
+    font-size: 6rem;
+    max-width: 55vw;
+    padding-left: 20rem;
+    text-align: right;
+    margin-right: -10rem;
+    margin-top: 5rem;
+    // margin-right: -rem;
 
   }
 }

@@ -52,7 +52,7 @@
 
 .sidebar__nav-item {
 	display: block;
-	font-size: 2rem;
+	font-size: 3rem;
 	position: relative;
 }
 
@@ -96,7 +96,7 @@
 }
 
 .sidebar__dropdown-link {
-	font-size: 1.5rem;
+	font-size: 2rem;
 
 	&:hover, &:active, &:focus {
 		color: $gold;
