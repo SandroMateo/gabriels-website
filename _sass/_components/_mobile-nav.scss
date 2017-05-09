@@ -36,7 +36,10 @@
 }
 
 .mobile-nav__menu-wrapper {
+  background-image: url("../../../images/gabriels-map.png");
   background-color: rgba(255, 255, 255, 0.9);
+  background-position: center;
+  background-size: cover;
   display: none;
   height: 100vh;
   position: fixed;
