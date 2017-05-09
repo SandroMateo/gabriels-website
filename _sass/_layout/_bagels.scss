@@ -28,7 +28,8 @@
 }
 
 .bagels__name {
-  max-height: 20rem;
+  max-height: 18rem;
+  margin-top: 5rem;
   display: inline;
 
   @include tablet {
@@ -47,19 +48,20 @@
 
 .bagels__image {
   max-height: 25rem;
+  margin-left: 1rem;
   display: inline;
 
   @include tablet {
     margin-top: -25rem;
     display: block;
 
-    margin-left: 17rem;
+    margin-left: 17.5rem;
   }
   @include desktop {
     margin-top: -25rem;
     display: block;
 
-    margin-left: 17rem;
+    margin-left: 17.5rem;
   }
 
 }
