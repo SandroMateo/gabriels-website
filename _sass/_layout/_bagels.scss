@@ -19,7 +19,7 @@
 .bagels__wrapper {
   padding: 4rem;
   max-height: 30rem;
-  max-width: 40rem;
+  // max-width: 40rem;
 
   &:hover {
     transform: scale(1.05);
@@ -29,16 +29,39 @@
 
 .bagels__name {
   max-height: 20rem;
-  display: block;
-  margin-top: 3rem;
-  margin-left: 5rem;
+  display: inline;
+
+  @include tablet {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  @include desktop {
+    margin-top: 3rem;
+    display: block;
+
+    margin-left: 5rem;
+  }
+
 }
 
 .bagels__image {
   max-height: 25rem;
-  display: block;
-  margin-top: -25rem;
-  margin-left: 17rem;
+  display: inline;
+
+  @include tablet {
+    margin-top: -25rem;
+    display: block;
+
+    margin-left: 17rem;
+  }
+  @include desktop {
+    margin-top: -25rem;
+    display: block;
+
+    margin-left: 17rem;
+  }
+
 }
 
 .blueberry {
