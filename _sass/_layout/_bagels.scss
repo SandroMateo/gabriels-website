@@ -16,12 +16,31 @@
   }
 }
 
+.bagels__wrapper {
+  padding: 4rem;
+  height: 30rem;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
+}
+
 .bagels__name {
-  max-height: 30rem;
+  max-height: 25rem;
+  display: block;
+  margin: auto;
 }
 
 .bagels__image {
-  max-height: 15rem;
+  max-height: 25rem;
   display: block;
-  margin-top: 5rem;
+  margin: auto;
+}
+
+.blueberry {
+  background-image: url("../../images/BlueberryBagelLabel.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

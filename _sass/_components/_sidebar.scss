@@ -6,6 +6,7 @@
 	}
 
 	background-image: url("../../images/gabriels-map.png");
+	background-position: center;
 	// box-shadow: 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1); //do you want this?
 	color: $gold;
 	height: 100%;
@@ -33,6 +34,7 @@
 .sidebar__nav-wrapper {
 	margin-bottom: 0;
 	margin-top: 2rem;
+	list-style-type: none;
 }
 
 .sidebar__nav-link {
@@ -44,7 +46,7 @@
 	text-decoration: none;
 
 	&:hover, &:active, &:focus {
-		color: $transparentwhite;
+		color: $gold;
 	}
 }
 
@@ -63,7 +65,7 @@
 	bottom: 0;
 	color: $black;
 	display: block;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	margin-top: 4rem;
 	padding: 1rem 2rem 1rem 2rem;
 	right: 0;
@@ -75,17 +77,18 @@
 
 .sidebar__dropdown {
 	display: none;
-	margin-left: 20rem;
+	margin-left: 21rem;
 	margin-top: -4rem;
-	background-color: $gold;
-	padding: 2rem 4rem 2rem 2rem;
+	background-image: url("../../images/gabriels-map.png");
+	background-position: center;
+	padding: 2rem 5rem 2rem 2rem;
 	position: absolute;
 	box-shadow: 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1);
 }
 
 .sidebar__dropdown-wrapper {
 	list-style-type: none;
-	text-align: left;
+	text-align: center;
 }
 
 .sidebar__dropdown-hr {
@@ -96,6 +99,6 @@
 	font-size: 1.5rem;
 
 	&:hover, &:active, &:focus {
-		color: $transparentwhite;
+		color: $gold;
 	}
 }
