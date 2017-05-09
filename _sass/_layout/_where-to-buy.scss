@@ -7,8 +7,10 @@
 .locations__map {
   display: block;
   max-height: 25rem;
+  margin-left: 1rem;
 
   @include tablet {
+    margin-left: 1rem;
     max-height: 40rem;
   }
 
@@ -24,18 +26,19 @@
   max-height: 25rem;
   font-size: 2.2rem;
   margin-top: 2rem;
+  margin-left: 1rem;
 
   @include tablet {
     margin-top: 9.5rem;
     max-height: 40rem;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     max-width: 25rem;
   };
 
   @include desktop {
     margin-top: 9.5rem;
     max-height: 50rem;
-    font-size: 1.25rem;
+    font-size: 2rem;
     max-width: 25rem;
   }
 }
