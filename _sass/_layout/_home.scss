@@ -50,7 +50,6 @@
   line-height: 1.25;
   margin: 0 auto;
   margin-top: 2rem;
-  // text-shadow: 0.1rem 0.1rem 0.1rem $darkgray;
 
   @include tablet {
     max-width: 40vw;
@@ -79,55 +78,39 @@
   }
 }
 
-.featured__wrapper {
-  text-align: center;
-  color: $darkgray;
-  font-family: $headerfont;
-  // background-color: $darkgray;
-  margin-left: auto;
-  padding: 0.25rem;
-}
-
 .featured {
   text-align: center;
   color: $white;
-  margin-top: 0.5rem;
 }
 
 .new-item__wrapper, .gluten-free__wrapper {
-  padding: 4rem;
   min-height: 45vh;
-
-  // &:hover, &:active, &:focus {
-  //   transform: scale(1.05);
-  //   box-shadow: 0.25rem 0.25rem 1rem $gray;
-  // }
 }
 
 .new-item__wrapper {
-  // background-image: url("../../images/featured-granola.jpg");
-  background-image: url("../../images/featured-glutenfree.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
+
+}
+
+.new-item__image {
+  // display: block;
+  // position: relative;
+  width: 100%;
+  height: auto;
+  padding-left: -2rem;
 }
 
 .gluten-free__wrapper {
-  // background-image: url("../../images/featured-glutenfree.jpg");
-  // background-position: center;
-  // background-repeat: no-repeat;
   color: $black;
   background-color: $darkgray;
-  margin-bottom: 0.5rem;
-  // background-image: url("../../images/featured-glutenfree.jpg");
-  // background-position: center;
+  padding: 2rem;
 
-  @include tablet {
-    margin-bottom: 0;
-  }
-
-  @include desktop {
-    margin-bottom: 0;
-  }
+  // @include tablet {
+  //   margin-bottom: 0;
+  // }
+  //
+  // @include desktop {
+  //   margin-bottom: 0;
+  // }
 
   & hr {
     width: 5rem;
