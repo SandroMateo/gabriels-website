@@ -10,20 +10,21 @@
 .pastries__wrapper {
   flex-grow: 1;
   margin: 0 auto;
+  padding: 2rem;
   text-align: center;
   min-height: 30rem;
   -webkit-flex: 1 1 50%;
   flex: 1 1 50%;
 
   @include desktop {
-    flex-basis: 33%;
+    flex-basis: 50%;
   }
 }
 
 .pastries__wrapper--margin {
   flex-grow: 1;
   margin: 0 auto;
-  padding-top: 5rem;
+  padding: 2rem;
   text-align: center;
   min-height: 30rem;
   -webkit-flex: 1 1 50%;
@@ -35,36 +36,29 @@
 }
 
 .pastries__list {
-  padding: 2rem;
+  text-align: right;
+  display: inline;
 }
 
-.pastries__image-wrapper {
-  box-shadow: 0.25rem 0.25rem 1rem $gray;
-  flex-grow: 1;
-  margin: 0 auto;
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 30rem;
-  -webkit-flex: 1 100%;
-  flex: 1 100%;
-
-  @include desktop {
-    flex-basis: 33%;
-  }
+.pastries__image {
+  display: inline;
+  max-width: 25rem;
+  float: left;
+  margin-top: 5rem;
 }
 
-.pastries__image--one {
-  background-image: url("/gabriels-website/images/pastries-muffins.jpg");
+.pastries__image--muffins {
+  max-width: 28rem;
+  float: left;
+  display: block;
+  margin-top: 10rem;
 }
 
-.pastries__image--two {
-  background-image: url("/gabriels-website/images/pastries-almond.jpg");
-  background-position: center;
+.pastries__image--miscellaneous {
+  max-width: 22rem;
+  float: left;
+  display: block;
+  margin-top: 5rem;
 }
 
 .pastries__image--three {
@@ -125,13 +119,19 @@
 
 
   @include desktop {
+    text-align: left;
     font-size: 7.5rem;
     padding-top: 20rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
   }
 
   @include tablet {
+    text-align: left;
     font-size: 7.5rem;
     padding-top: 20rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
   }
 }
 

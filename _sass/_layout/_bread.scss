@@ -1,4 +1,4 @@
-.breads__image, .bagels__image {
+.breads__image {
   max-height: 10em;
 }
 
@@ -17,9 +17,8 @@
 
 }
 
-.bagels__wrapper, .breads__wrapper {
+.breads__wrapper {
   padding: 4rem;
-
 
   &:hover {
     transform: scale(1.05);
@@ -48,9 +47,11 @@
 
 
 
-.bagels__name, .breads__name {
-  // text-transform: uppercase;
-  font-family: $headerfont;
+.breads__name {
+  max-width: 17rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .breads__hero {
@@ -75,30 +76,34 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
-  padding-top: 15rem;
+  padding-top: 5rem;
 
 
   @include desktop {
+    text-align: left;
     font-size: 7.5rem;
-    padding-top: 20rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
   }
 
   @include tablet {
+    text-align: left;
     font-size: 7.5rem;
-    padding-top: 20rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
   }
 }
 
-.bagels__hero-subtext, .breads__hero-subtext {
+.bagels__hero-subtext, .breads__nutrition-link {
   color: $white;
   font-size: 2.5rem;
   text-align: center;
 
   @include desktop {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 
   @include tablet {
-    font-size: 1.5rem;
+    font-size: 3rem;
   }
 }

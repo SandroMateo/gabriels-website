@@ -1,10 +1,14 @@
 .contact__form-wrapper {
   display: table;
-  margin: 40px auto;
+  margin: 3rem auto;
   margin-left: 1rem;
 
   @include mobile {
     margin: 2rem;
+  }
+
+  @include desktop {
+    min-width: 70rem;
   }
 }
 
@@ -129,16 +133,14 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
-  padding-top: 15rem;
+  padding-top: 65vh;
 
 
   @include desktop {
     font-size: 7.5rem;
-    padding-top: 20rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
-    padding-top: 20rem;
   }
 }

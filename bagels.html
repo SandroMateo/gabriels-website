@@ -6,8 +6,7 @@ permalink: /products/bagels/
 <div class="bagels__hero">
   {% include mobile-nav.html %}
 
-  <h1 class="bagels__hero-title">Bagels</h1>
-  <a class="bagels__hero-subtext" href="{{ site.BASE_PATH }}/products/bagels/bagel-matrix/"><h6>Compare Nutrition Facts</h6></a>
+  <h1 class="bagels__hero-title">BAGELS</h1>
 </div>
 
 <div class="bagels" id="bagelPage">
@@ -15,16 +14,20 @@ permalink: /products/bagels/
     {% assign link = bagel.title %}
     <a class="bagels__link" href={{ "https://sandromateo.github.io/gabriels-website/products/bagels/" | append: link }}>
       <div class="bagels__wrapper">
-        <img class="bagels__image img_responsive" src={{ bagel.image }} alt="">
-        <h2 class="bagels__name">{{ link }}</h2>
+        <img class="bagels__name img-responsive" src={{ bagel.labelImage }} alt="">
+        <img class="bagels__image img-responsive" src={{ bagel.baggedImage }} alt="">
       </div>
     </a>
 
   {% endfor %}
 
 <!-- Temporary solution for the flexbox issue. this messes up the last bagel when bagels stack -->
-  <div class="bagels__link">
+<a class="bagels__link" href="/products/bagels/bagel-matrix/">
+  <div class="bagels__wrapper">
+    <h2 class="bagels__name">Compare Nutrition Facts</h2>
+    <br><br><br><br><br>
   </div>
+</a>
   <div class="bagels__link">
   </div>
 

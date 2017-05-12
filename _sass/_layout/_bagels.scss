@@ -15,3 +15,53 @@
     margin-top: 0;
   }
 }
+
+.bagels__wrapper {
+  padding: 4rem;
+  max-height: 30rem;
+  // max-width: 40rem;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
+}
+
+.bagels__name {
+  max-height: 18rem;
+  margin-top: 5rem;
+  display: inline;
+
+  @include tablet {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 5rem;
+  }
+  @include desktop {
+    margin-top: 3rem;
+    display: block;
+
+    margin-left: 5rem;
+  }
+
+}
+
+.bagels__image {
+  max-height: 25rem;
+  margin-left: 1rem;
+  display: inline;
+
+  @include tablet {
+    margin-top: -25rem;
+    display: block;
+
+    margin-left: 17.5rem;
+  }
+  @include desktop {
+    margin-top: -25rem;
+    display: block;
+
+    margin-left: 17.5rem;
+  }
+
+}

@@ -32,13 +32,4 @@ $(document).ready(function(){
   $('.sidebar__dropdown-button').mouseout(function(){
     $('.sidebar__dropdown').hide();
   });
-
-  $('#previousProduct').click(function() {
-
-  });
-
-  $('#nextProduct').click(function() {
-
-  });
-
 });
