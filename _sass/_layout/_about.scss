@@ -1,6 +1,6 @@
 // Issues with this page: looks horrible when the website is viewed on monitors bigger than our laptop. especially the text portion. the top image also looks a bit funny
 
-.about__mission-quote {
+.about__mission-wrapper {
   background-color: $darkgray;
   color: $gold;
   font-style: italic;
@@ -15,6 +15,16 @@
   @include tablet {
     font-size: 2rem;
     margin-top: 3rem;
+  }
+}
+
+.about__mission-link {
+  text-align: center;
+  font-size: 2rem;
+  color: $gold;
+
+  &:hover {
+    color: $white;
   }
 }
 
@@ -95,6 +105,7 @@
 
 }
 
-// .about__wrapper {
-//   padding: 1rem;
-// }
+.about__subtitle {
+  text-align: center;
+  font-weight: bold;
+}
