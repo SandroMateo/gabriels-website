@@ -15,10 +15,11 @@ $(document).ready(function(){
   $("table").stupidtable();
 
   var images = $(".new-item__wrapper").css("background-image");
-  var imageArray = images.split(",");
-  var imageLength = imageArray.length - 1;
-  startSlideshow(imageArray, 0, imageLength);
-
+  if(images) {
+    var imageArray = images.split(",");
+    var imageLength = imageArray.length - 1;
+    startSlideshow(imageArray, 0, imageLength);
+  }
 
   $(".mobile-nav__menu-button").on('touchstart click', function(e){
     e.preventDefault();
