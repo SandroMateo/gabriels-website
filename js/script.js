@@ -1,14 +1,18 @@
-$(document).ready(function(){
+function startSlideshow(array, index, arrayLength) {
+  $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(3000, function() {
+    if (index < arrayLength) {
+      index++;
+    } else {
+      index = 0;
+    }
+  // setTimeout(function() {
+    console.log(index);
+    $(".new-item__wrapper").css("background-image", array[index]).fadeIn(2000);
+    startSlideshow(array, index, arrayLength)
+  });
+}
 
-  function startSlideshow(array, index, arrayLength) {
-    $(".new-item__wrapper").css("background-image", array[index])
-      if (index < arrayLength) {
-        index++;
-      } else {
-        index = 0;
-      }
-    setTimeout(startSlideshow(array, index, arrayLength), 5000);
-  }
+$(document).ready(function(){
   // To generate the nutritional fact table for bread anf bagels
   $("table").stupidtable();
 
