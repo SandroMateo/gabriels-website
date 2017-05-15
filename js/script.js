@@ -1,6 +1,23 @@
+function startSlideshow(array, index, arrayLength) {
+  $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(3000, function() {
+    if (index < arrayLength) {
+      index++;
+    } else {
+      index = 0;
+    }
+    $(".new-item__wrapper").css("background-image", array[index]).fadeIn(2000);
+    startSlideshow(array, index, arrayLength)
+  });
+}
+
 $(document).ready(function(){
-  // To generate the nutrional fact table for bread anf bagels
+  // To generate the nutritional fact table for bread anf bagels
   $("table").stupidtable();
+
+  var images = $(".new-item__wrapper").css("background-image");
+  var imageArray = images.split(",");
+  var imageLength = imageArray.length - 1;
+  startSlideshow(imageArray, 0, imageLength);
 
 
   $(".mobile-nav__menu-button").on('touchstart click', function(e){
