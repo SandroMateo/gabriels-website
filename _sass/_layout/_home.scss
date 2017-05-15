@@ -88,9 +88,11 @@
 }
 
 .new-item__wrapper {
-  background-image: url("/gabriels-website/images/featured-glutenfree.jpg");
+  background-image: url("/gabriels-website/images/pastries-market.jpg"),
+  url("/gabriels-website/images/featured-glutenfree.jpg"),
+  url("/gabriels-website/images/featured-granola.jpg");
+  background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
 }
 
 .new-item__image {
