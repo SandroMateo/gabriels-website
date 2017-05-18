@@ -1,89 +1,3 @@
-// .pastries {
-//   display: flex;
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: -webkit-flex;
-//   flex-wrap: wrap;
-//   margin-top: 1rem;
-// }
-//
-// .pastries__wrapper {
-//   flex-grow: 1;
-//   margin: 0 auto;
-//   padding: 2rem;
-//   text-align: center;
-//   min-height: 30rem;
-//   -webkit-flex: 1 1 50%;
-//   flex: 1 1 50%;
-//
-//   @include desktop {
-//     flex-basis: 50%;
-//   }
-// }
-//
-// .pastries__wrapper--margin {
-//   flex-grow: 1;
-//   margin: 0 auto;
-//   padding: 2rem;
-//   text-align: center;
-//   min-height: 30rem;
-//   -webkit-flex: 1 1 50%;
-//   flex: 1 1 50%;
-//
-//   @include desktop {
-//     flex-basis: 33%;
-//   }
-// }
-
-
-
-// .pastries__image-wrapper {
-//   box-shadow: 0.25rem 0.25rem 1rem $gray;
-//   flex-grow: 1;
-//   margin: 0 auto;
-//   display: flex;
-//   display: -webkit-box;
-//   display: -ms-flexbox;
-//   display: -webkit-flex;
-//   align-items: center;
-//   justify-content: center;
-//   text-align: center;
-//   min-height: 30rem;
-//   -webkit-flex: 1 100%;
-//   flex: 1 100%;
-//
-//   @include desktop {
-//     flex-basis: 33%;
-//   }
-// }
-
-
-// .pastries__image {
-//   display: inline;
-//   max-width: 25rem;
-//   float: left;
-//   margin-top: 5rem;
-// }
-//
-// .pastries__image--muffins {
-//   max-width: 28rem;
-//   float: left;
-//   display: block;
-//   margin-top: 10rem;
-// }
-//
-// .pastries__image--miscellaneous {
-//   max-width: 22rem;
-//   float: left;
-//   display: block;
-//   margin-top: 5rem;
-// }
-//
-// .pastries__image--three {
-//   background-image: url("../../images/pastries-market.jpg");
-//   background-position: top;
-// }
-
 .pastries__title {
   text-transform: uppercase;
   font-family: $headerfont;
@@ -123,25 +37,6 @@
 .pastries__description-wrapper {
   padding-left: 2rem;
 }
-
-
-
-// Style modifications for wrappers
-//
-// .style1 {
-//   background-color: $darkgray;
-//   color: $white;
-// }
-//
-// .style2 {
-//   background-color: $gold;
-//   color: $darkgray;
-// }
-//
-// .style3 {
-//   background-color: $gray;
-//   color: $darkgray;
-// }
 
 .pastries__hero {
   background-image: url("../../images/pastries-background.jpg");
@@ -185,17 +80,3 @@
     padding-left: 5rem;
   }
 }
-//
-// .pastries__hero-subtext {
-//   color: $white;
-//   font-size: 2.5rem;
-//   text-align: center;
-//
-//   @include desktop {
-//     font-size: 1.5rem;
-//   }
-//
-//   @include tablet {
-//     font-size: 1.5rem;
-//   }
-// }

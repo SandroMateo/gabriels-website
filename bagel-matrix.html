@@ -21,7 +21,6 @@ permalink: /products/bagels/bagel-matrix/
   </thead>
   <tbody class="product-matrix__data-wrapper">
     {% for bagel in site.bagels %}
-      <!-- <tr class={{ bagel.title }}> -->
       <tr>
         <td class="{{bagel.title}} product-matrix__product-name"><a href="/products/bagels/{{bagel.href}}">{{ bagel.title }}</a></td>
         {% for fact in bagel.nutrition %}

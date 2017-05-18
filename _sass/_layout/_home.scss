@@ -1,5 +1,4 @@
 .main-page {
-  // background-attachment: fixed;
   background-image: url("../../images/main-background.jpg");
   background-position: center;
   background-size: cover;
@@ -39,8 +38,6 @@
     text-align: right;
     margin-right: -10rem;
     margin-top: 5rem;
-    // margin-right: -rem;
-
   }
 }
 
@@ -96,8 +93,6 @@
 }
 
 .new-item__image {
-  // display: block;
-  // position: relative;
   width: 100%;
   height: auto;
   padding-left: -2rem;
@@ -107,14 +102,6 @@
   color: $black;
   background-color: $darkgray;
   padding: 2rem;
-
-  // @include tablet {
-  //   margin-bottom: 0;
-  // }
-  //
-  // @include desktop {
-  //   margin-bottom: 0;
-  // }
 
   & hr {
     width: 5rem;

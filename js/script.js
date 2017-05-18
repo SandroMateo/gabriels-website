@@ -1,11 +1,11 @@
 function startSlideshow(array, index, arrayLength) {
-  $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(3000, function() {
+  $(".new-item__wrapper").css("background-image", array[index]).delay(2000).fadeOut(1000, function() {
     if (index < arrayLength) {
       index++;
     } else {
       index = 0;
     }
-    $(".new-item__wrapper").css("background-image", array[index]).fadeIn(2000);
+    $(".new-item__wrapper").css("background-image", array[index]).fadeIn(1000);
     startSlideshow(array, index, arrayLength)
   });
 }
