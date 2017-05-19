@@ -65,10 +65,13 @@
   font-family: $headerfont;
   color: $gray;
   font-size: 2.5rem;
+  letter-spacing: 1.25px;
 }
 
 .main-page__explore-more {
   margin-top: 5rem;
+  font-size: 1.75rem;
+  letter-spacing: 1px;
 
   & a {
     color: $white;
@@ -92,6 +95,8 @@
   text-align: center;
   color: $white;
   margin-top: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .new-item__wrapper, .gluten-free__wrapper {
