@@ -15,3 +15,8 @@
     @content;
   }
 }
+@mixin desktop-small {
+  @media (min-width: #{$tablet-width - 1px}) and (max-width: 900px) {
+    @content;
+  }
+}

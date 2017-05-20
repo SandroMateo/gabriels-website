@@ -25,6 +25,11 @@
     transform: scale(1.05);
     box-shadow: 0.25rem 0.25rem 1rem $gray;
   }
+
+  @include desktop-small {
+
+  }
+
 }
 
 .bagels__name {
@@ -41,7 +46,11 @@
     margin-top: 3rem;
     display: block;
 
-    margin-left: 5rem;
+    margin-left: 3.5rem;
+  }
+
+  @include desktop-small {
+    margin-left: 0rem;
   }
 
 }
@@ -61,9 +70,14 @@
     margin-top: -25rem;
     display: block;
 
-    margin-left: 17.5rem;
+    margin-left: 16.5rem;
   }
 
+  @include desktop-small {
+    margin-top: -22rem;
+    margin-left: 11.5rem;
+    max-height: 22rem;
+  }
 }
 
 .blueberry {

@@ -76,22 +76,35 @@
   color: $white;
   font-size: 5rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 65vh;
 
 
   @include desktop {
-    text-align: left;
     font-size: 7.5rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
   }
 
   @include tablet {
-    text-align: left;
     font-size: 7.5rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
   }
+  // color: $white;
+  // font-size: 5rem;
+  // text-align: center;
+  // padding-top: 5rem;
+  //
+  //
+  // @include desktop {
+  //   text-align: left;
+  //   font-size: 7.5rem;
+  //   padding-top: 5rem;
+  //   padding-left: 5rem;
+  // }
+  //
+  // @include tablet {
+  //   text-align: left;
+  //   font-size: 7.5rem;
+  //   padding-top: 5rem;
+  //   padding-left: 5rem;
+  // }
 }
 
 .bagels__hero-subtext, .breads__nutrition-link {
