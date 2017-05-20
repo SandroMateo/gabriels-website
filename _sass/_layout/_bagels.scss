@@ -6,7 +6,6 @@
 .bagels__wrapper {
   padding: 4rem;
   max-height: 30rem;
-  // max-width: 40rem;
 
   &:hover {
     transform: scale(1.05);
@@ -65,11 +64,4 @@
     margin-left: 11.5rem;
     max-height: 22rem;
   }
-}
-
-.blueberry {
-  background-image: url("../../images/BlueberryBagelLabel.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }

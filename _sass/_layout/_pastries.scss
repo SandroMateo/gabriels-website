@@ -1,122 +1,62 @@
-.pastries {
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  margin-top: 1rem;
-}
-
-.pastries__wrapper {
-  flex-grow: 1;
-  margin: 0 auto;
-  text-align: center;
-  min-height: 30rem;
-  -webkit-flex: 1 1 50%;
-  flex: 1 1 50%;
-
-  @include desktop {
-    flex-basis: 33%;
-  }
-}
-
-.pastries__wrapper--margin {
-  flex-grow: 1;
-  margin: 0 auto;
-  padding-top: 5rem;
-  text-align: center;
-  min-height: 30rem;
-  -webkit-flex: 1 1 50%;
-  flex: 1 1 50%;
-
-  @include desktop {
-    flex-basis: 33%;
-  }
-}
-
-.pastries__list {
-  padding: 2rem;
-}
-
-.pastries__image-wrapper {
-  box-shadow: 0.25rem 0.25rem 1rem $gray;
-  flex-grow: 1;
-  margin: 0 auto;
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 30rem;
-  -webkit-flex: 1 100%;
-  flex: 1 100%;
-
-  @include desktop {
-    flex-basis: 33%;
-  }
-}
-
-.pastries__image--one {
-  background-image: url("../../images/pastries-muffins.jpg");
-}
-
-.pastries__image--two {
-  background-image: url("../../images/pastries-almond.jpg");
-  background-position: center;
-}
-
-.pastries__image--three {
-  background-image: url("../../images/pastries-market.jpg");
-  background-position: top;
-}
-
 .pastries__title {
   text-transform: uppercase;
   font-family: $headerfont;
 }
 
-.pastries__list-wrapper {
+.pastries__items-wrapper {
   line-height: 0.8;
+  max-width: 150px;
 }
 
-// Style modifications for wrappers
-
-.style1 {
-  background-color: $darkgray;
-  color: $white;
+.pastries__image {
+  max-width: 20rem;
+  @include desktop {
+    max-width: 25rem;
+  }
+  @include desktop {
+    max-width: 25rem;
+  }
 }
 
-.style2 {
-  background-color: $gold;
-  color: $darkgray;
+.pastries__wrapper {
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 2rem;
+  &::after {
+    clear: both;
+  }
 }
 
-.style3 {
-  background-color: $gray;
-  color: $darkgray;
+.pastries__description-wrapper {
+  padding-left: 2rem;
 }
 
 .pastries__hero {
+
   @include hero-styling("../../images/pastries-background.jpg");
+
+  // background-image: url("../../images/pastries-background.jpg");
+  // background-position: top;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // height: 75vh;
+  // margin-bottom: 1rem;
+  //
+  // @include desktop {
+  //   font-size: 10rem;
+  //   margin-top: 0;
+  // }
+
 
 }
 
 .pastries__hero-title {
   @include title-styling();
-}
-
-.pastries__hero-subtext {
-  color: $white;
-  font-size: 2.5rem;
-  text-align: center;
-
-  @include desktop {
-    font-size: 1.5rem;
-  }
-
-  @include tablet {
-    font-size: 1.5rem;
-  }
 }

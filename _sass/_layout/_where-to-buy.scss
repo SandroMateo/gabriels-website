@@ -22,7 +22,6 @@
 
 .locations__grid {
   overflow-y: auto;
-  // border-left: 1px solid black;
   max-height: 25rem;
   font-size: 2.2rem;
   margin-top: 2rem;
@@ -60,13 +59,6 @@
 .locations__hero-title {
   @include title-styling();
 }
-
-// .locations__filter-text {
-//   padding: 1rem;
-//   background-color: $darkgray;
-//   color: $gold;
-//   margin-bottom: 1rem;
-// }
 
 .locations__filter-text {
   font-size: 1.5rem;

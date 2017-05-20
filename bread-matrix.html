@@ -5,7 +5,6 @@ permalink: products/bread/bread-matrix/
 {% include mobile-nav.html %}
 <div class="product-matrix__title-wrapper">
   <h1 class="product-matrix__title">Bread Nutritional Comparison</h1>
-  <h6 class="product-matrix__subtext">Our bread is locally sourced and blah blah blah. Something letting users they can click on the columns to sort by the different nutritional stuff</h6>
 </div>
 <table class="product-matrix">
   <thead class="product-matrix__header-wrapper">
@@ -22,7 +21,6 @@ permalink: products/bread/bread-matrix/
   </thead>
   <tbody class="product-matrix__data-wrapper">
     {% for bread in site.bread %}
-      <!-- <tr class={{ bread.title }}> -->
       <tr>
         <td class="{{ bread.title }} product-matrix__product-name"><a href="/products/bread/{{bread.href}}">{{ bread.title }}</a></td>
         {% for fact in bread.nutrition %}

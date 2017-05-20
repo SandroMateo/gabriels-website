@@ -1,5 +1,3 @@
-// The bottom text needs to be fixed because currently if you make the browser heigh smaller but keep width wide it will overlap with nav
-
 .sidebar {
 	@include mobile {
 		display: none;
@@ -7,7 +5,6 @@
 
 	background-image: url("../../images/gabriels-map.png");
 	background-position: center;
-	// box-shadow: 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1); //do you want this?
 	color: $gold;
 	height: 100%;
 	left: 0;
