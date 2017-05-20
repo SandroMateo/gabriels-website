@@ -129,3 +129,12 @@
 .contact__hero-title {
   @include title-styling();
 }
+
+.contact__info-title {
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+
+.contact__hr {
+  margin-bottom: 5px;
+}
