@@ -99,45 +99,12 @@
 }
 
 .pastries__hero {
-  background-image: url("../../images/pastries-background.jpg");
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
+  @include hero-styling("../../images/pastries-background.jpg");
 
-  @include desktop {
-    font-size: 10rem;
-    margin-top: 0;
-  }
-
-  @include tablet {
-    font-size: 10rem;
-    margin-top: 0;
-  }
 }
 
 .pastries__hero-title {
-  color: $white;
-  font-size: 5rem;
-  text-align: center;
-  padding-top: 15rem;
-
-
-  @include desktop {
-    text-align: left;
-    font-size: 7.5rem;
-    padding-top: 20rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
-  }
-
-  @include tablet {
-    text-align: left;
-    font-size: 7.5rem;
-    padding-top: 20rem;
-    padding-top: 5rem;
-    padding-left: 5rem;
-  }
+  @include title-styling();
 }
 
 .pastries__hero-subtext {

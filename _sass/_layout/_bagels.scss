@@ -1,19 +1,6 @@
 .bagels__hero {
-  background-image: url("../../images/bagels-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
+  @include hero-styling("../../images/bagels-background.jpg");
 
-  @include desktop {
-    font-size: 10rem;
-    margin-top: 0;
-  }
-
-  @include tablet {
-    font-size: 10rem;
-    margin-top: 0;
-  }
 }
 
 .bagels__wrapper {

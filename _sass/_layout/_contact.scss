@@ -122,25 +122,10 @@
 }
 
 .contact__hero {
-  background-image: url("../../images/contact-background.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 75vh;
+  @include hero-styling("../../images/contact-background.jpg");
+
 }
 
 .contact__hero-title {
-  color: $white;
-  font-size: 5rem;
-  text-align: center;
-  padding-top: 65vh;
-
-
-  @include desktop {
-    font-size: 7.5rem;
-  }
-
-  @include tablet {
-    font-size: 7.5rem;
-  }
+  @include title-styling();
 }

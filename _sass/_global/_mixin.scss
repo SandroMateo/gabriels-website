@@ -20,3 +20,45 @@
     @content;
   }
 }
+
+@mixin title-styling {
+  color: $white;
+  font-size: 6rem;
+  text-align: center;
+  padding-top: 45vh;
+
+
+  @include desktop {
+    font-size: 7.5rem;
+    padding-top: 60vh;
+  }
+
+  @include tablet {
+    font-size: 7.5rem;
+    padding-top: 60vh;
+  }
+}
+
+@mixin hero-styling($imageUrl) {
+  background-image: url($imageUrl), linear-gradient($white, $black);
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  justify-content: center;
+  height: 55vh;
+  // width: 90vw;
+
+  @include desktop {
+    margin-top: 0;
+    height: 75vh;
+  }
+
+  @include tablet {
+    margin-top: 0;
+    height: 75vh;
+
+  }
+}
