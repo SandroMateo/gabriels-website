@@ -21,18 +21,42 @@
 }
 
 .welcome__title {
-  margin-top: 1rem
-  font-size: 6rem;
+  margin-top: 1rem;
+  font-size: 5rem;
+
+  @include tablet {
+    font-size: 6rem;
+  }
+
+  @include desktop {
+    font-size: 6rem;
+  }
 }
 
 .welcome_subtitle{
-  font-size: 5rem;
+  font-size: 3rem;
+
+  @include tablet {
+    font-size: 5rem;
+  }
+
+  @include desktop {
+    font-size: 5rem;
+  }
 }
 
 .welcome__image {
   display: block;
   margin: auto;
-  max-height: 40vh;
+  max-height: 30vh;
+
+  @include tablet {
+    max-height: 40vh;
+  }
+
+  @include desktop {
+    max-height: 40vh;
+  }
 }
 
 .welcome__enter-button {
