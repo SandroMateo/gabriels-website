@@ -34,7 +34,7 @@ $(document).ready(function(){
     e.preventDefault();
     $(".welcome").fadeOut(1000);
     var d = new Date();
-    d.setTime(d.getTime() + 10000);
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
     var expires = "expires=" + d.toGMTString();
     var cookieString = "username=;" + expires + ";" + "path=/;";
     console.log(cookieString);
