@@ -28,17 +28,17 @@ $(document).ready(function(){
   console.log(cookie);
   if(!cookie) {
     $(".welcome").show();
+  }
+
+  $(".welcome__enter-button").on('touchstart click', function(e){
+    e.preventDefault();
+    $(".welcome").fadeOut(1000);
     var d = new Date();
     d.setTime(d.getTime() + 10000);
     var expires = "expires=" + d.toGMTString();
     var cookieString = "username=;" + expires + ";" + "path=/;";
     console.log(cookieString);
     document.cookie = cookieString;
-  }
-
-  $(".welcome__enter-button").on('touchstart click', function(e){
-    e.preventDefault();
-    $(".welcome").fadeOut(1000);
   });
 
   //mobile nav functionality
