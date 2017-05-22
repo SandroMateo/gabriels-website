@@ -11,9 +11,11 @@ function startSlideshow(array, index, arrayLength) {
 }
 
 $(document).ready(function(){
+
   // To generate the nutritional fact table for bread anf bagels
   $("table").stupidtable();
 
+  // To start slideshow on home page
   var images = $(".new-item__wrapper").css("background-image");
   if(images) {
     var imageArray = images.split(",");
@@ -21,6 +23,25 @@ $(document).ready(function(){
     startSlideshow(imageArray, 0, imageLength);
   }
 
+  //set up cookie for a welcome page for first time users
+  var cookie = document.cookie;
+  console.log(cookie);
+  if(!cookie) {
+    $(".welcome").show();
+  }
+
+  $(".welcome__enter-button").on('touchstart click', function(e){
+    e.preventDefault();
+    $(".welcome").fadeOut(1000);
+    var d = new Date();
+    d.setTime(d.getTime() + 10000);
+    var expires = "expires=" + d.toGMTString();
+    var cookieString = "username=;" + expires + ";" + "path=/;";
+    console.log(cookieString);
+    document.cookie = cookieString;
+  });
+
+  //mobile nav functionality
   $(".mobile-nav__menu-button").on('touchstart click', function(e){
     e.preventDefault();
     $(this).hide();
@@ -33,7 +54,7 @@ $(document).ready(function(){
     $(".mobile-nav__menu-wrapper").removeClass("mobile-nav--display");
   });
 
-// This is for displaying/hiding the label for the contact form inputs
+  // This is for displaying/hiding the label for the contact form inputs
   $('.contact__item').on('change', function() {
     var input = $(this);
     if (input.val().length) {
@@ -43,6 +64,7 @@ $(document).ready(function(){
     }
   });
 
+  //sidebar submenu functionality
   $('.sidebar__dropdown-button').mouseover(function(){
     $('.sidebar__dropdown').show();
   });
