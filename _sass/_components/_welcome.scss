@@ -1,0 +1,51 @@
+.welcome {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: none;
+  height: 100vh;
+  position: fixed;
+  text-align: center;
+  width: 100vw;
+  z-index: 999;
+
+  @include desktop {
+    margin-left: -25rem;
+  }
+
+  @include tablet {
+    margin-left: -25rem;
+  }
+}
+
+.welcome__wrapper {
+  max-height: 100vh;
+}
+
+.welcome__title {
+  margin-top: 1rem;
+  font-size: 6rem;
+}
+
+.welcome_subtitle{
+  font-size: 5rem;
+}
+
+.welcome__image {
+  display: block;
+  margin: auto;
+  max-height: 40vh;
+}
+
+.welcome__enter-button {
+  margin-top: 3rem;
+  font-size: 3rem;
+  background-color: $gold;
+  color: $white;
+  border-radius: 5px;
+  transition: all 0.25s ease-in-out;
+
+  &:hover, &:focus, &:active {
+    color: $gold;
+    background-color: $white;
+    border: 1px solid $darkgold;
+  }
+}

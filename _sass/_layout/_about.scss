@@ -1,6 +1,4 @@
-// Issues with this page: looks horrible when the website is viewed on monitors bigger than our laptop. especially the text portion. the top image also looks a bit funny
-
-.about__mission-quote {
+.about__mission-wrapper {
   background-color: $darkgray;
   color: $gold;
   font-style: italic;
@@ -18,12 +16,22 @@
   }
 }
 
+.about__mission-link {
+  text-align: center;
+  font-size: 2rem;
+  color: $gold;
+
+  &:hover {
+    color: $white;
+  }
+}
+
 .about__gabriel-image {
   display: block;
   margin: auto;
 
   @include desktop {
-    max-height: 28rem;
+    max-height: 35rem;
   }
 
 }
@@ -32,9 +40,7 @@
   text-align: center;
 }
 
-// this should probably be fixed so the image stays more consistent
 .about__wrapper {
-  // align-items: center;
   background-image: url("/gabriels-website/images/aboutHeadImage.jpg");
   background-position: top;
   background-size: cover;
@@ -44,7 +50,6 @@
   display: -webkit-flex;
   justify-content: center;
   height: 75vh;
-  // width: 90vw;
 
   @include desktop {
     font-size: 10rem;
@@ -87,12 +92,16 @@
 }
 
 .about__column-wrapper {
-  // margin: 1rem;
   padding: 2rem;
   font-size: 2rem;
 
 }
 
-// .about__wrapper {
-//   padding: 1rem;
-// }
+.about__subtitle {
+  text-align: center;
+  font-weight: bold;
+
+  @include desktop {
+    margin-top: 5rem;
+  }
+}
