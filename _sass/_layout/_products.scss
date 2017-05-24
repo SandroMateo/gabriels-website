@@ -50,8 +50,8 @@
 }
 
 .products__hero {
-  @include hero-styling("../../images/products-background.jpg");
-
+  @include hero-styling("../../images/gabriels-bread.jpg");
+  background-position: bottom;
 }
 
 .products__hero-title {

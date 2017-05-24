@@ -41,26 +41,7 @@
 }
 
 .about__wrapper {
-  @include hero-styling("../../images/aboutHeadImage.jpg");
-  // background-image: url("../../images/aboutHeadImage.jpg");
-  // background-position: top;
-  // background-size: cover;
-  // display: flex;
-  // display: -webkit-box;
-  // display: -ms-flexbox;
-  // display: -webkit-flex;
-  // justify-content: center;
-  // height: 75vh;
-  //
-  // @include desktop {
-  //   font-size: 10rem;
-  //   margin-top: 0;
-  // }
-  //
-  // @include tablet {
-  //   font-size: 10rem;
-  //   margin-top: 0;
-  // }
+  @include hero-styling("../../images/about-background.jpg");
 }
 
 .about__text {

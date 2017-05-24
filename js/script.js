@@ -1,12 +1,14 @@
-function startSlideshow(array, index, arrayLength) {
-  $(".new-item__wrapper").css("background-image", array[index]).delay(2000).fadeOut(1000, function() {
-    if (index < arrayLength) {
-      index++;
-    } else {
-      index = 0;
-    }
-    $(".new-item__wrapper").css("background-image", array[index]).fadeIn(1000);
-    startSlideshow(array, index, arrayLength)
+function startSlideshow(array, index, nextIndex, arrayLength) {
+  if (nextIndex >= arrayLength) {
+    nextIndex = 0;
+  }
+  console.log(nextIndex);
+  $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(500, "linear", function() {
+    $(".new-item__wrapper").css("background-image", array[nextIndex]).fadeIn(500, "linear", function() {
+      index = nextIndex;
+      nextIndex++;
+      startSlideshow(array, index, nextIndex, arrayLength);
+    });
   });
 }
 
@@ -19,8 +21,8 @@ $(document).ready(function(){
   var images = $(".new-item__wrapper").css("background-image");
   if(images) {
     var imageArray = images.split(",");
-    var imageLength = imageArray.length - 1;
-    startSlideshow(imageArray, 0, imageLength);
+    var imageLength = imageArray.length;
+    startSlideshow(imageArray, 0, 1, imageLength);
   }
 
   //set up cookie for a welcome page for first time users

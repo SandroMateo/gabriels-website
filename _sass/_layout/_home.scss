@@ -1,5 +1,5 @@
 .main-page {
-  background-image: url("../../images/main-background.jpg");
+  background-image: url("../../images/home-background.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -91,9 +91,9 @@
 }
 
 .new-item__wrapper {
-  background-image: url("../../images/pastries-market.jpg"),
-  url("../../images/featured-glutenfree.jpg"),
-  url("../../images/featured-granola.jpg");
+  background-image: url("../../images/slideshow-bagel.jpg"),
+  url("../../images/slideshow-bread.jpg"),
+  url("../../images/slideshow-pastries.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -41,7 +41,7 @@
 
 @mixin hero-styling($imageUrl) {
   background-image: url($imageUrl), linear-gradient($white, $black);
-  background-position: top;
+  background-position: center;
   background-size: cover;
   display: flex;
   display: -webkit-box;
