@@ -1,8 +1,8 @@
 ---
 layout: default
 ---
+
 <div class="details__hero">
-  {% include mobile-nav.html %}
   <h1 class="details__hero-title">
     {% unless page.bagelId == 0 %}
       {% capture previousId %}{{ page.bagelId | minus:1 }}{% endcapture %}

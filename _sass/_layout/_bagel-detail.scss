@@ -1,7 +1,5 @@
 .details__hero {
 
-  margin-top: 10vh;
-
   @include desktop {
     font-size: 10rem;
     margin-top: 0;
@@ -21,8 +19,8 @@
 .details__hero-title {
   color: $black;
   text-align: center;
-  padding-top: 2rem;
-  font-size: 7rem;
+  padding-top: 10rem;
+  font-size: 5rem;
 
   @include desktop {
     font-size: 7.5rem;
