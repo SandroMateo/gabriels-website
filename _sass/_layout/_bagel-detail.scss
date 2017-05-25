@@ -24,10 +24,12 @@
 
   @include desktop {
     font-size: 7.5rem;
+    padding-top: 3rem;
   }
 
   @include tablet {
     font-size: 7.5rem;
+    padding-top: 3rem;
   }
 }
 
@@ -80,10 +82,12 @@
   @include tablet {
     margin-left: 0rem;
     margin-right: 0rem;
+    padding-top: 3rem;
   }
 
   @include desktop {
     margin-left: 0rem;
     margin-right: 0rem;
+    padding-top: 3rem;
   }
 }

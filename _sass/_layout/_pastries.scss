@@ -41,20 +41,6 @@
 .pastries__hero {
 
   @include hero-styling("../../images/pastries-background.jpg");
-
-  // background-image: url("../../images/pastries-background.jpg");
-  // background-position: top;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // height: 75vh;
-  // margin-bottom: 1rem;
-  //
-  // @include desktop {
-  //   font-size: 10rem;
-  //   margin-top: 0;
-  // }
-
-
 }
 
 .pastries__hero-title {

@@ -33,19 +33,6 @@
       "type":"Feature",
       "properties":{
         "locationType": "cafe",
-        "title": "Anna Bannanas (NW)",
-        "url": "http://annabannanasnw.com",
-        "address": "1214 NW 21st Ave, Portland, OR 97209"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.6943785, 45.5316266]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType": "cafe",
         "title": "B Street Coffee House",
         "url": "https://www.zomato.com/portland/b-street-coffee-house-goose-hollow/menu?utm_source=Google&utm_medium=Local&utm_campaign=GoogleMenus",
         "address": "2190 W Burnside St, Portland, OR 97210"
@@ -137,19 +124,6 @@
       "type":"Feature",
       "properties":{
         "locationType": "cafe",
-        "title": "Downtown Freddie Browns",
-        "url": "https://www.yelp.com/biz/downtown-freddie-brown-portland",
-        "address": "555 SW Oak St, Portland, OR 97204"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates":[-122.6760872, 45.5221915]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType": "cafe",
         "title": "Driftwood Coffee",
         "url": "https://www.facebook.com/DriftwoodCoffee/",
         "address": "4604 SW Vermont St, Portland, OR 97219"
@@ -183,6 +157,19 @@
       "geometry": {
         "type":"Point",
         "coordinates":[-122.6199799, 45.4795035]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "locationType": "cafe",
+        "title": "Green Dragon Bistro",
+        "url": "http://rogue.com",
+        "address": "928 SE 9th Ave, Portland, OR 97214"
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates":[-122.6565143, 45.5160053]
       }
     },
     {
@@ -287,45 +274,6 @@
       "geometry": {
         "type":"Point",
         "coordinates":[-122.6881221, 45.5333102]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties": {
-        "locationType": "cafe",
-        "title": "Cafe Portlandia",
-        "url": "http://wfcportland.com",
-        "address": "410 SW Main St, Portland, OR 97204"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates":[-122.6782544, 45.5158373]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType": "cafe",
-        "title": "Rogue Eastside Pub & Pilot",
-        "url": "http://rogue.com",
-        "address": "928 SE 9th Ave, Portland, OR 97214"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates":[-122.6565143, 45.5160053]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType": "cafe",
-        "title": "Sandino Coffee Roasters",
-        "url": "http://sandinocoffee.com/",
-        "address": "7238 SE Foster Rd, Portland, OR 97206"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates":[-122.5882994, 45.4859431]
       }
     },
     {
@@ -443,19 +391,6 @@
       "geometry": {
         "type":"Point",
         "coordinates":[-122.6985145, 45.5328068]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType": "cafe",
-        "title": "Wind Horse Coffee",
-        "url": "https://www.facebook.com/windhorsecoffeeandtea/",
-        "address": "10611 SE Main St, Milwaukie, OR 97222"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates":[-122.6419885, 45.4459433]
       }
     }
   ]

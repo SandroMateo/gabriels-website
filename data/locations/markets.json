@@ -6,13 +6,26 @@
       "type":"Feature",
       "properties":{
         "locationType":"market",
-        "title": "PSU Farmers Market",
-        "url": "http://portlandfarmersmarket.org",
-        "address": "1831 SW Pedestrian Trail, Portland, OR 97201"
+        "title": "Beaverton Farmers Market",
+        "url": "http://beavertonfarmersmarket.com",
+        "address": "SW Hall Blvd between 3rd and 5th Streets"
     },
       "geometry": {
         "type":"Point",
-        "coordinates": [-122.6853511, 45.5117315
+        "coordinates": [-122.8050184, 45.4844785
+      ]}
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "locationType":"market",
+        "title": "Gresham Farmers Market (Trillium Coffee)",
+        "url": "http://www.trilliumcoffee.com/home.html",
+        "address": "NW Miller Ave, Gresham, OR 97030"
+    },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.4325576, 45.5016625
       ]}
     },
     {
@@ -32,27 +45,14 @@
       "type":"Feature",
       "properties":{
         "locationType":"market",
-        "title": "Beaverton Farmers Market",
-        "url": "http://beavertonfarmersmarket.com",
-        "address": "SW Hall Blvd between 3rd and 5th Streets"
-    },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.8050184, 45.4844785
-      ]}
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType":"market",
-        "title": "Hillsboro Farmers Market",
-        "url": "http://hillsboromarkets.org",
-        "address": "232 NE Lincoln St, Hillsboro, OR 97124"
+        "title": "Lake Oswego Farmers Market",
+        "url": "http://www.ci.oswego.or.us/lofm",
+        "address": "300 1st St, Lake Oswego, OR 97034"
     },
       "geometry": {
         "type":"Point",
         "coordinates": [
-        -122.9873077, 45.5234496
+        -122.665178, 45.417903
       ]}
     },
     {
@@ -67,6 +67,19 @@
         "type":"Point",
         "coordinates": [
           -122.6416397, 45.4455113
+      ]}
+    },
+    {
+      "type":"Feature",
+      "properties":{
+        "locationType":"market",
+        "title": "PSU Farmers Market",
+        "url": "http://portlandfarmersmarket.org",
+        "address": "1831 SW Pedestrian Trail, Portland, OR 97201"
+    },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6853511, 45.5117315
       ]}
     },
     {
