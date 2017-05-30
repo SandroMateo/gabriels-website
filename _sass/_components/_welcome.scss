@@ -17,11 +17,11 @@
 }
 
 .welcome__wrapper {
-  max-height: 100vh;
+  height: 100vh;
 }
 
 .welcome__title {
-  margin-top: 1rem;
+  padding-top: 1rem;
   font-size: 5rem;
 
   @include tablet {
@@ -33,22 +33,22 @@
   }
 }
 
-.welcome_subtitle{
-  font-size: 3rem;
+.welcome__subtitle{
+  font-size: 2rem;
 
   @include tablet {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 
   @include desktop {
-    font-size: 5rem;
+    font-size: 3rem;
   }
 }
 
 .welcome__image {
   display: block;
   margin: auto;
-  max-height: 30vh;
+  max-height: 25vh;
 
   @include tablet {
     max-height: 40vh;
