@@ -21,6 +21,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/stupidtable/1.0.3/stupidtable.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Custom JS -->
+    {% if jekyll.environment == 'production' %}
+      <script src="{{base_path}}/js/analytics.js"></script>
+    {% endif %}
     <script src="{{base_path}}/js/script.js"></script>
     <script src="{{base_path}}/js/map.js"></script>
 
