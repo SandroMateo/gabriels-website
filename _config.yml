@@ -15,13 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Gabriel's Bakery
 email: info@gabrielsbakery.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Official Website for Gabriel's Bakery, displaying our artisan bread, bagels, and pastries. Gabriel's Bakery is a family owned business that has been around since 1987, located in Portland, Oregon.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+url: "http://gabrielsbakery.com/" # the base hostname & protocol for your site, e.g. http://example.com
+image: "../../images/GabrielsBakeryLogo.png"
+author: Sandro Alvarez and Joanna Saerom
+twitter_username:
 github_username:  sandromateo
 production_url: http://sandromateo.github.io/gabriels-website
 BASE_PATH: http://sandromateo.github.io/gabriels-website
