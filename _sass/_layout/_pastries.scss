@@ -11,9 +11,9 @@
 .pastries__image {
   max-width: 20rem;
   @include desktop {
-    max-width: 25rem;
+    max-width: 30rem;
   }
-  @include desktop {
+  @include tablet {
     max-width: 25rem;
   }
 }
@@ -29,9 +29,60 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
+  margin-top: 2rem;
+  min-height: 33vh;
   &::after {
     clear: both;
   }
+}
+
+.pastries__scones {
+  background-image: url("../../../images/pastries-scones.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__muffins {
+  background-image: url("../../../images/pastries-muffins.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__cookies {
+  background-image: url("../../../images/pastries-cookies.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__croissants {
+  background-image: url("../../../images/pastries-croissants.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__latin {
+  background-image: url("../../../images/pastries-latin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__glutenfree {
+  background-image: url("../../../images/pastries-scones.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.pastries__miscellaneous {
+  background-image: url("../../../images/pastries-miscellaneous.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .pastries__description-wrapper {
