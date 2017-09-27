@@ -30,9 +30,14 @@
   align-items: center;
   padding-bottom: 2rem;
   margin-top: 2rem;
-  min-height: 33vh;
+  height: 40vh;
   &::after {
     clear: both;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
   }
 }
 
