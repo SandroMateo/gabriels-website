@@ -50,6 +50,7 @@
 
   @include tablet {
     max-width: 40vw;
+    font-size: 1.7rem;
   }
 
   @include desktop {
@@ -87,7 +88,15 @@
 }
 
 .new-item__wrapper, .gluten-free__wrapper {
-  min-height: 55vh;
+  min-height: 50vh;
+
+  @include tablet {
+    min-height: 45vh;
+  }
+
+  @include desktop {
+    min-height: 50vh;
+  }
 }
 
 .new-item__wrapper {
