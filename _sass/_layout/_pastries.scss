@@ -1,101 +1,3 @@
-.pastries__title {
-  text-transform: uppercase;
-  font-family: $headerfont;
-  text-shadow: 1px 1px $white;
-}
-
-.pastries__items-wrapper {
-  line-height: 0.8;
-  max-width: 150px;
-}
-
-.pastries__image {
-  max-width: 20rem;
-  @include desktop {
-    max-width: 30rem;
-  }
-  @include tablet {
-    max-width: 25rem;
-  }
-}
-
-.pastries__wrapper {
-  display: flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  flex-wrap: wrap;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 2rem;
-  margin-top: 2rem;
-  padding-left: 1rem;
-  height: 40vh;
-  &::after {
-    clear: both;
-  }
-
-  &:hover {
-    transform: scale(1.05);
-    box-shadow: 0.25rem 0.25rem 1rem $gray;
-  }
-}
-
-.pastries__scones {
-  background-image: url("../../../images/pastries-scones.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__muffins {
-  background-image: url("../../../images/pastries-muffins.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__cookies {
-  background-image: url("../../../images/pastries-cookies.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__croissants {
-  background-image: url("../../../images/pastries-croissants.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__latin {
-  background-image: url("../../../images/pastries-latin.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__glutenfree {
-  background-image: url("../../../images/pastries-scones.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__miscellaneous {
-  background-image: url("../../../images/pastries-miscellaneous.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.pastries__description-wrapper {
-  padding-left: 2rem;
-}
-
 .pastries__hero {
 
   @include hero-styling("../../images/pastries-background.jpg");
@@ -103,4 +5,103 @@
 
 .pastries__hero-title {
   @include title-styling();
+}
+
+.pastries {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  // margin-top: 3rem;
+  // margin-bottom: 3rem;
+}
+
+.pastries__link {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+  margin: 1rem auto;
+  text-align: center;
+
+  @include tablet {
+    -webkit-flex: 1 1 50%;
+    flex: 1 1 50%;
+  };
+
+  @include desktop {
+    -webkit-flex: 1 1 50%;
+    flex: 1 1 50%;
+  }
+}
+
+.pastries__title {
+  text-transform: uppercase;
+  font-family: $headerfont;
+  text-shadow: 1px 1px $white;
+}
+
+.pastries__wrapper {
+  padding: 4rem;
+  min-height: 20rem;
+  min-width: 20rem;
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0.25rem 0.25rem 1rem $gray;
+  }
+}
+
+#pastries__scones {
+  background-image: url("../../../images/pastries-scones.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__muffins {
+  background-image: url("../../../images/pastries-muffins.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__cookies {
+  background-image: url("../../../images/pastries-cookies.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__croissants {
+  background-image: url("../../../images/pastries-croissants.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__latin {
+  background-image: url("../../../images/pastries-latin.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__gluten {
+  background-image: url("../../../images/pastries-scones.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pastries__miscellaneous {
+  background-image: url("../../../images/pastries-miscellaneous.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }

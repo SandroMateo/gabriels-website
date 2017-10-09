@@ -8,7 +8,7 @@ permalink: /products/bread/
 </div>
 
 
-<div class="breads" id="breadPage">
+<div class="breads">
   {% for bread in site.bread %}
     {% assign link = bread.title %}
     <a class="breads__link" href={{ "/products/bread/" | append: link }}>
