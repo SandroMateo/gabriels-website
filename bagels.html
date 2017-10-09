@@ -7,7 +7,7 @@ permalink: /products/bagels/
   <h1 class="bagels__hero-title">Bagels</h1>
 </div>
 
-<div class="bagels" id="bagelPage">
+<div class="bagels">
   {% for bagel in site.bagels %}
     {% assign link = bagel.title %}
     <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
