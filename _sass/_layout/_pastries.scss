@@ -1,6 +1,7 @@
 .pastries__title {
   text-transform: uppercase;
   font-family: $headerfont;
+  text-shadow: 1px 1px $white;
 }
 
 .pastries__items-wrapper {
@@ -30,6 +31,7 @@
   align-items: center;
   padding-bottom: 2rem;
   margin-top: 2rem;
+  padding-left: 1rem;
   height: 40vh;
   &::after {
     clear: both;
