@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1 class="pastries-details__hero-title">{{ page.title }}</h1>
+
+<div class="pastry-details">
+  {% for pastry in page.list %}
+  <div class="pastry-details__wrapper">
+    <img class="pastry-details__image"src={{ pastry.image }} alt="">
+    <h3 class="pastry-detail__name"> {{ pastry.title }} </h3>
+  </div>
+  {% endfor %}
+</div>

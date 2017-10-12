@@ -63,7 +63,14 @@ defaults:
       type: "bagels"
     values:
       layout: "bagel-details"
-      logo: "../../../images/GabrielsBakeryLogo.png"    
+      logo: "../../../images/GabrielsBakeryLogo.png"
+  -
+    scope:
+      path: ""
+      type: "pastries"
+    values:
+      layout: "pastries-details"
+      logo: "../../../images/GabrielsBakeryLogo.png"
 exclude:
   - Gemfile
   - Gemfile.lock
