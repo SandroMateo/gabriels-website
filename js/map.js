@@ -72,7 +72,7 @@ function switchLocation(_map, _locationType) {
 
 $(document).ready(function() {
   var map = new MapMaker();
-  var locationTypeArray = ["cafes", "grocery", "markets"];
+  var locationTypeArray = ["grocery", "markets"];
   map.initiateMap();
   for (var i = 0; i < locationTypeArray.length; i++) {
     loadLocationData(map, locationTypeArray[i]);
@@ -84,11 +84,6 @@ $(document).ready(function() {
   });
 
   $('#markets').click(function() {
-    var locationType = $(this).val();
-    switchLocation(map, locationType);
-  });
-
-  $('#cafes').click(function() {
     var locationType = $(this).val();
     switchLocation(map, locationType);
   });
