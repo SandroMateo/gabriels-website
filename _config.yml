@@ -40,6 +40,8 @@ collections:
   bread:
     output: true
     permalink: /products/:collection/:path/
+  pastries:
+    output: false
 defaults:
   -
     scope:

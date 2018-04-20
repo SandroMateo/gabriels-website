@@ -8,83 +8,10 @@ permalink: /order/
 </div>
 
 <div class="contact">
-  <div class="contact__info-wrapper--mobile">
-    <h2 class="contact__info-title">Get In Touch</h2>
-    <p class="contact__hr">_______</p>
-    <p class="contact__info">We would love to hear from you.  Please send us your feedback, ideas, questions, or anything you would like to share. We will get back to you as soon as we can.</p>
-    <h2 class="contact__info-title">Address</h2>
-    <p class="contact__hr">_______</p>
-    <p class="contact__info">1100 NE 21st Ave. #A</p>
-    <p class="contact__info">Portland, OR</p>
-    <p class="contact__info">97232</p>
-    <h2 class="contact__info-title">Hours</h2>
-    <p class="contact__hr">_______</p>
-    <p class="contact__info">Wholesale Only</p>
-    <p class="contact__info">Retail Coming Soon!</p>
-    <h2 class="contact__info-title">Phone & Email</h2>
-    <p class="contact__hr">_______</p>
-    <p class="contact__info">(503)-225-1655</p>
-    <p class="contact__info">info@gabrielsbakery.com</p>
-
-  </div>
-  <div class="row">
-    <div class="col-sm-8">
-
-      <form class="contact__form-wrapper" action="https://formspree.io/info@gabrielsbakery.com"
-      method="POST">
-        <label class="contact__item-label" for="name">
-          <input class="form-control contact__item" type="text" name="name" id="name" placeholder="Name" required>
-          <span>Name</span>
-        </label>
-        <label class="contact__item-label" for="email">
-          <input class="form-control contact__item" type="email" name="_replyto" id="email" placeholder="Email" required>
-          <span>Email</span>
-        </label>
-        <label class="contact__item-label" for="phone">
-          <input class="form-control contact__item" type="tel" name="phone" placeholder="Phone" id="phone">
-          <span>Phone</span>
-        </label>
-        <div class="contact__select-wrapper form-group">
-          <label class="contact__select-label" for="subject">Subject</label>
-          <select class="form-control contact__select" name="_subject">
-            <i class="fa fa-caret-down" aria-hidden="true"></i>
-            <option value="general">General Feedback</option>
-            <option value="question">Questions and Concerns</option>
-            <option value="wholesale">Wholesale Inquiry</option>
-            <option value="donation">Donation Request</option>
-            <option value="other">Other</option>
-          </select>
-        </div>
-
-        <label class="contact__item-label" for="comment">
-          <textarea class="form-control contact__item" name="message" rows="8" cols="90" placeholder="Comment"></textarea>
-          <span>Comment</span>
-        </label>
-        <input type="text" name="_gotcha" style="display:none" />
-
-        <button type="submit" class="contact__button btn">Send <i class="fa fa fa-paper-plane" aria-hidden="true"></i></button>
-      </form>
-
-    </div>
-    <div class="col-sm-4">
-      <div class="contact__info-wrapper">
-        <h2 class="contact__info-title">Get In Touch</h2>
-        <p class="contact__hr">_______</p>
-        <p class="contact__info">We would love to hear from you.  Please send us your feedback, ideas, questions, or anything you would like to share. We will get back to you as soon as we can.</p>
-        <h2 class="contact__info-title">Address</h2>
-        <p class="contact__hr">_______</p>
-        <p class="contact__info">1100 NE 21st Ave. #A</p>
-        <p class="contact__info">Portland, OR</p>
-        <p class="contact__info">97232</p>
-        <h2 class="contact__info-title">Hours</h2>
-        <p class="contact__hr">_______</p>
-    		<p class="contact__info">Wholesale Only</p>
-        <p class="contact__info">Retail Coming Soon!</p>
-        <h2 class="contact__info-title">Phone & Email</h2>
-        <p class="contact__hr">_______</p>
-        <p class="contact__info">(503)-225-1655</p>
-        <p class="contact__info">info@gabrielsbakery.com</p>
-      </div>
-    </div>
-  </div>
+    {% for pastry in site.pastries %}
+      <h3> {{ pastry.title }}</h3>
+      {% for type in pastry.types %}
+      <p> {{ type }}</p>
+      {% endfor %}
+    {% endfor %}
 </div>
