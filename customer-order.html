@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: order-form
 permalink: /order/
 ---
 
@@ -10,17 +10,17 @@ permalink: /order/
 <div class="contact">
     <h3> Bagels - Single </h3>
     {% for bagel in site.bagels %}
-      <p> {{ bagel.title }}: ${{ bagel.sizes.[0].price }}</p>
+      <p> {{ bagel.title }}: ${{ bagel.sizes.single.price }}</p>
     {% endfor %}
     <h3> Bagels - 3 Pack </h3>
     {% for bagel in site.bagels %}
-      {% unless bagel.sizes.[1].title == "none" %}
-      <p> {{ bagel.title }}: ${{ bagel.sizes.[1].price }}</p>
-      {% endunless %}
+      {% if bagel.sizes.three %}
+      <p> {{ bagel.title }}: ${{ bagel.sizes.three.price }}</p>
+      {% endif %}
     {% endfor %}
     <h3> Bagels - 6 Pack </h3>
     {% for bagel in site.bagels %}
-      <p> {{ bagel.title }}: ${{ bagel.sizes.[2].price }}</p>
+      <p> {{ bagel.title }}: ${{ bagel.sizes.six.price }}</p>
     {% endfor %}
     <h3> Bread Loaves </h3>
     {% for bread in site.bread %}

@@ -14,7 +14,7 @@ function startSlideshow(array, index, nextIndex, arrayLength) {
 
 $(document).ready(function(){
 
-  // To generate the nutritional fact table for bread anf bagels
+  // To generate the nutritional fact table for bread and bagels
   $("table").stupidtable();
 
   // To start slideshow on home page
