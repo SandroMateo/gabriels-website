@@ -11,7 +11,7 @@ permalink: /order/
     {% for pastry in site.pastries %}
       <h3> {{ pastry.title }}</h3>
       {% for type in pastry.types %}
-      <p> {{ type }}</p>
+      <p> {{ type.title }}: ${{ type.price }} </p>
       {% endfor %}
     {% endfor %}
 </div>
