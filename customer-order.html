@@ -8,6 +8,24 @@ permalink: /order/
 </div>
 
 <div class="contact">
+    <h3> Bagels - Single </h3>
+    {% for bagel in site.bagels %}
+      <p> {{ bagel.title }}: ${{ bagel.sizes.[0].price }}</p>
+    {% endfor %}
+    <h3> Bagels - 3 Pack </h3>
+    {% for bagel in site.bagels %}
+      {% unless bagel.sizes.[1].title == "none" %}
+      <p> {{ bagel.title }}: ${{ bagel.sizes.[1].price }}</p>
+      {% endunless %}
+    {% endfor %}
+    <h3> Bagels - 6 Pack </h3>
+    {% for bagel in site.bagels %}
+      <p> {{ bagel.title }}: ${{ bagel.sizes.[2].price }}</p>
+    {% endfor %}
+    <h3> Bread Loaves </h3>
+    {% for bread in site.bread %}
+      <p> {{ bread.title }} Bread: ${{ bread.price }} </p>
+    {% endfor %}
     {% for pastry in site.pastries %}
       <h3> {{ pastry.title }}</h3>
       {% for type in pastry.types %}
