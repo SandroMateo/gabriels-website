@@ -9,21 +9,6 @@
 
       {{ content }}
 
-      <!-- Firebase -->
-      <script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-      <script>
-        // Initialize Firebase
-        var config = {
-          apiKey: "AIzaSyCAZduxydPkphy8RgflsT-niDcsysdE-N8",
-          authDomain: "gabriels-website.firebaseapp.com",
-          databaseURL: "https://gabriels-website.firebaseio.com",
-          projectId: "gabriels-website",
-          storageBucket: "",
-          messagingSenderId: "442969374624"
-        };
-        firebase.initializeApp(config);
-      </script>
-
     <!-- JS Libraries -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 
@@ -31,6 +16,7 @@
     {% if jekyll.environment == 'production' %}
       <script src="{{base_path}}/js/analytics.js"></script>
     {% endif %}
+    <script src="{{base_path}}/js/firebase.js"></script>
 
   </body>
 </html>

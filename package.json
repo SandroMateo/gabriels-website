@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "bourbon": "^4.3.2",
-    "bourbon-neat": "^1.8.0"
+    "bourbon-neat": "^1.8.0",
+    "firebase": "^4.13.1"
   }
 }

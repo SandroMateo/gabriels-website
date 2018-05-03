@@ -3,11 +3,11 @@ layout: order-form
 permalink: /order/
 ---
 
-<div class="contact__hero">
-  <h1 class="contact__hero-title">Make an Order</h1>
+<div>
+  <h1>Make an Order</h1>
 </div>
 
-<div class="contact">
+<div>
     <h3> Bagels - Single </h3>
     {% for bagel in site.bagels %}
       <p> {{ bagel.title }}: ${{ bagel.sizes.single.price }}</p>
