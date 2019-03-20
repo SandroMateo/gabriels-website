@@ -26,7 +26,7 @@ $(document).ready(function(){
   }
 
   //set up cookie for a welcome page for first time users
-  var cookie = document.cookie;
+  var cookie = 0; //document.cookie
   console.log(cookie);
   if(!cookie) {
     $(".welcome").show();
