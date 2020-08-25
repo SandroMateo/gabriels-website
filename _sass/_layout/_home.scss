@@ -88,7 +88,7 @@
   margin-right: 0;
 }
 
-.new-item__wrapper, .gluten-free__wrapper {
+.new-item__wrapper, .gluten-free__wrapper,  {
   min-height: 50vh;
 
   @include tablet {
@@ -122,5 +122,12 @@
   & hr {
     width: 5rem;
     border: 1px solid $gold;
+  }
+
+  & a {
+    color: $gold;
+    &:hover {
+      color: $black;
+    }
   }
 }
