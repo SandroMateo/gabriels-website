@@ -32,14 +32,21 @@ layout: default
   </h1>
   <div class="row bagels-details__detail-wrapper">
     <div class="col-md-5 col-md-push-4">
-
-      <img class="details__hero-image img-responsive" src={{ page.image }} alt="product image">
+      <picture>
+        <source class="details__hero-image img-responsive" src={{ page.image1 }} type="image/webp">
+        <source class="details__hero-image img-responsive" src={{ page.image2 }} type="image/png">
+        <img class="details__hero-image img-responsive" src={{ page.image2 }} alt="Product Image">
+      </picture>
       <div class="details__bagel-ingredients-wrapper">
         <h4 class="details__bagel-ingredients">Ingredients: {{ page.ingredients }}</h4>
       </div>
     </div>
     <div class="col-md-4 col-md-pull-5">
-      <img class="bagel-details__label-image img-responsive"src={{ page.labelImage }} alt="product label" data-toggle="modal" data-target="#bagelLabelModal">
+      <picture>
+        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage1 }} type="image/webp" data-toggle="modal" data-target="#bagelLabelModal">
+        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} type="image/png" data-toggle="modal" data-target="#bagelLabelModal">
+        <img class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} alt="Product Label" data-toggle="modal" data-target="#bagelLabelModal">
+      </picture>
 
       <div class="modal fade" tabindex="-1" role="dialog" id="bagelLabelModal">
         <div class="modal-dialog">
@@ -48,7 +55,11 @@ layout: default
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <img class="modal-image img-responsive" src={{ page.labelImage }} alt="product label">
+              <picture>
+                <source class="img-responsive" src={{ page.labelImage1 }} type="image/webp">
+                <source class="img-responsive" src={{ page.labelImage2 }} type="image/png">
+                <img class="img-responsive" src={{ page.labelImage2 }} alt="Product Label">
+              </picture>
             </div>
           </div>
         </div>
@@ -56,7 +67,11 @@ layout: default
     </div>
 
     <div class="col-md-3">
-      <img class="bagel-details__nutrition-image img-responsive"src={{ page.nutritionImage }} alt="product nutrition label" data-toggle="modal" data-target="#bagelNutritionModal">
+      <picture>
+        <source class="img-responsive bagel-details__nutrition-image" src={{ page.nutritionImage1 }} type="image/webp" data-toggle="modal" data-target="#bagelLabelModal">
+        <source class="img-responsive bagel-details__nutrition-image" src={{ page.nutritionImage2 }} type="image/png" data-toggle="modal" data-target="#bagelLabelModal">
+        <img class="img-responsive bagel-details__nutrition-image" src={{ page.nutritionImage2 }} alt="Product Nutrtition Label" data-toggle="modal" data-target="#bagelNutritionModal">
+      </picture>
 
       <div class="modal fade" tabindex="-1" role="dialog" id="bagelNutritionModal">
         <div class="modal-dialog" role="document">
@@ -65,7 +80,11 @@ layout: default
               <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
             <div class="modal-body">
-              <img class="modal-image img-responsive"src={{ page.nutritionImage }} alt="product nutrition label">
+              <picture>
+                <source class="img-responsive" src={{ page.nutritionImage1 }} type="image/webp">
+                <source class="img-responsive" src={{ page.nutritionImage2 }} type="image/png">
+                <img class="img-responsive" src={{ page.nutritionImage2 }} alt="Product Nutrition Label">
+              </picture>
             </div>
           </div>
         </div>

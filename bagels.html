@@ -12,8 +12,16 @@ permalink: /products/bagels/
     {% assign link = bagel.title %}
     <a class="bagels__link" href={{ "/products/bagels/" | append: link }}>
       <div class="bagels__wrapper">
-        <img class="bagels__name img-responsive" src={{ bagel.labelImage }} alt="">
-        <img class="bagels__image img-responsive" src={{ bagel.baggedImage }} alt="">
+        <picture>
+          <source class="bagels__name img-responsive" src={{ bagel.labelImage1 }} type="image/webp">
+          <source class="bagels__name img-responsive" src={{ bagel.labelImage2 }} type="image/png">
+          <img class="bagels__name img-responsive" src={{ bagel.labelImage2 }} alt="Bagel Label">
+        </picture>
+        <picture>
+          <source class="bagels__image img-responsive" src={{ bagel.baggedImage1 }} type="image/webp">
+          <source class="bagels__image img-responsive" src={{ bagel.baggedImage2 }} type="image/png">
+          <img class="bagels__image img-responsive" src={{ bagel.baggedImage2 }} alt="Bagged Bagels">
+        </picture>
       </div>
     </a>
 
