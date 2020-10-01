@@ -8,7 +8,9 @@
         "locationType": "grocery",
         "title": "Food Front (Capitol)",
         "url": "http://foodfront.coop/",
-        "address": "6344 SW Capitol Hwy, Portland, OR 97239"
+        "address": "6344 SW Capitol Hwy, Portland, OR 97239",
+        "bagels": ["blueberry", "cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame", "three"],
+        "bread": ["cracked", "eight", "oatmeal", "sunflower", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -21,7 +23,9 @@
         "locationType": "grocery",
         "title": "Food Front (NW)",
         "url": "http://foodfront.coop/",
-        "address": "2375 NW Thurman St, Portland, OR 97210"
+        "address": "2375 NW Thurman St, Portland, OR 97210",
+        "bagels": ["cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame"],
+        "bread": ["eight", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -34,7 +38,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Burlingame)",
         "url": "https://www.fredmeyer.com/",
-        "address": "7555 SW Barbur Blvd, Portland, OR 97219"
+        "address": "7555 SW Barbur Blvd, Portland, OR 97219",
+        "bagels": ["cheddar", "herb", "blueberry", "everything", "plain", "quinoa", "sesame", "jalapeño", "pesto", "cinnamon", "quinoa",],
+        "bread": ["challah", "eight", "molasses", "oatmeal", "pumpkin", "quinoa", "sunflower", "three", "walnut", "whole", ]
       },
       "geometry": {
         "type":"Point",
@@ -47,7 +53,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Beaverton)",
         "url": "https://www.fredmeyer.com/",
-        "address": "11425 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005"
+        "address": "11425 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "jalapeño", "herb", "pesto"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -60,7 +68,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Fisher's Landing)",
         "url": "https://www.fredmeyer.com/",
-        "address": "16600 SE McGillivray Blvd, Vancouver, WA 98683"
+        "address": "16600 SE McGillivray Blvd, Vancouver, WA 98683",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "jalapeño", "sesame", "cheddar"],
+        "bread": ["quinoa", "eight", "oatmeal"]
       },
       "geometry": {
         "type":"Point",
@@ -71,22 +81,11 @@
       "type":"Feature",
       "properties": {
         "locationType": "grocery",
-        "title": "Fred Meyer (Foster)",
-        "url": "https://www.fredmeyer.com/",
-        "address": "5253 SE 82nd Ave, Portland, OR 97266"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.5802, 45.48426]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties": {
-        "locationType": "grocery",
         "title": "Fred Meyer (Gateway)",
         "url": "https://www.fredmeyer.com/",
-        "address": "Gateway Center, 1111 NE 102nd Ave, Portland, OR 97220"
+        "address": "Gateway Center, 1111 NE 102nd Ave, Portland, OR 97220",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb", "quinoa"],
+        "bread": ["eight", "quinoa", "oatmeal", "three"]
       },
       "geometry": {
         "type":"Point",
@@ -99,7 +98,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Glisan)",
         "url": "https://www.fredmeyer.com/",
-        "address": "6615 NE Glisan St, Portland, OR 97213"
+        "address": "6615 NE Glisan St, Portland, OR 97213",
+        "bagels": ["cheddar", "everything", "plain", "sesame", "herb", "jalapeño", "cinnamon"],
+        "bread": ["eight", "oatmeal", "quinoa", "sunflower", "blue"]
       },
       "geometry": {
         "type":"Point",
@@ -112,7 +113,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Gresham)",
         "url": "https://www.fredmeyer.com/",
-        "address": "2497 SE Burnside Rd, Gresham, OR 97080"
+        "address": "2497 SE Burnside Rd, Gresham, OR 97080",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"],
+        "bread": ["eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -125,7 +128,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Hawthorne)",
         "url": "https://www.fredmeyer.com/",
-        "address": "3805 SE Hawthorne Blvd, Portland, OR 97214"
+        "address": "3805 SE Hawthorne Blvd, Portland, OR 97214",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "pesto"],
+        "bread": ["blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -138,7 +143,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Happy Valley)",
         "url": "https://www.fredmeyer.com/",
-        "address": "17005 SE Sunnyside Rd, Happy Valley, OR 97086"
+        "address": "17005 SE Sunnyside Rd, Happy Valley, OR 97086",
+        "bagels": ["cheddar", "herb", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "blueberry", "cinnamon", "three"],
+        "bread": ["eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -151,7 +158,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Hollywood)",
         "url": "https://www.fredmeyer.com/",
-        "address": "3030 Northeast Weidler Street, Portland, OR 97232"
+        "address": "3030 Northeast Weidler Street, Portland, OR 97232",
+        "bagels": ["cheddar", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "pesto", "blueberry", "cinnamon", "quinoa", "three"],
+        "bread": ["blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -164,7 +173,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Imbrie Drive)",
         "url": "https://www.fredmeyer.com/",
-        "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124"
+        "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124",
+        "bagels": ["cheddar", "jalapeño", "plain", "herb", "blueberry", "cinnamon", "everything"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -177,7 +188,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Interstate)",
         "url": "https://www.fredmeyer.com/",
-        "address": "7404 N Interstate Ave, Portland, OR 97217"
+        "address": "7404 N Interstate Ave, Portland, OR 97217",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "three", "herb", "blueberry", "sesame", "cheddar", "pesto"],
+        "bread": ["eight", "quinoa", "three", "walnut", "whole", "blue", "oatmeal", "cracked", "sunflower", "challah"]
       },
       "geometry": {
         "type":"Point",
@@ -190,7 +203,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Johnson Creek)",
         "url": "https://www.fredmeyer.com/",
-        "address": "8955 SE 82nd Ave, Portland, OR 97086"
+        "address": "8955 SE 82nd Ave, Portland, OR 97086",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "three", "cheddar", "whole"],
+        "bread": ["eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -203,7 +218,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Oak Grove)",
         "url": "https://www.fredmeyer.com/",
-        "address": "13625 SE Mcloughlin Blvd, Portland, OR 97222"
+        "address": "13625 SE Mcloughlin Blvd, Portland, OR 97222",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -216,7 +233,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Oregon City)",
         "url": "https://www.fredmeyer.com/",
-        "address": "1839 Molalla Ave, Oregon City, OR 97045"
+        "address": "1839 Molalla Ave, Oregon City, OR 97045",
+        "bagels": ["herb", "blueberry", "everything", "plain", "sesame", "cheddar", "jalapeño"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -229,7 +248,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Peninsula)",
         "url": "https://www.fredmeyer.com/",
-        "address": "6850 N Lombard St, Portland, OR 97203"
+        "address": "6850 N Lombard St, Portland, OR 97203",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar"],
+        "bread": ["eight", "quinoa", "walnut", "whole", "oatmeal", "blue"]
       },
       "geometry": {
         "type":"Point",
@@ -242,7 +263,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Raleigh Hills)",
         "url": "https://www.fredmeyer.com/",
-        "address": "7700 Southwest Beaverton Hillsdale Hwy, Portland, OR 97225"
+        "address": "7700 Southwest Beaverton Hillsdale Hwy, Portland, OR 97225",
+        "bagels": ["cheddar", "everything", "plain", "quinoa", "sesame", "blueberry", "cinnamon", "herb"],
+        "bread": ["cracked", "eight", "oatmeal", "quinoa", "walnut", "whole", "sunflower"]
       },
       "geometry": {
         "type":"Point",
@@ -255,7 +278,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Stadium)",
         "url": "https://www.fredmeyer.com/",
-        "address": "100 NW 20th Pl, Portland, OR 97209"
+        "address": "100 NW 20th Pl, Portland, OR 97209",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "quinoa", "sesame", "cheddar", "plain"],
+        "bread": ["eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -268,7 +293,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Tigard)",
         "url": "https://www.fredmeyer.com/",
-        "address": "11565 SW Pacific Hwy, Portland, OR 97223"
+        "address": "11565 SW Pacific Hwy, Portland, OR 97223",
+        "bagels": ["cheddar", "everything", "blueberry", "cinnamon", "plain", "jalapeño"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -281,7 +308,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Tualatin)",
         "url": "https://www.fredmeyer.com/",
-        "address": "19200 SW Martinazzi Ave, Tualatin, OR 97062"
+        "address": "19200 SW Martinazzi Ave, Tualatin, OR 97062",
+        "bagels": ["cheddar", "herb", "everything", "sesame", "jalapeño", "pesto", "cinnamon", "plain"],
+        "bread": ["cracked", "eight", "oatmeal", "quinoa", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -294,7 +323,9 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Walker Road)",
         "url": "https://www.fredmeyer.com/",
-        "address": "15995 SW Walker Rd, Beaverton, OR 97006"
+        "address": "15995 SW Walker Rd, Beaverton, OR 97006",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -307,24 +338,13 @@
         "locationType": "grocery",
         "title": "Fred Meyer (Wood Village)",
         "url": "https://www.fredmeyer.com/",
-        "address": "22855 Northeast Park Lane, Troutdale, OR 97060"
+        "address": "22855 Northeast Park Lane, Troutdale, OR 97060",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
         "coordinates": [-122.42859, 45.53029]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties": {
-        "locationType": "grocery",
-        "title": "La Bouffe International Gourmet",
-        "url": "https://www.facebook.com/pages/La-Bouffe-International-Gourmet/1206543139393024",
-        "address": "8015 SE Stark St, Portland, OR 97215"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.5810976, 45.5193245]
       }
     },
     {
