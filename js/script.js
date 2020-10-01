@@ -25,6 +25,24 @@ $(document).ready(function(){
     startSlideshow(imageArray, 0, 1, imageLength);
   }
 
+  //set up cookie for a welcome page for first time users
+  var cookie = document.cookie;
+  console.log(cookie);
+  if(!cookie) {
+    $(".welcome").show();
+  }
+
+  $(".welcome__enter-button").on('touchstart click', function(e){
+    e.preventDefault();
+    $(".welcome").fadeOut(1000);
+    var d = new Date();
+    d.setTime(d.getTime() + (365 * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toGMTString();
+    var cookieString = "username=;" + expires + ";" + "path=/;";
+    console.log(cookieString);
+    document.cookie = cookieString;
+  });
+
   //mobile nav functionality
   $(".mobile-nav__menu-button").on('touchstart click', function(e){
     e.preventDefault();
