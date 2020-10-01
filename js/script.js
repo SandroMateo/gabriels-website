@@ -1,16 +1,16 @@
-function startSlideshow(array, index, nextIndex, arrayLength) {
-  if (nextIndex >= arrayLength) {
-    nextIndex = 0;
-  }
-  console.log(nextIndex);
-  $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(500, "linear", function() {
-    $(".new-item__wrapper").css("background-image", array[nextIndex]).fadeIn(500, "linear", function() {
-      index = nextIndex;
-      nextIndex++;
-      startSlideshow(array, index, nextIndex, arrayLength);
-    });
-  });
-}
+// function startSlideshow(array, index, nextIndex, arrayLength) {
+//   if (nextIndex >= arrayLength) {
+//     nextIndex = 0;
+//   }
+//   console.log(nextIndex);
+//   $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(500, "linear", function() {
+//     $(".new-item__wrapper").css("background-image", array[nextIndex]).fadeIn(500, "linear", function() {
+//       index = nextIndex;
+//       nextIndex++;
+//       startSlideshow(array, index, nextIndex, arrayLength);
+//     });
+//   });
+// }
 
 $(document).ready(function(){
 

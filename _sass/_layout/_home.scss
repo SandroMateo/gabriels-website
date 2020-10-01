@@ -15,6 +15,7 @@
   max-width: 75vw;
   margin-top: 20rem;
   padding: 2rem;
+  margin-bottom: 25rem auto;
 }
 
 .main-page__title {
@@ -82,12 +83,12 @@
 .featured {
   text-align: center;
   color: $white;
-  margin-top: 0.5rem;
+  border-top: 1px solid $black;
   margin-left: 0;
   margin-right: 0;
 }
 
-.new-item__wrapper, .gluten-free__wrapper {
+.bagel-item__wrapper, .bread-item__wrapper, .gluten-free__wrapper,  {
   min-height: 50vh;
 
   @include tablet {
@@ -99,18 +100,17 @@
   }
 }
 
-.new-item__wrapper {
-  background-image: url("../../images/slideshow-bagel.jpg"),
-  url("../../images/slideshow-bread.jpg"),
-  url("../../images/slideshow-pastries.jpg");
+.bagel-item__wrapper {
+  background-image: url("../../images/slideshow-bagel.jpg");
   background-size: cover;
   background-position: center;
 }
 
-.new-item__image {
-  width: 100%;
-  height: auto;
-  padding-left: -2rem;
+.bread-item__wrapper {
+  background-image:
+  url("../../images/slideshow-bread.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 .gluten-free__wrapper {
@@ -121,5 +121,12 @@
   & hr {
     width: 5rem;
     border: 1px solid $gold;
+  }
+
+  & a {
+    color: $gold;
+    &:hover {
+      color: $black;
+    }
   }
 }

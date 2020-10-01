@@ -13,8 +13,16 @@ permalink: /products/bread/
     {% assign link = bread.title %}
     <a class="breads__link" href={{ "/products/bread/" | append: link }}>
       <div class="breads__wrapper {{ bread.href }}">
-        <img class="breads__image" src={{ bread.image }} alt="">
-        <img class="breads__name img-responsive" src={{ bread.labelImage }}>
+        <picture>
+          <source class="breads__image" src={{ bread.image1 }} type="image/webp">
+          <source class="breads__image" src={{ bread.image2 }} type="image/png">
+          <img href="/products/pastries" class="breads__image" src={{ bread.image2 }} alt="Miscellaneous Pastries">
+        </picture>
+        <picture>
+          <source class="breads__name img-responsive" src={{ bread.labelImage1 }} type="image/webp">
+          <source class="breads__name img-responsive" src={{ bread.labelImage2 }} type="image/png">
+          <img href="/products/pastries" class="breads__name img-responsive" src={{ bread.labelImage2 }} alt="Miscellaneous Pastries">
+        </picture>
       </div>
     </a>
   {% endfor %}
