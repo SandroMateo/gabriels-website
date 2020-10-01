@@ -1,29 +1,10 @@
-// function startSlideshow(array, index, nextIndex, arrayLength) {
-//   if (nextIndex >= arrayLength) {
-//     nextIndex = 0;
-//   }
-//   console.log(nextIndex);
-//   $(".new-item__wrapper").css("background-image", array[index]).delay(3000).fadeOut(500, "linear", function() {
-//     $(".new-item__wrapper").css("background-image", array[nextIndex]).fadeIn(500, "linear", function() {
-//       index = nextIndex;
-//       nextIndex++;
-//       startSlideshow(array, index, nextIndex, arrayLength);
-//     });
-//   });
-// }
+
 
 $(document).ready(function(){
 
   // To generate the nutritional fact table for bread anf bagels
   $("table").stupidtable();
 
-  // To start slideshow on home page
-  var images = $(".new-item__wrapper").css("background-image");
-  if(images) {
-    var imageArray = images.split(",");
-    var imageLength = imageArray.length;
-    startSlideshow(imageArray, 0, 1, imageLength);
-  }
 
   //set up cookie for a welcome page for first time users
   var cookie = document.cookie;
