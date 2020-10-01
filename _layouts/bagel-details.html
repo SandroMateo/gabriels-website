@@ -31,7 +31,32 @@ layout: default
     {% endunless %}
   </h1>
   <div class="row bagels-details__detail-wrapper">
+    <button class="btn bagel_locations" id="bagel" type="button" name="button" value="bagel" data-toggle="modal" data-target="#bagelMapModal">Where To Buy</button>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="bagelMapModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4>Bagel Locations</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12 modal_body_map">
+                <div class="location-map" id="location-map">
+                  <div class="locations__map" id="map"></div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="row bagels-details__detail-wrapper">
     <div class="col-md-5 col-md-push-4">
+
       <picture>
         <source class="details__hero-image img-responsive" src={{ page.image1 }} type="image/webp">
         <source class="details__hero-image img-responsive" src={{ page.image2 }} type="image/png">
