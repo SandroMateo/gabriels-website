@@ -351,9 +351,41 @@
       "type":"Feature",
       "properties": {
         "locationType": "grocery",
+        "title": "Green Zebra (Div)",
+        "url": "https://www.greenzebragrocery.com/",
+        "address": "4990 SE Division St, Portland, OR 97206",
+        "bagels": ["cheddar", "everything", "plain"],
+        "bread": []
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6111605, 45.5051706]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
+        "title": "Green Zebra (Kenton)",
+        "url": "https://www.greenzebragrocery.com/",
+        "address": "3011 N Lombard St, Portland, OR 97217",
+        "bagels": ["cheddar", "everything", "plain", "blueberry"],
+        "bread": []
+      },
+      "geometry": {
+        "type":"Point",
+        "coordinates": [-122.6975616, 45.5772433]
+      }
+    },
+    {
+      "type":"Feature",
+      "properties": {
+        "locationType": "grocery",
         "title": "Market of Choice (Belmont)",
         "url": "https://www.marketofchoice.com/",
-        "address": "1004 SE Belmont St, Portland, OR 97214"
+        "address": "1004 SE Belmont St, Portland, OR 97214",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["quinoa", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -366,7 +398,9 @@
         "locationType": "grocery",
         "title": "Market of Choice (West Linn)",
         "url": "https://www.marketofchoice.com/",
-        "address": "5639 Hood St, West Linn, OR 97068"
+        "address": "5639 Hood St, West Linn, OR 97068",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["eight", "oatmeal", "pumpkin", "quinoa", "sunflower", "walnut", "whole", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -377,13 +411,15 @@
       "type":"Feature",
       "properties": {
         "locationType": "grocery",
-        "title": "Market of Choice (Burlingame)",
+        "title": "Market of Choice (Lost Spring)",
         "url": "https://www.marketofchoice.com/",
-        "address": "8502 SW Terwilliger Blvd, Portland, OR 97219"
+        "address": "250 NW Lost Springs Terrace, Portland, OR 97229",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["cracked", "eight", "oatmeal", "quinoa", "walnut", "sunflower"]
       },
       "geometry": {
         "type":"Point",
-        "coordinates": [-122.6838233, 45.4634514]
+        "coordinates": [-122.8017023, 45.5205224]
       }
     },
     {
@@ -392,7 +428,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Cedar Hills)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "3495 SW Cedar Hills Blvd, Beaverton, OR 97005"
+        "address": "3495 SW Cedar Hills Blvd, Beaverton, OR 97005",
+        "bagels": ["herb", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "jalapeño"],
+        "bread": ["eight", "oatmeal", "quinoa", "sunflower"]
       },
       "geometry": {
         "type":"Point",
@@ -405,7 +443,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Concordia)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "5320 NE 33rd Ave, Portland, OR 97211"
+        "address": "5320 NE 33rd Ave, Portland, OR 97211",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "blueberry", "sesame", "cheddar", "herb"],
+        "bread": ["eight", "quinoa", "sunflower", "oatmeal", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -418,7 +458,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Fishers Landing)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "2100b SE 164th Ave '#'101, Vancouver, WA 98683"
+        "address": "2100b SE 164th Ave '#'101, Vancouver, WA 98683",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["quinoa", "sunflower", "oatmeal", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -431,7 +473,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Happy Valley)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "15861 SE Happy Valley Town Center Dr., Happy Valley, OR 97086"
+        "address": "15861 SE Happy Valley Town Center Dr., Happy Valley, OR 97086",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"],
+        "bread": ["quinoa", "eight", "oatmeal", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -444,7 +488,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Hawthorne)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "4034 SE Hawthorne Blvd, Portland, OR 97214"
+        "address": "4034 SE Hawthorne Blvd, Portland, OR 97214",
+        "bagels": ["cinnamon", "everything", "plain", "cheddar", "blueberry", "sesame"],
+        "bread": ["quinoa", "whole", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -457,7 +503,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Hollywood)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "3210 NE Broadway, Portland, OR 97232"
+        "address": "3210 NE Broadway, Portland, OR 97232",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb"],
+        "bread": ["eight", "quinoa", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -470,7 +518,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Horizon)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "14805 SW Barrows Rd, Beaverton, OR 97007"
+        "address": "14805 SW Barrows Rd, Beaverton, OR 97007",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "herb", "cheddar", "quinoa"],
+        "bread": ["eight", "quinoa", "sunflower", "whole", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -483,7 +533,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Interstate)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "6400 N Interstate Ave, Portland, OR 97217"
+        "address": "6400 N Interstate Ave, Portland, OR 97217",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "sesame", "cheddar", "herb", "quinoa"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -496,7 +548,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Mt. Park)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "3 Monroe Pkwy, Lake Oswego, OR 97035"
+        "address": "3 Monroe Pkwy, Lake Oswego, OR 97035",
+        "bagels": ["blueberry", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["eight"]
       },
       "geometry": {
         "type":"Point",
@@ -509,7 +563,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Orenco)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124"
+        "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124",
+        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -522,7 +578,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Raleigh Hills)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "7300 SW Beaverton Hillsdale Hwy, Portland, OR 97225"
+        "address": "7300 SW Beaverton Hillsdale Hwy, Portland, OR 97225",
+        "bagels": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb"],
+        "bread": ["eight", "quinoa", "whole", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -535,7 +593,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Sellwood)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "1214 SE Tacoma St, Portland, OR 97202"
+        "address": "1214 SE Tacoma St, Portland, OR 97202",
+        "bagels": ["cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -548,7 +608,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Seven Corners)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "1954 SE Division St, Portland, OR 97202"
+        "address": "1954 SE Division St, Portland, OR 97202",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "cheddar", "sesame", "herb", "quinoa"],
+        "bread": ["eight", "oatmeal", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -561,7 +623,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Slabtown)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "2170 NW Raleigh St, Portland, OR 97210"
+        "address": "2170 NW Raleigh St, Portland, OR 97210",
+        "bagels": ["jalapeño", "cinnamon", "plain", "blueberry", "sesame", "cheddar", "everything"],
+        "bread": ["walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -574,7 +638,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Tualatin)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "7705 SW Nyberg St, Tualatin, OR 97062"
+        "address": "7705 SW Nyberg St, Tualatin, OR 97062",
+        "bagels": ["cinnamon", "everything", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -587,7 +653,9 @@
         "locationType": "grocery",
         "title": "New Seasons (University Park)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "6300 N Lombard St, Portland, OR 97203"
+        "address": "6300 N Lombard St, Portland, OR 97203",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb"],
+        "bread": ["quinoa", "whole", "eight", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -600,7 +668,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Williams)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "3445 N Williams Ave, Portland, OR 97212"
+        "address": "3445 N Williams Ave, Portland, OR 97212",
+        "bagels": ["cinnamon", "everything", "plain", "quinoa", "sesame", "blueberry", "cheddar", "herb"],
+        "bread": ["eight", "quinoa", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -613,7 +683,9 @@
         "locationType": "grocery",
         "title": "New Seasons (Woodstock)",
         "url": "https://www.newseasonsmarket.com/",
-        "address": "4500 SE Woodstock Blvd, Portland, OR 97206"
+        "address": "4500 SE Woodstock Blvd, Portland, OR 97206",
+        "bagels": ["jalapeño", "cinnamon", "plain", "sesame", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -624,22 +696,11 @@
       "type":"Feature",
       "properties": {
         "locationType": "grocery",
-        "title": "Palisades Market Place",
-        "url": "http://www.balesmarketplace.com/",
-        "address": "1377 McVey Ave, Lake Oswego, OR 97034"
-      },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.6776744, 45.4055004]
-      }
-    },
-    {
-      "type":"Feature",
-      "properties": {
-        "locationType": "grocery",
         "title": "Whole Foods (Bridgeport)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "7380 SW Bridgeport Rd, Tigard, OR 97224"
+        "address": "7380 SW Bridgeport Rd, Tigard, OR 97224",
+        "bagels": ["blueberry", "everything", "plain", "sesame", "herb"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -652,7 +713,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Burnside)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "2825 E Burnside St, Portland, OR 97214"
+        "address": "2825 E Burnside St, Portland, OR 97214",
+        "bagels": ["jalapeño", "blueberry", "everything", "plain", "sesame", "cheddar", "quinoa"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -665,7 +728,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Fremont)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "3535 Northeast 15th Avenue, Portland, OR 97212"
+        "address": "3535 Northeast 15th Avenue, Portland, OR 97212",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "cheddar", "sesame"],
+        "bread": ["eight", "quinoa", "sunflower", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -678,7 +743,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Hollywood)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "4301 NE Sandy Blvd Portland, Portland, OR 97213"
+        "address": "4301 NE Sandy Blvd Portland, Portland, OR 97213",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": ["quinoa", "sunflower", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -691,7 +758,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Portland)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "1210 NW Couch St, Portland, OR 97209"
+        "address": "1210 NW Couch St, Portland, OR 97209",
+        "bagels": ["jalapeño", "blueberry", "everything", "plain", "cinnamon", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -704,7 +773,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Tanasbourne)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "19440 NW Cornell Rd, Hillsboro, OR 97124"
+        "address": "19440 NW Cornell Rd, Hillsboro, OR 97124",
+        "bagels": ["everything", "blueberry", "cinnamon", "plain", "sesame", "cheddar", "herb", "jalapeño"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -717,7 +788,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Tigard)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223"
+        "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
@@ -730,7 +803,9 @@
         "locationType": "grocery",
         "title": "Whole Foods (Vancouver)",
         "url": "http://www.wholefoodsmarket.com/",
-        "address": "815 SE 160th Ave, Vancouver, WA 98683"
+        "address": "815 SE 160th Ave, Vancouver, WA 98683",
+        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "three"],
+        "bread": ["eight", "quinoa", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -743,7 +818,9 @@
         "locationType": "grocery",
         "title": "Sheridan Fruit Company",
         "url": "http://www.sheridanfruit.com/",
-        "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214"
+        "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214",
+        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"],
+        "bread": []
       },
       "geometry": {
         "type":"Point",
