@@ -175,7 +175,7 @@
         "url": "https://www.fredmeyer.com/",
         "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124",
         "bagels": ["cheddar", "jalapeño", "plain", "herb", "blueberry", "cinnamon", "everything"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -235,7 +235,7 @@
         "url": "https://www.fredmeyer.com/",
         "address": "1839 Molalla Ave, Oregon City, OR 97045",
         "bagels": ["herb", "blueberry", "everything", "plain", "sesame", "cheddar", "jalapeño"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -295,7 +295,7 @@
         "url": "https://www.fredmeyer.com/",
         "address": "11565 SW Pacific Hwy, Portland, OR 97223",
         "bagels": ["cheddar", "everything", "blueberry", "cinnamon", "plain", "jalapeño"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -325,7 +325,7 @@
         "url": "https://www.fredmeyer.com/",
         "address": "15995 SW Walker Rd, Beaverton, OR 97006",
         "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -340,7 +340,7 @@
         "url": "https://www.fredmeyer.com/",
         "address": "22855 Northeast Park Lane, Troutdale, OR 97060",
         "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -355,7 +355,7 @@
         "url": "https://www.greenzebragrocery.com/",
         "address": "4990 SE Division St, Portland, OR 97206",
         "bagels": ["cheddar", "everything", "plain"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -370,7 +370,7 @@
         "url": "https://www.greenzebragrocery.com/",
         "address": "3011 N Lombard St, Portland, OR 97217",
         "bagels": ["cheddar", "everything", "plain", "blueberry"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -535,7 +535,7 @@
         "url": "https://www.newseasonsmarket.com/",
         "address": "6400 N Interstate Ave, Portland, OR 97217",
         "bagels": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "sesame", "cheddar", "herb", "quinoa"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -565,7 +565,7 @@
         "url": "https://www.newseasonsmarket.com/",
         "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124",
         "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -595,7 +595,7 @@
         "url": "https://www.newseasonsmarket.com/",
         "address": "1214 SE Tacoma St, Portland, OR 97202",
         "bagels": ["cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -640,7 +640,7 @@
         "url": "https://www.newseasonsmarket.com/",
         "address": "7705 SW Nyberg St, Tualatin, OR 97062",
         "bagels": ["cinnamon", "everything", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -685,7 +685,7 @@
         "url": "https://www.newseasonsmarket.com/",
         "address": "4500 SE Woodstock Blvd, Portland, OR 97206",
         "bagels": ["jalapeño", "cinnamon", "plain", "sesame", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -700,7 +700,7 @@
         "url": "http://www.wholefoodsmarket.com/",
         "address": "7380 SW Bridgeport Rd, Tigard, OR 97224",
         "bagels": ["blueberry", "everything", "plain", "sesame", "herb"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -715,7 +715,7 @@
         "url": "http://www.wholefoodsmarket.com/",
         "address": "2825 E Burnside St, Portland, OR 97214",
         "bagels": ["jalapeño", "blueberry", "everything", "plain", "sesame", "cheddar", "quinoa"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -760,7 +760,7 @@
         "url": "http://www.wholefoodsmarket.com/",
         "address": "1210 NW Couch St, Portland, OR 97209",
         "bagels": ["jalapeño", "blueberry", "everything", "plain", "cinnamon", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -775,7 +775,7 @@
         "url": "http://www.wholefoodsmarket.com/",
         "address": "19440 NW Cornell Rd, Hillsboro, OR 97124",
         "bagels": ["everything", "blueberry", "cinnamon", "plain", "sesame", "cheddar", "herb", "jalapeño"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -790,7 +790,7 @@
         "url": "http://www.wholefoodsmarket.com/",
         "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223",
         "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
@@ -820,7 +820,7 @@
         "url": "http://www.sheridanfruit.com/",
         "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214",
         "bagels": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"],
-        "bread": []
+        "bread": ["null"]
       },
       "geometry": {
         "type":"Point",
