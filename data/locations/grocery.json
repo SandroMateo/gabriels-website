@@ -9,8 +9,7 @@
         "title": "Food Front (Capitol)",
         "url": "http://foodfront.coop/",
         "address": "6344 SW Capitol Hwy, Portland, OR 97239",
-        "bagels": ["blueberry", "cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame", "three"],
-        "bread": ["cracked", "eight", "oatmeal", "sunflower", "walnut"]
+        "product": ["blueberry", "cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame", "three", "cracked", "eight", "oatmeal", "sunflower", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -24,8 +23,7 @@
         "title": "Food Front (NW)",
         "url": "http://foodfront.coop/",
         "address": "2375 NW Thurman St, Portland, OR 97210",
-        "bagels": ["cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame"],
-        "bread": ["eight", "whole"]
+        "product": ["cheddar", "cinnamon", "everything", "jalapeño", "plain", "sesame", "eight", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -39,8 +37,7 @@
         "title": "Fred Meyer (Burlingame)",
         "url": "https://www.fredmeyer.com/",
         "address": "7555 SW Barbur Blvd, Portland, OR 97219",
-        "bagels": ["cheddar", "herb", "blueberry", "everything", "plain", "quinoa", "sesame", "jalapeño", "pesto", "cinnamon", "quinoa"],
-        "bread": ["challah", "eight", "molasses", "oatmeal", "pumpkin", "quinoa", "sunflower", "three", "walnut", "whole" ]
+        "product": ["cheddar", "herb", "blueberry", "everything", "plain", "quinoa", "sesame", "jalapeño", "pesto", "cinnamon", "quinoa", "challah", "eight", "molasses", "oatmeal", "pumpkin", "quinoa", "sunflower", "three", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -54,8 +51,7 @@
         "title": "Fred Meyer (Beaverton)",
         "url": "https://www.fredmeyer.com/",
         "address": "11425 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "jalapeño", "herb", "pesto"],
-        "bread": []
+        "product": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "jalapeño", "herb", "pesto"]
       },
       "geometry": {
         "type":"Point",
@@ -69,8 +65,7 @@
         "title": "Fred Meyer (Fisher's Landing)",
         "url": "https://www.fredmeyer.com/",
         "address": "16600 SE McGillivray Blvd, Vancouver, WA 98683",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "jalapeño", "sesame", "cheddar"],
-        "bread": ["quinoa", "eight", "oatmeal"]
+        "product": ["blueberry", "cinnamon", "everything", "plain", "jalapeño", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -84,8 +79,7 @@
         "title": "Fred Meyer (Gateway)",
         "url": "https://www.fredmeyer.com/",
         "address": "Gateway Center, 1111 NE 102nd Ave, Portland, OR 97220",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb", "quinoa"],
-        "bread": ["eight", "quinoa", "oatmeal", "three"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb", "quinoa", "eight", "quinoa", "oatmeal", "three"]
       },
       "geometry": {
         "type":"Point",
@@ -99,8 +93,7 @@
         "title": "Fred Meyer (Glisan)",
         "url": "https://www.fredmeyer.com/",
         "address": "6615 NE Glisan St, Portland, OR 97213",
-        "bagels": ["cheddar", "everything", "plain", "sesame", "herb", "jalapeño", "cinnamon"],
-        "bread": ["eight", "oatmeal", "quinoa", "sunflower", "blue"]
+        "product": ["cheddar", "everything", "plain", "sesame", "herb", "jalapeño", "cinnamon", "eight", "oatmeal", "quinoa", "sunflower", "blue"]
       },
       "geometry": {
         "type":"Point",
@@ -114,8 +107,7 @@
         "title": "Fred Meyer (Gresham)",
         "url": "https://www.fredmeyer.com/",
         "address": "2497 SE Burnside Rd, Gresham, OR 97080",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"],
-        "bread": ["eight", "quinoa"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar", "eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -129,8 +121,7 @@
         "title": "Fred Meyer (Hawthorne)",
         "url": "https://www.fredmeyer.com/",
         "address": "3805 SE Hawthorne Blvd, Portland, OR 97214",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "pesto"],
-        "bread": ["blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "pesto", "blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -144,8 +135,7 @@
         "title": "Fred Meyer (Happy Valley)",
         "url": "https://www.fredmeyer.com/",
         "address": "17005 SE Sunnyside Rd, Happy Valley, OR 97086",
-        "bagels": ["cheddar", "herb", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "blueberry", "cinnamon", "three"],
-        "bread": ["eight", "quinoa"]
+        "product": ["cheddar", "herb", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "blueberry", "cinnamon", "three", "eight", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -159,8 +149,7 @@
         "title": "Fred Meyer (Hollywood)",
         "url": "https://www.fredmeyer.com/",
         "address": "3030 Northeast Weidler Street, Portland, OR 97232",
-        "bagels": ["cheddar", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "pesto", "blueberry", "cinnamon", "quinoa", "three"],
-        "bread": ["blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
+        "product": ["cheddar", "everything", "plain", "quinoa", "sesame", "herb", "jalapeño", "pesto", "blueberry", "cinnamon", "quinoa", "three", "blue", "eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole", "challah", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -174,8 +163,7 @@
         "title": "Fred Meyer (Imbrie Drive)",
         "url": "https://www.fredmeyer.com/",
         "address": "22075 NW Imbrie Dr., Hillsboro, OR 97124",
-        "bagels": ["cheddar", "jalapeño", "plain", "herb", "blueberry", "cinnamon", "everything"],
-        "bread": []
+        "product": ["cheddar", "jalapeño", "plain", "herb", "blueberry", "cinnamon", "everything"]
       },
       "geometry": {
         "type":"Point",
@@ -189,8 +177,7 @@
         "title": "Fred Meyer (Interstate)",
         "url": "https://www.fredmeyer.com/",
         "address": "7404 N Interstate Ave, Portland, OR 97217",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "three", "herb", "blueberry", "sesame", "cheddar", "pesto"],
-        "bread": ["eight", "quinoa", "three", "walnut", "whole", "blue", "oatmeal", "cracked", "sunflower", "challah"]
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "three", "herb", "blueberry", "sesame", "cheddar", "pesto"]
       },
       "geometry": {
         "type":"Point",
@@ -204,8 +191,7 @@
         "title": "Fred Meyer (Johnson Creek)",
         "url": "https://www.fredmeyer.com/",
         "address": "8955 SE 82nd Ave, Portland, OR 97086",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "three", "cheddar", "whole"],
-        "bread": ["eight", "quinoa"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "three", "cheddar", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -219,8 +205,7 @@
         "title": "Fred Meyer (Oak Grove)",
         "url": "https://www.fredmeyer.com/",
         "address": "13625 SE Mcloughlin Blvd, Portland, OR 97222",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["eight", "oatmeal", "quinoa", "sunflower", "walnut", "whole"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -234,8 +219,7 @@
         "title": "Fred Meyer (Oregon City)",
         "url": "https://www.fredmeyer.com/",
         "address": "1839 Molalla Ave, Oregon City, OR 97045",
-        "bagels": ["herb", "blueberry", "everything", "plain", "sesame", "cheddar", "jalapeño"],
-        "bread": []
+        "product": ["herb", "blueberry", "everything", "plain", "sesame", "cheddar", "jalapeño"]
       },
       "geometry": {
         "type":"Point",
@@ -249,8 +233,7 @@
         "title": "Fred Meyer (Peninsula)",
         "url": "https://www.fredmeyer.com/",
         "address": "6850 N Lombard St, Portland, OR 97203",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar"],
-        "bread": ["eight", "quinoa", "walnut", "whole", "oatmeal", "blue"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -264,8 +247,7 @@
         "title": "Fred Meyer (Raleigh Hills)",
         "url": "https://www.fredmeyer.com/",
         "address": "7700 Southwest Beaverton Hillsdale Hwy, Portland, OR 97225",
-        "bagels": ["cheddar", "everything", "plain", "quinoa", "sesame", "blueberry", "cinnamon", "herb"],
-        "bread": ["cracked", "eight", "oatmeal", "quinoa", "walnut", "whole", "sunflower"]
+        "product": ["cheddar", "everything", "plain", "quinoa", "sesame", "blueberry", "cinnamon", "herb"]
       },
       "geometry": {
         "type":"Point",
@@ -279,8 +261,7 @@
         "title": "Fred Meyer (Stadium)",
         "url": "https://www.fredmeyer.com/",
         "address": "100 NW 20th Pl, Portland, OR 97209",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "quinoa", "sesame", "cheddar", "plain"],
-        "bread": ["eight", "quinoa"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "quinoa", "sesame", "cheddar", "plain"]
       },
       "geometry": {
         "type":"Point",
@@ -294,8 +275,7 @@
         "title": "Fred Meyer (Tigard)",
         "url": "https://www.fredmeyer.com/",
         "address": "11565 SW Pacific Hwy, Portland, OR 97223",
-        "bagels": ["cheddar", "everything", "blueberry", "cinnamon", "plain", "jalapeño"],
-        "bread": []
+        "product": ["cheddar", "everything", "blueberry", "cinnamon", "plain", "jalapeño"]
       },
       "geometry": {
         "type":"Point",
@@ -309,8 +289,7 @@
         "title": "Fred Meyer (Tualatin)",
         "url": "https://www.fredmeyer.com/",
         "address": "19200 SW Martinazzi Ave, Tualatin, OR 97062",
-        "bagels": ["cheddar", "herb", "everything", "sesame", "jalapeño", "pesto", "cinnamon", "plain"],
-        "bread": ["cracked", "eight", "oatmeal", "quinoa", "whole"]
+        "product": ["cheddar", "herb", "everything", "sesame", "jalapeño", "pesto", "cinnamon", "plain"]
       },
       "geometry": {
         "type":"Point",
@@ -324,8 +303,7 @@
         "title": "Fred Meyer (Walker Road)",
         "url": "https://www.fredmeyer.com/",
         "address": "15995 SW Walker Rd, Beaverton, OR 97006",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -339,8 +317,7 @@
         "title": "Fred Meyer (Wood Village)",
         "url": "https://www.fredmeyer.com/",
         "address": "22855 Northeast Park Lane, Troutdale, OR 97060",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -354,8 +331,7 @@
         "title": "Green Zebra (Div)",
         "url": "https://www.greenzebragrocery.com/",
         "address": "4990 SE Division St, Portland, OR 97206",
-        "bagels": ["cheddar", "everything", "plain"],
-        "bread": []
+        "product": ["cheddar", "everything", "plain"]
       },
       "geometry": {
         "type":"Point",
@@ -369,8 +345,7 @@
         "title": "Green Zebra (Kenton)",
         "url": "https://www.greenzebragrocery.com/",
         "address": "3011 N Lombard St, Portland, OR 97217",
-        "bagels": ["cheddar", "everything", "plain", "blueberry"],
-        "bread": []
+        "product": ["cheddar", "everything", "plain", "blueberry"]
       },
       "geometry": {
         "type":"Point",
@@ -384,8 +359,7 @@
         "title": "Market of Choice (Belmont)",
         "url": "https://www.marketofchoice.com/",
         "address": "1004 SE Belmont St, Portland, OR 97214",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["quinoa", "eight"]
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -399,8 +373,7 @@
         "title": "Market of Choice (West Linn)",
         "url": "https://www.marketofchoice.com/",
         "address": "5639 Hood St, West Linn, OR 97068",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["eight", "oatmeal", "pumpkin", "quinoa", "sunflower", "walnut", "whole", "cracked"]
+        "product": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "eight", "oatmeal", "pumpkin", "quinoa", "sunflower", "walnut", "whole", "cracked"]
       },
       "geometry": {
         "type":"Point",
@@ -414,8 +387,7 @@
         "title": "Market of Choice (Lost Spring)",
         "url": "https://www.marketofchoice.com/",
         "address": "250 NW Lost Springs Terrace, Portland, OR 97229",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["cracked", "eight", "oatmeal", "quinoa", "walnut", "sunflower"]
+        "product": ["blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "cracked", "eight", "oatmeal", "quinoa", "walnut", "sunflower"]
       },
       "geometry": {
         "type":"Point",
@@ -429,8 +401,7 @@
         "title": "New Seasons (Cedar Hills)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "3495 SW Cedar Hills Blvd, Beaverton, OR 97005",
-        "bagels": ["herb", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "jalapeño"],
-        "bread": ["eight", "oatmeal", "quinoa", "sunflower"]
+        "product": ["herb", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "jalapeño", "eight", "oatmeal", "quinoa", "sunflower"]
       },
       "geometry": {
         "type":"Point",
@@ -444,8 +415,7 @@
         "title": "New Seasons (Concordia)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "5320 NE 33rd Ave, Portland, OR 97211",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "blueberry", "sesame", "cheddar", "herb"],
-        "bread": ["eight", "quinoa", "sunflower", "oatmeal", "walnut"]
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "quinoa", "blueberry", "sesame", "cheddar", "herb", "eight", "quinoa", "sunflower", "oatmeal", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -459,8 +429,7 @@
         "title": "New Seasons (Fishers Landing)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "2100b SE 164th Ave '#'101, Vancouver, WA 98683",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["quinoa", "sunflower", "oatmeal", "eight"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "sunflower", "oatmeal", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -474,8 +443,7 @@
         "title": "New Seasons (Happy Valley)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "15861 SE Happy Valley Town Center Dr., Happy Valley, OR 97086",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"],
-        "bread": ["quinoa", "eight", "oatmeal", "whole"]
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar", "quinoa", "eight", "oatmeal", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -489,8 +457,7 @@
         "title": "New Seasons (Hawthorne)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "4034 SE Hawthorne Blvd, Portland, OR 97214",
-        "bagels": ["cinnamon", "everything", "plain", "cheddar", "blueberry", "sesame"],
-        "bread": ["quinoa", "whole", "eight"]
+        "product": ["cinnamon", "everything", "plain", "cheddar", "blueberry", "sesame", "quinoa", "whole", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -504,8 +471,7 @@
         "title": "New Seasons (Hollywood)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "3210 NE Broadway, Portland, OR 97232",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb"],
-        "bread": ["eight", "quinoa", "walnut", "whole"]
+        "product": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb", "eight", "quinoa", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -519,8 +485,7 @@
         "title": "New Seasons (Horizon)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "14805 SW Barrows Rd, Beaverton, OR 97007",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "herb", "cheddar", "quinoa"],
-        "bread": ["eight", "quinoa", "sunflower", "whole", "walnut"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "herb", "cheddar", "quinoa", "eight", "quinoa", "sunflower", "whole", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -534,8 +499,7 @@
         "title": "New Seasons (Interstate)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "6400 N Interstate Ave, Portland, OR 97217",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "sesame", "cheddar", "herb", "quinoa"],
-        "bread": []
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "sesame", "cheddar", "herb", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -549,8 +513,7 @@
         "title": "New Seasons (Mt. Park)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "3 Monroe Pkwy, Lake Oswego, OR 97035",
-        "bagels": ["blueberry", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["eight"]
+        "product": ["blueberry", "everything", "plain", "sesame", "cheddar", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -564,8 +527,7 @@
         "title": "New Seasons (Orenco)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "1453 Northeast 61st Avenue, Hillsboro, OR 97124",
-        "bagels": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"],
-        "bread": []
+        "product": ["herb", "jalapeño", "blueberry", "cinnamon", "everything", "plain", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -579,8 +541,7 @@
         "title": "New Seasons (Raleigh Hills)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "7300 SW Beaverton Hillsdale Hwy, Portland, OR 97225",
-        "bagels": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb"],
-        "bread": ["eight", "quinoa", "whole", "walnut"]
+        "product": ["blueberry", "cinnamon", "everything", "plain", "quinoa", "sesame", "cheddar", "herb", "eight", "quinoa", "whole", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -594,8 +555,7 @@
         "title": "New Seasons (Sellwood)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "1214 SE Tacoma St, Portland, OR 97202",
-        "bagels": ["cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "product": ["cinnamon", "everything", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -609,8 +569,7 @@
         "title": "New Seasons (Seven Corners)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "1954 SE Division St, Portland, OR 97202",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "cheddar", "sesame", "herb", "quinoa"],
-        "bread": ["eight", "oatmeal", "quinoa"]
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "blueberry", "cheddar", "sesame", "herb", "quinoa", "eight", "oatmeal", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -624,8 +583,7 @@
         "title": "New Seasons (Slabtown)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "2170 NW Raleigh St, Portland, OR 97210",
-        "bagels": ["jalapeño", "cinnamon", "plain", "blueberry", "sesame", "cheddar", "everything"],
-        "bread": ["walnut", "whole"]
+        "product": ["jalapeño", "cinnamon", "plain", "blueberry", "sesame", "cheddar", "everything", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -639,8 +597,7 @@
         "title": "New Seasons (Tualatin)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "7705 SW Nyberg St, Tualatin, OR 97062",
-        "bagels": ["cinnamon", "everything", "cheddar"],
-        "bread": []
+        "product": ["cinnamon", "everything", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -654,8 +611,7 @@
         "title": "New Seasons (University Park)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "6300 N Lombard St, Portland, OR 97203",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb"],
-        "bread": ["quinoa", "whole", "eight", "walnut"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "herb", "quinoa", "whole", "eight", "walnut"]
       },
       "geometry": {
         "type":"Point",
@@ -669,8 +625,7 @@
         "title": "New Seasons (Williams)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "3445 N Williams Ave, Portland, OR 97212",
-        "bagels": ["cinnamon", "everything", "plain", "quinoa", "sesame", "blueberry", "cheddar", "herb"],
-        "bread": ["eight", "quinoa", "walnut", "whole"]
+        "product": ["cinnamon", "everything", "plain", "quinoa", "sesame", "blueberry", "cheddar", "herb", "eight", "quinoa", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -684,8 +639,7 @@
         "title": "New Seasons (Woodstock)",
         "url": "https://www.newseasonsmarket.com/",
         "address": "4500 SE Woodstock Blvd, Portland, OR 97206",
-        "bagels": ["jalapeño", "cinnamon", "plain", "sesame", "cheddar"],
-        "bread": []
+        "product": ["jalapeño", "cinnamon", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -699,8 +653,7 @@
         "title": "Whole Foods (Bridgeport)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "7380 SW Bridgeport Rd, Tigard, OR 97224",
-        "bagels": ["blueberry", "everything", "plain", "sesame", "herb"],
-        "bread": []
+        "product": ["blueberry", "everything", "plain", "sesame", "herb"]
       },
       "geometry": {
         "type":"Point",
@@ -714,8 +667,7 @@
         "title": "Whole Foods (Burnside)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "2825 E Burnside St, Portland, OR 97214",
-        "bagels": ["jalapeño", "blueberry", "everything", "plain", "sesame", "cheddar", "quinoa"],
-        "bread": []
+        "product": ["jalapeño", "blueberry", "everything", "plain", "sesame", "cheddar", "quinoa"]
       },
       "geometry": {
         "type":"Point",
@@ -729,8 +681,7 @@
         "title": "Whole Foods (Fremont)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "3535 Northeast 15th Avenue, Portland, OR 97212",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "cheddar", "sesame"],
-        "bread": ["eight", "quinoa", "sunflower", "walnut", "whole"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "quinoa", "cheddar", "sesame", "eight", "quinoa", "sunflower", "walnut", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -744,8 +695,7 @@
         "title": "Whole Foods (Hollywood)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "4301 NE Sandy Blvd Portland, Portland, OR 97213",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": ["quinoa", "sunflower", "eight"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "quinoa", "sunflower", "eight"]
       },
       "geometry": {
         "type":"Point",
@@ -759,8 +709,7 @@
         "title": "Whole Foods (Portland)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "1210 NW Couch St, Portland, OR 97209",
-        "bagels": ["jalapeño", "blueberry", "everything", "plain", "cinnamon", "cheddar"],
-        "bread": []
+        "product": ["jalapeño", "blueberry", "everything", "plain", "cinnamon", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -774,8 +723,7 @@
         "title": "Whole Foods (Tanasbourne)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "19440 NW Cornell Rd, Hillsboro, OR 97124",
-        "bagels": ["everything", "blueberry", "cinnamon", "plain", "sesame", "cheddar", "herb", "jalapeño"],
-        "bread": []
+        "product": ["everything", "blueberry", "cinnamon", "plain", "sesame", "cheddar", "herb", "jalapeño"]
       },
       "geometry": {
         "type":"Point",
@@ -789,8 +737,7 @@
         "title": "Whole Foods (Tigard)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "12220 Southwest Scholls Ferry Road, Tigard, OR 97223",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"],
-        "bread": []
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar"]
       },
       "geometry": {
         "type":"Point",
@@ -804,8 +751,7 @@
         "title": "Whole Foods (Vancouver)",
         "url": "http://www.wholefoodsmarket.com/",
         "address": "815 SE 160th Ave, Vancouver, WA 98683",
-        "bagels": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "three"],
-        "bread": ["eight", "quinoa", "whole"]
+        "product": ["jalapeño", "blueberry", "cinnamon", "everything", "plain", "sesame", "cheddar", "three", "eight", "quinoa", "whole"]
       },
       "geometry": {
         "type":"Point",
@@ -819,8 +765,7 @@
         "title": "Sheridan Fruit Company",
         "url": "http://www.sheridanfruit.com/",
         "address": "409 SE Martin Luther King Jr Blvd, Portland, or 97214",
-        "bagels": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"],
-        "bread": []
+        "product": ["jalapeño", "cinnamon", "everything", "plain", "sesame", "quinoa", "cheddar"]
       },
       "geometry": {
         "type":"Point",

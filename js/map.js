@@ -49,11 +49,11 @@ function loadLocationData(_map, _locationType){
   });
 }
 
-function loadProductLocationData(_map, _product, _productType) {
-  $.getJSON("../data/locations/grocery.json").then(function(locationResult) {
+function loadProductLocationData(_map, _productType) {
+  $.getJSON("../../../data/locations/grocery.json").then(function(locationResult) {
     for (var i = 0; i < locationResult.features.length; i++) {
-      for (var j = 0; j < location.features[i].properties._product.length; j++) {
-        if (_productType === location.features[i].properties._product[j]) {
+      for (var j = 0; j < locationResult.features[i].properties.product.length; j++) {
+        if (_productType === locationResult.features[i].properties.product[j]) {
           _map.markLocations(locationResult.features[i]);
         };
       }
@@ -95,7 +95,6 @@ $(document).ready(function(e) {
     };
   };
 
-
   $('#grocery').click(function() {
     var locationType = $(this).val();
     switchLocation(map, locationType);
@@ -122,12 +121,10 @@ $(document).ready(function(e) {
   });
 
   $('#locations').click(function() {
-    var locations_map = new MapMaker();
-    var product = "bagel";
-    var productType = this.val();
-    console.log(productType);
-    loadProductLocationData(locations_map, product, productType);
-  })
+    map.initiateMap('product_map');
+    var productType = $(this).val();
+    loadProductLocationData(map, productType);
 
+  });
 
 });
