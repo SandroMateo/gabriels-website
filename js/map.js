@@ -4,10 +4,10 @@ function MapMaker() {
   this.markerArray = [];
 }
 
-MapMaker.prototype.initiateMap = function() {
+MapMaker.prototype.initiateMap = function(_mapId) {
   var gabes = new google.maps.LatLng(45.5308236, -122.6444298);
 
-  this.map = new google.maps.Map(document.getElementById('map'), {
+  this.map = new google.maps.Map(document.getElementById(_mapId), {
         center: gabes,
         zoom: 10
   })
@@ -49,6 +49,20 @@ function loadLocationData(_map, _locationType){
   });
 }
 
+function loadProductLocationData(_map, _product, _productType) {
+  $.getJSON("../data/locations/grocery.json").then(function(locationResult) {
+    for (var i = 0; i < locationResult.features.length; i++) {
+      for (var j = 0; j < location.features[i].properties._product.length; j++) {
+        if (_productType === location.features[i].properties._product[j]) {
+          _map.markLocations(locationResult.features[i]);
+        };
+      }
+    }
+  }).fail(function(error) {
+    console.log("FAILURE");
+  });
+}
+
 function removeLocationData(_map) {
   for (var i = 0; i < _map.markerArray.length; i++) {
     _map.markerArray[i].setMap(null);
@@ -70,13 +84,17 @@ function switchLocation(_map, _locationType) {
   }
 }
 
-$(document).ready(function() {
+$(document).ready(function(e) {
   var map = new MapMaker();
-  var locationTypeArray = ["grocery", "markets"];
-  map.initiateMap();
-  for (var i = 0; i < locationTypeArray.length; i++) {
-    loadLocationData(map, locationTypeArray[i]);
+  if (window.location.href === window.location.origin + "/where-to-buy/") {
+    var locationTypeArray = ["grocery", "markets"];
+    map.initiateMap('map');
+    console.log("HERE");
+    for (var i = 0; i < locationTypeArray.length; i++) {
+      loadLocationData(map, locationTypeArray[i]);
+    };
   };
+
 
   $('#grocery').click(function() {
     var locationType = $(this).val();
@@ -101,5 +119,15 @@ $(document).ready(function() {
         map.infowindow.open(map, map.markerArray[i]);
       }
     }
+  });
+
+  $('#locations').click(function() {
+    var locations_map = new MapMaker();
+    var product = "bagel";
+    var productType = this.val();
+    console.log(productType);
+    loadProductLocationData(locations_map, product, productType);
   })
+
+
 });
