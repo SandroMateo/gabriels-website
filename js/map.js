@@ -33,7 +33,7 @@ MapMaker.prototype.markLocations = function(location) {
     that.infowindow = new google.maps.InfoWindow({
       content: "<a href=" + marker.url + " target='_blank'><h4>" + marker.title + "</h4></a><p>" + marker.address + "</p>"
     })
-    that.infowindow.open(map, marker);
+    that.infowindow.open(this.map, marker);
   });
   appendData(marker);
   marker.setMap(this.map);

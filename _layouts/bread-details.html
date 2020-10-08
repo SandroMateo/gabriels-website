@@ -39,6 +39,30 @@ layout: default
     {% endunless %}
   </h1>
 
+  <div class="row breads-details__detail-wrapper">
+    <button class="btn bread_locations" id="bread" type="button" name="button" value="bread" data-toggle="modal" data-target="#breadMapModal">Where To Buy</button>
+
+    <div class="modal fade" tabindex="-1" role="dialog" id="breadMapModal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" id="locations" class="close" data-dismiss="modal" value= {{ page.href }} aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4>{{ page.title }} Bagel Locations</h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-md-12 modal_body_map">
+                <div class="location-map" id="location-map">
+                  <div class="locations__map" id="product_map"></div>
+                </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <picture>
     <source class="breads-details__hero-image img-responsive" src={{ page.image1 }} type="image/webp">
     <source class="breads-details__hero-image img-responsive" src={{ page.image2 }} type="image/png">
