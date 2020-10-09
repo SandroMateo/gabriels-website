@@ -39,15 +39,15 @@ layout: default
     {% endunless %}
   </h1>
 
-  <div class="row breads-details__detail-wrapper">
-    <button class="btn bread_locations" id="bread" type="button" name="button" value="bread" data-toggle="modal" data-target="#breadMapModal">Where To Buy</button>
+  <div class="row bagels-details__detail-wrapper">
+    <button class="btn bread__locations" id="locations" type="button" name="button" value= {{ page.href }} data-toggle="modal" data-target="#breadMapModal">Where To Buy</button>
 
     <div class="modal fade" tabindex="-1" role="dialog" id="breadMapModal">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" id="locations" class="close" data-dismiss="modal" value= {{ page.href }} aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4>{{ page.title }} Bagel Locations</h4>
+            <button type="button" class="close" data-dismiss="modal" value=  aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class= "bread__modal-header"> {{ page.title }} Bread Locations</h4>
           </div>
           <div class="modal-body">
             <div class="row">

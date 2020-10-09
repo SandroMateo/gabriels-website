@@ -31,13 +31,13 @@ layout: default
     {% endunless %}
   </h1>
   <div class="row bagels-details__detail-wrapper">
-    <button class="btn bagel_locations" id="bagel" type="button" name="button" value="bagel" data-toggle="modal" data-target="#bagelMapModal">Where To Buy</button>
+    <button class="btn bagel__locations" id="locations" type="button" name="button" value= {{ page.href }} data-toggle="modal" data-target="#bagelMapModal">Where To Buy</button>
 
     <div class="modal fade" tabindex="-1" role="dialog" id="bagelMapModal">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" id="locations" class="close" data-dismiss="modal" value= {{ page.href }} aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <button type="button" id="bagel" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4>{{ page.title }} Bagel Locations</h4>
           </div>
           <div class="modal-body">
