@@ -47,7 +47,15 @@
   display: inline-flex;
   align-items: center;
   justify-content: space-around;
+  margin-bottom: 1rem;
 
+  @include desktop {
+    margin-top: -5rem;
+  }
+
+  @include tablet {
+    margin-top: -5rem;
+  }
 }
 
 .bagel__modal-header {
