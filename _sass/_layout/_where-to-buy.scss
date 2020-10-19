@@ -9,7 +9,13 @@
 }
 
 .locations__product-link {
-  text-decoration: underline;
+  color: $darkgold;
+
+  &:hover {
+    color: $black;
+    text-decoration: underline;
+  }
+
 }
 
 .locations__map {
