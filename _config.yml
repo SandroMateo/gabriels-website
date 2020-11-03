@@ -33,6 +33,7 @@ gems:
   - jekyll-feed
   - jekyll-babel
   - jekyll-seo-tag
+  - jekyll-sitemap
 collections:
   bagels:
     output: true
@@ -66,3 +67,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - vendor
+include: ['.htaccess']
