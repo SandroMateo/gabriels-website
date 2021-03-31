@@ -2,7 +2,7 @@
   max-height: 10em;
 }
 
-.bagels, .breads {
+.breads {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -26,7 +26,7 @@
   }
 }
 
-.bagels__link, .breads__link {
+.breads__link {
   flex-grow: 1;
   -webkit-flex-grow: 1;
   -webkit-flex-basis: 33%;

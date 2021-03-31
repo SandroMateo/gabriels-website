@@ -3,65 +3,54 @@
 
 }
 
+.bagels {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+
+}
+
+.bagels__link {
+  flex-grow: 1;
+  -webkit-flex-grow: 1;
+  -webkit-flex-basis: 33%;
+  -webkit-flex: 1 100%;
+  flex: 1 100%;
+  margin: 0 auto;
+  text-align: center;
+
+  @include tablet {
+    -webkit-flex: 1 1 50%;
+    flex: 1 1 50%;
+  };
+
+  @include desktop {
+    flex-basis: 33%;
+  }
+}
+
 .bagels__wrapper {
   padding: 4rem;
-  max-height: 30rem;
 
   &:hover {
     transform: scale(1.05);
     box-shadow: 0.25rem 0.25rem 1rem $gray;
   }
 
-  @include desktop-small {
-
-  }
-
-}
-
-.bagels__name {
-  max-height: 18rem;
-  margin-top: 5rem;
-  display: inline;
-
-  @include tablet {
-    display: block;
-    margin-top: 3rem;
-    margin-left: 5rem;
-  }
-  @include desktop {
-    margin-top: 3rem;
-    display: block;
-
-    margin-left: 3.5rem;
-  }
-
-  @include desktop-small {
-    margin-left: 0rem;
-  }
-
 }
 
 .bagels__image {
   max-height: 25rem;
-  margin-left: 1rem;
-  display: inline;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-  @include tablet {
-    margin-top: -25rem;
-    display: block;
-
-    margin-left: 17.5rem;
-  }
-  @include desktop {
-    margin-top: -25rem;
-    display: block;
-
-    margin-left: 16.5rem;
-  }
-
-  @include desktop-small {
-    margin-top: -22rem;
-    margin-left: 11.5rem;
-    max-height: 22rem;
-  }
 }
