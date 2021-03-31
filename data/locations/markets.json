@@ -6,32 +6,6 @@
       "type":"Feature",
       "properties":{
         "locationType":"market",
-        "title": "Beaverton Farmers Market",
-        "url": "http://beavertonfarmersmarket.com",
-        "address": "SW Hall Blvd between 3rd and 5th Streets"
-    },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.8050184, 45.4844785
-      ]}
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType":"market",
-        "title": "Gresham Farmers Market (Trillium Coffee)",
-        "url": "http://www.trilliumcoffee.com/home.html",
-        "address": "NW Miller Ave, Gresham, OR 97030"
-    },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [-122.4325576, 45.5016625
-      ]}
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType":"market",
         "title": "Hollywood Farmers Market",
         "url": "http://hollywoodfarmersmarket.org",
         "address": "4420 NE Hancock St, Portland, OR 97213"
@@ -81,20 +55,7 @@
         "type":"Point",
         "coordinates": [-122.6853511, 45.5117315
       ]}
-    },
-    {
-      "type":"Feature",
-      "properties":{
-        "locationType":"market",
-        "title": "St. Johns Farmers Market",
-        "url": "http://stjohnsopportunity.org",
-        "address": "7340 N Philadelphia Ave, Portland, OR 97203"
-    },
-      "geometry": {
-        "type":"Point",
-        "coordinates": [
-        -122.7543337, 45.5897137
-      ]}
     }
+
   ]
 }
