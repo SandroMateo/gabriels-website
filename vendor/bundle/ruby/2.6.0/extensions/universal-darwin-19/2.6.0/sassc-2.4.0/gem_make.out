@@ -1,5 +1,5 @@
 current directory: /Users/DroAlvarez/Desktop/gabriels-website/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
-/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210408-15521-dx3yyx.rb extconf.rb
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20210413-1436-x02wbj.rb extconf.rb
 creating Makefile
 
 current directory: /Users/DroAlvarez/Desktop/gabriels-website/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
@@ -78,4 +78,4 @@ ld: warning: directory not found for option '-L/Applications/Xcode.app/Contents/
 
 current directory: /Users/DroAlvarez/Desktop/gabriels-website/vendor/bundle/ruby/2.6.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210408-15521-19u0iu7/sassc
+/usr/bin/install -c -m 0755 libsass.bundle ./.gem.20210413-1436-1i0i4ay/sassc
