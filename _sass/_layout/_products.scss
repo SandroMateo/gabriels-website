@@ -17,9 +17,10 @@
   flex-grow: 1;
   margin: 0 auto;
   text-align: center;
-  min-height: 30rem;
+  min-height: 18rem;
   -webkit-flex: 1 100%;
   flex: 1 100%;
+  text-decoration: none;
 
   @include desktop {
     flex-basis: 33%;
@@ -31,8 +32,8 @@
 }
 
 .products__grid-item-wrapper {
-  padding: 2rem;
-  min-height: 25rem;
+  padding: 1.5rem;
+  min-height: 15rem;
 
   &:hover {
     transform: scale(1.05);
@@ -46,7 +47,7 @@
 
 
 .products__image {
-  max-height: 10em;
+  max-height: 10rem;
 }
 
 .products__hero {
@@ -56,18 +57,4 @@
 
 .products__hero-title {
   @include title-styling();
-}
-
-.products__hero-subtext {
-  color: $white;
-  font-size: 2.5rem;
-  text-align: center;
-
-  @include desktop {
-    font-size: 1.5rem;
-  }
-
-  @include tablet {
-    font-size: 1.5rem;
-  }
 }
