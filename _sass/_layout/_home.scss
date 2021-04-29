@@ -13,66 +13,65 @@
 .main-page__content-wrapper {
   margin: 0 auto;
   max-width: 75vw;
-  margin-top: 20rem;
+  margin-top: 10rem;
   padding: 2rem;
   margin-bottom: 25rem auto;
 }
 
 .main-page__title {
   color: $darkgold;
-  font-size: 5rem;
   text-align: center;
+  font-size: 3rem;
   text-shadow: 0.2rem 0.2rem 0.2rem $darkgray;
 
   @include desktop {
-    font-size: 7rem;
-    max-width: 50vw;
+    font-size: 5rem;
+    max-width: 80rem;
     text-align: right;
-    padding-left: 35rem;
-    margin-right: -30rem;
+    padding-left: 30rem;
   }
 
   @include tablet {
-    font-size: 6rem;
-    max-width: 55vw;
+    font-size: 3.5rem;
+    max-width: 50rem;
     padding-left: 20rem;
     text-align: right;
-    margin-right: -10rem;
-    margin-top: 5rem;
   }
 }
 
 .main-page__subtext {
   color: $white;
-  font-size: 2rem;
+  font-size: 1.25rem;
   line-height: 1.25;
   margin: 0 auto;
   margin-top: 2rem;
 
   @include tablet {
     max-width: 40vw;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
   }
 
   @include desktop {
     max-width: 40vw;
+    font-size: 1.4rem;
   }
 }
 
 .main-page__feature-title {
   font-family: $headerfont;
   color: $gray;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   letter-spacing: 1.25px;
 }
 
 .main-page__explore-more {
   margin-top: 5rem;
-  font-size: 1.75rem;
+  font-size: 1.2rem;
   letter-spacing: 1px;
 
   & a {
     color: $white;
+    text-decoration: none;
 
     &:hover, &:focus, &:active {
       color: $gold;
@@ -119,12 +118,13 @@
   padding: 2rem;
 
   & hr {
-    width: 5rem;
+    color: $gold;
     border: 1px solid $gold;
   }
 
   & a {
     color: $gold;
+    text-decoration: none;
     &:hover {
       color: $black;
     }
