@@ -2,23 +2,25 @@
   background-color: $darkgray;
   color: $gold;
   font-style: italic;
-  margin: 3rem;
+  margin: 2rem 0rem 2rem 0rem;
   text-align: justify;
   padding: 2rem;
+  font-size: 1.5rem;
 
   @include desktop {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   @include tablet {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-top: 3rem;
   }
 }
 
 .about__mission-link {
   text-align: center;
-  font-size: 2rem;
+  text-decoration: none;
+  font-size: 1.5rem;
   color: $gold;
 
   &:hover {
@@ -27,17 +29,14 @@
 }
 
 .about__gabriel-image {
-  display: block;
-  margin: auto;
-
-  @include desktop {
-    max-height: 35rem;
-  }
+  max-width: 100%;
+  height: auto;
 
 }
 
 .about__image-caption {
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .about__wrapper {
@@ -45,15 +44,15 @@
 }
 
 .about__text {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: justify;
 
   @include desktop {
-    font-size: 2.5rem;
+    font-size: 1.75rem;
   }
 
   @include tablet {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 }
 

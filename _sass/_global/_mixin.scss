@@ -25,17 +25,17 @@
   color: $white;
   font-size: 6rem;
   text-align: center;
-  padding-top: 45vh;
+  padding-top: 40vh;
 
 
   @include desktop {
     font-size: 7.5rem;
-    padding-top: 60vh;
+    padding-top: 57vh;
   }
 
   @include tablet {
     font-size: 7.5rem;
-    padding-top: 60vh;
+    padding-top: 58vh;
   }
 }
 
