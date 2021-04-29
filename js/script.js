@@ -1,8 +1,6 @@
-
-
 $(document).ready(function(){
 
-  // To generate the nutritional fact table for bread anf bagels
+  // To generate the nutritional fact table for bread and bagels
   $("table").stupidtable();
 
 
@@ -57,4 +55,6 @@ $(document).ready(function(){
   });
 
 
-}{passive: true});
+});
+
+// passive: true});

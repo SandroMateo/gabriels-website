@@ -11,26 +11,26 @@
 	position: fixed;
 	text-align: right;
 	top: 0;
-	width: 25rem;
+	width: 15rem;
   z-index: 998;
 }
 
 .sidebar__logo-wrapper {
 	cursor: default;
 	margin-top: 2rem;
-	min-height: 12rem;
+	min-height: 10rem;
 	position: relative;
 }
 
 .sidebar__logo {
 	display: block;
 	margin: auto;
-  max-height: 13rem;
+  max-height: 8rem;
 }
 
 .sidebar__nav-wrapper {
 	margin-bottom: 0;
-	margin-top: 2rem;
+	margin-top: 0rem;
 	list-style-type: none;
 }
 
@@ -39,7 +39,7 @@
 	color: $black;
 	display: block;
 	outline: 0;
-	padding: 0rem 1.5rem 0rem 1.5rem;
+	padding: 0rem 1rem 0rem 1rem;
 	text-decoration: none;
 
 	&:hover, &:active, &:focus {
@@ -49,22 +49,22 @@
 
 .sidebar__nav-item {
 	display: block;
-	font-size: 2.5rem;
+	font-size: 1.75rem;
 	position: relative;
 }
 
 .sidebar__nav-hr {
 	color: $black;
-	padding: 0rem 2rem 0rem 2rem;
+	padding: 0rem 1rem 0rem 1rem;
 }
 
 .sidebar__business-info-wrapper {
 	bottom: 0;
 	color: $black;
 	display: block;
-	font-size: 1.5rem;
-	margin-top: 4rem;
-	padding: 1rem 2rem 1rem 2rem;
+	font-size: 1rem;
+	margin-top: 1rem;
+	padding: 1rem 1rem 0rem 1rem;
 	right: 0;
 }
 
@@ -74,13 +74,14 @@
 
 .sidebar__dropdown {
 	display: none;
-	margin-left: 21rem;
-	margin-top: -4rem;
+	margin-left: 13rem;
+	margin-top: -3rem;
 	background-image: url("../../images/gabriels-map.png");
 	background-position: center;
-	padding: 2rem 5rem 2rem 2rem;
+	padding: 1rem 3rem 1rem 1rem;
 	position: absolute;
 	box-shadow: 0.25rem 0 0.25rem 0 rgba(0, 0, 0, 0.1);
+	text-decoration: none;
 }
 
 .sidebar__dropdown-wrapper {
@@ -93,7 +94,8 @@
 }
 
 .sidebar__dropdown-link {
-	font-size: 2rem;
+	font-size: 1.25rem;
+	text-decoration: none;
 
 	&:hover, &:active, &:focus {
 		color: $gold;
