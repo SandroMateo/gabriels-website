@@ -89,7 +89,9 @@
 .product-matrix {
   margin: 0 auto;
   margin-top: 4rem;
+  margin-bottom: 3rem;
   border: none;
+
 
   & th {
     border-radius: 10px 10px 0px 0px;
@@ -121,18 +123,18 @@
 
 .product-matrix__title {
   color: $black;
-  font-size: 5rem;
+  font-size: 3rem;
   text-align: center;
-  padding-top: 10rem;
+  padding-top: 8rem;
 
   @include desktop {
-    font-size: 7.5rem;
-    padding-top: 5rem;
+    font-size: 5rem;
+    padding-top: 4rem;
   }
 
   @include tablet {
-    font-size: 7.5rem;
-    padding-top: 5rem;
+    font-size: 5rem;
+    padding-top: 4rem;
   }
 }
 

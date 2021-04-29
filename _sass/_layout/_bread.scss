@@ -1,5 +1,5 @@
 .breads__image {
-  max-height: 10em;
+  max-height: 9rem;
 }
 
 .breads {
@@ -12,13 +12,13 @@
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 
 }
 
 .breads__wrapper {
-  padding: 4rem;
+  padding: 2rem;
 
   &:hover {
     transform: scale(1.05);
@@ -48,7 +48,7 @@
 
 
 .breads__name {
-  max-width: 17rem;
+  max-width: 10rem;
   display: block;
   margin-left: auto;
   margin-right: auto;
