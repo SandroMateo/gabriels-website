@@ -32,29 +32,33 @@ description: Detailed page of a specific bagel sold by Portland based and family
     {% endunless %}
   </h1>
   <div class="row bagels-details__detail-wrapper">
-    <button class="btn bagel__locations" id="locations" type="button" name="button" value= {{ page.href }} data-toggle="modal" data-target="#bagelMapModal">Where To Buy</button>
-    <div class="modal fade" tabindex="-1" role="dialog" id="bagelMapModal">
-      <div class="modal-dialog modal-lg" role="document">
+    <button class="btn bagel__locations" id="locations" type="button" name="button" value= {{ page.href }} data-bs-toggle="modal" data-bs-target="#bagelMapModal">Where To Buy</button>
+    <div class="modal" tabindex="-1" id="bagelMapModal">
+      <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" id="bagel" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4>{{ page.title }} Bagel Locations</h4>
+            <h4 class="modal-title">{{ page.title }} Bagel Locations</h4>
+            <button type="button" id="bagel" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
           <div class="modal-body">
-            <div class="row">
-              <div class="col-md-12 modal_body_map">
-                <div class="location-map" id="location-map">
-                  <div class="locations__map" id="product_map"></div>
-                </div>
-            </div>
+              <div class="location-map" id="location-map">
+                <div class="locations__map" id="product_map"></div>
+              </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="row bagels-details__detail-wrapper">
-    <div class="col-md-5 col-md-push-4">
+    <div class="col-md-4 col-md-push-4">
+      <picture>
+        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage1 }} type="image/webp" data-toggle="modal" data-target="#bagelLabelModal">
+        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} type="image/png" data-toggle="modal" data-target="#bagelLabelModal">
+        <img class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} alt="Product Label" data-toggle="modal" data-target="#bagelLabelModal">
+      </picture>
+    </div>
 
+    <div class="col-md-5 col-md-pull-5">
       <picture>
         <source class="details__hero-image img-responsive" src={{ page.image1 }} type="image/webp">
         <source class="details__hero-image img-responsive" src={{ page.image2 }} type="image/png">
@@ -64,30 +68,7 @@ description: Detailed page of a specific bagel sold by Portland based and family
         <h4 class="details__bagel-ingredients">Ingredients: {{ page.ingredients }}</h4>
       </div>
     </div>
-    <div class="col-md-4 col-md-pull-5">
-      <picture>
-        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage1 }} type="image/webp" data-toggle="modal" data-target="#bagelLabelModal">
-        <source class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} type="image/png" data-toggle="modal" data-target="#bagelLabelModal">
-        <img class="img-responsive bagel-details__label-img" src={{ page.labelImage2 }} alt="Product Label" data-toggle="modal" data-target="#bagelLabelModal">
-      </picture>
 
-      <div class="modal fade" tabindex="-1" role="dialog" id="bagelLabelModal">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <picture>
-                <source class="img-responsive" src={{ page.labelImage1 }} type="image/webp">
-                <source class="img-responsive" src={{ page.labelImage2 }} type="image/png">
-                <img class="img-responsive" src={{ page.labelImage2 }} alt="Product Label">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <div class="col-md-3">
       <picture>
@@ -95,23 +76,6 @@ description: Detailed page of a specific bagel sold by Portland based and family
         <source class="img-responsive bagel-details__nutrition-image" src={{ page.nutritionImage2 }} type="image/png" data-toggle="modal" data-target="#bagelLabelModal">
         <img class="img-responsive bagel-details__nutrition-image" src={{ page.nutritionImage2 }} alt="Product Nutrtition Label" data-toggle="modal" data-target="#bagelNutritionModal">
       </picture>
-
-      <div class="modal fade" tabindex="-1" role="dialog" id="bagelNutritionModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <picture>
-                <source class="img-responsive" src={{ page.nutritionImage1 }} type="image/webp">
-                <source class="img-responsive" src={{ page.nutritionImage2 }} type="image/png">
-                <img class="img-responsive" src={{ page.nutritionImage2 }} alt="Product Nutrition Label">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </div>

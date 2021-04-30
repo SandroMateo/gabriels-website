@@ -41,14 +41,14 @@ description: Detailed page of a specific bread sold by Portland based and family
   </h1>
 
   <div class="row bagels-details__detail-wrapper">
-    <button class="btn bread__locations" id="locations" type="button" name="button" value= {{ page.href }} data-toggle="modal" data-target="#breadMapModal">Where To Buy</button>
+    <button class="btn bread__locations" id="locations" type="button" name="button" value= {{ page.href }} data-bs-toggle="modal" data-bs-target="#breadMapModal">Where To Buy</button>
 
     <div class="modal fade" tabindex="-1" role="dialog" id="breadMapModal">
-      <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" value=  aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class= "bread__modal-header"> {{ page.title }} Bread Locations</h4>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" id="bread" aria-label="Close"></button>
           </div>
           <div class="modal-body">
             <div class="row">
@@ -80,22 +80,6 @@ description: Detailed page of a specific bread sold by Portland based and family
         <img class="img-responsive breads-details__label-img" src={{ page.labelImage2 }} alt="Product Label" data-toggle="modal" data-target="#breadLabelModal">
       </picture>
 
-      <div class="modal fade" tabindex="-1" role="dialog" id="breadLabelModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <picture>
-                <source class="img-responsive" src={{ page.labelImage1 }} type="image/webp">
-                <source class="img-responsive" src={{ page.labelImage2 }} type="image/png">
-                <img class="img-responsive" src={{ page.labelImage2 }} alt="Product Label">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="col-md-4 col-md-push-4">
       <br>
@@ -104,23 +88,6 @@ description: Detailed page of a specific bread sold by Portland based and family
         <source class="img-responsive breads-details__nutrition-img" src={{ page.nutritionImage2 }} type="image/png" data-toggle="modal" data-target="#breadNutritionModal">
         <img class="img-responsive breads-details__nutrition-img" src={{ page.nutritionImage2 }} alt="Nutrition Label" data-toggle="modal" data-target="#breadNutritionModal">
       </picture>
-
-      <div class="modal fade" tabindex="-1" role="dialog" id="breadNutritionModal">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            </div>
-            <div class="modal-body">
-              <picture>
-                <source class="img-responsive" src={{ page.nutritionImage1 }} type="image/webp">
-                <source class="img-responsive" src={{ page.nutritionImage2 }} type="image/png">
-                <img class="img-responsive" src={{ page.nutritionImage2 }} alt="Nutrition Label">
-              </picture>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
     <div class="col-md-4 col-md-pull-4">
