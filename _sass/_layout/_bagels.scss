@@ -21,24 +21,25 @@
 .bagels__link {
   flex-grow: 1;
   -webkit-flex-grow: 1;
-  -webkit-flex-basis: 33%;
+  -webkit-flex-basis: 20%;
   -webkit-flex: 1 100%;
   flex: 1 100%;
   margin: 0 auto;
   text-align: center;
 
   @include tablet {
-    -webkit-flex: 1 1 50%;
-    flex: 1 1 50%;
+    -webkit-flex: 1 1 33%;
+    flex: 1 1 33%;
   };
 
   @include desktop {
-    flex-basis: 33%;
+    flex-basis: 20%;
   }
 }
 
 .bagels__wrapper {
-  padding: 2.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
 
   &:hover {
     transform: scale(1.05);

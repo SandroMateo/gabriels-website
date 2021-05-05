@@ -12,7 +12,7 @@ description: Detailed page of a specific bagel sold by Portland based and family
         {% if previousId == bagelsId %}
           {% assign previousBagel = bagel.title %}
           <a href={{ "/products/bagels/" | append: previousBagel }}>
-            <i class="fa fa-arrow-left" aria-hidden="true"></i>
+            <i class="fas fa-arrow-left" aria-hidden="true"></i>
           </a>
         {% endif %}
       {% endfor %}

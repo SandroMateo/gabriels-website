@@ -20,7 +20,7 @@
 .mobile-nav__close-button {
   color: $black;
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 2rem;
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -29,7 +29,7 @@
 .mobile-nav__menu-button {
   color: $black;
   cursor: pointer;
-  font-size: 4rem;
+  font-size: 2rem;
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -52,8 +52,9 @@
 
   a {
     color: $black;
-    font-size: 2.5rem;
-    line-height: 7rem;
+    font-size: 1.5rem;
+    line-height: 4rem;
+    text-decoration: none;
 
     &:hover, &:focus, &:active {
       color: $gold;
