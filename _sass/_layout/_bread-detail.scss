@@ -1,6 +1,15 @@
 .breads-details__hero {
   background-color: whitesmoke;
-  height: 90vh;
+  height: 75vh;
+
+  @include tablet{
+    height: 80vh;
+    width: 85vw;
+  }
+
+  @include desktop{
+    height: 90vh;
+  }
 
   & .fa-arrow-left, & .fa-arrow-right {
     font-size: 2.5rem;
@@ -13,6 +22,10 @@
   text-align: center;
   padding-top: 8rem;
   font-size: 3rem;
+
+  a {
+    text-decoration: none;
+  }
 
   @include desktop {
     padding-top: 0rem;
@@ -45,8 +58,19 @@
 .breads-details__hero-image {
   display: block;
   margin: auto;
-  max-height: 50vh;
-  padding-top: 2rem;
+  max-height: 40vh;
+  max-width: 85vw;
+  padding-top: 1rem;
+
+  @include tablet{
+    max-height: 45vh;
+    padding-top: 1rem;
+  }
+
+  @include desktop{
+    max-height: 50vh;
+    padding-top: 2rem;
+  }
 }
 
 .breads-details__ingredients {
