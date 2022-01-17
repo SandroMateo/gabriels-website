@@ -13,23 +13,19 @@ Gem::Specification.new do |s|
   s.email = "josh@joshpeek.com".freeze
   s.homepage = "https://github.com/babel/ruby-babel-transpiler".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.0.3".freeze
+  s.rubygems_version = "3.2.17".freeze
   s.summary = "Ruby Babel JS Compiler".freeze
 
-  s.installed_by_version = "3.0.3" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.2.17" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
+  end
 
-    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<babel-source>.freeze, [">= 4.0", "< 6"])
-      s.add_runtime_dependency(%q<execjs>.freeze, ["~> 2.0"])
-      s.add_development_dependency(%q<minitest>.freeze, ["~> 5.5"])
-    else
-      s.add_dependency(%q<babel-source>.freeze, [">= 4.0", "< 6"])
-      s.add_dependency(%q<execjs>.freeze, ["~> 2.0"])
-      s.add_dependency(%q<minitest>.freeze, ["~> 5.5"])
-    end
+  if s.respond_to? :add_runtime_dependency then
+    s.add_runtime_dependency(%q<babel-source>.freeze, [">= 4.0", "< 6"])
+    s.add_runtime_dependency(%q<execjs>.freeze, ["~> 2.0"])
+    s.add_development_dependency(%q<minitest>.freeze, ["~> 5.5"])
   else
     s.add_dependency(%q<babel-source>.freeze, [">= 4.0", "< 6"])
     s.add_dependency(%q<execjs>.freeze, ["~> 2.0"])
